@@ -1,0 +1,12 @@
+# Site settings
+title: Alessio Crippa
+email: alessio.crippa@gmail.com
+description: >
+  Powered by jekyll
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://alessiocrippa.com" # the base hostname & protocol for your site
+twitter_username: AlessioCrippa
+github_username:  alecri
+
+# Build settings
+markdown: kramdown
