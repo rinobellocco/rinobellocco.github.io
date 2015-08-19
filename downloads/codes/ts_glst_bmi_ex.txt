@@ -1,0 +1,50 @@
+## Worked example of dosresmeta package 
+## Data source
+## Qin Liu  et al A two-stage hierarchical regression model for meta-analysis of epidemiologic nonlinear dose-response data
+## Table 6. Summary of published studies on the relation between BMI and renal cell cancer 
+
+library("dosresmeta")
+bmi_rc <- read.table("http://alessiocrippa.altervista.org/data/bmi_rc.txt")
+
+## Linearity using random-effect
+
+lin <- dosresmeta(formula = logrr ~ bmi, type = type, id = id,
+	se = se, cases = cases, n = n, data = bmi_rc)
+summary(lin)
+predict(lin, delta = 1)
+
+## Tabulate result
+pred <- predict(lin, data.frame(bmi = seq(20, 35, 1)))
+round(pred, 2)
+
+
+## Linear trend centered at bmi = 22.50
+with(predict(lin, xref = 22.5), {
+	plot(bmi, pred, type = "l", log = "y", ylab = "Relative risk", las = 1,
+		xlab = "Body Mass Index (BMI)", ylim = c(.6, 2.5) , bty = "l")
+	lines(bmi, ci.lb, lty = "dashed")
+	lines(bmi, ci.ub, lty = "dashed")
+})
+rug(bmi_rc$bmi)
+
+
+## Non-linearity (spline) using random-effect
+library("rms")
+knots <- quantile(bmi_rc$bmi, c(.1, .5, .9))
+spl <- dosresmeta(formula = logrr ~ rcs(bmi, knots), type = type, id = id,
+	se = se, cases = cases, n = n, data = bmi_rc)
+summary(spl)
+
+## Tabulate result
+pred <- predict(spl, data.frame(bmi = seq(20, 35, 1)))
+print(pred, digits = 2)
+
+## Graphical prediction
+newdata = data.frame(bmi = seq(18, 35, .5))
+with(predict(spl, newdata, xref = 22.5),{
+  plot(get("rcs(bmi, knots)bmi"), pred, type = "l", log = "y", ylab = "Relative risk", las = 1,
+       xlab = "Alcohol intake, grams/day", ylim = c(.7, 2.5), bty = "l")
+  lines(get("rcs(bmi, knots)bmi"), ci.lb, lty = "dashed")
+  lines(get("rcs(bmi, knots)bmi"), ci.ub, lty = "dashed")
+})
+rug(bmi_rc$bmi, quiet = T)

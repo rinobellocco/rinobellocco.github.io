@@ -1,0 +1,49 @@
+## Summarized data about the relation between total alcohol intake
+## and lung cancer risk in 4 prospective cohort
+## studies participating in the Pooling Project of Prospective
+## Studies of Diet and Cancer.
+
+## Orsini N, Ruifeng L, Wolk A, Khudyakov P, Spiegelman D.
+## Meta-analysis for linear and non-linear dose-response relationships: examples, an evaluation of approximations, and software.
+## American Journal of Epidemiology. 2012; 175(1):66-73. 
+
+library("dosresmeta")
+
+## Example 2
+alcohol_lc <- read.table("http://alessiocrippa.altervista.org/data/ex_alcohol_lc.txt")
+
+## Fixed-effect dose-response model assuming linearity
+lin.fixed <- dosresmeta(formula = logrr ~ dose, type = type, id = id, 
+	se = se, cases = cases, n = peryears,  data = alcohol_lc, method = "fixed")
+summary(lin.fixed)
+predict(lin.fixed, delta = 12)
+
+## Random-effect dose-response model assuming linearity
+lin <- dosresmeta(formula = logrr ~ dose, type = type, id = id, 
+	se = se, cases = cases, n = peryears,  data = alcohol_lc) 
+summary(lin)
+predict(lin, delta = 12)
+
+## Non-linearity (spline) using random-effect
+library("rms")
+knots <- quantile(alcohol_lc$dose, c(.05, .35, .65, .95))
+spl <- dosresmeta(formula = logrr ~ rcs(dose, knots), type = type, id = id, 
+                  se = se, cases = cases, n = peryears,  data = alcohol_lc)
+summary(spl)
+
+## Multivariate Wald test
+wald.test(b = coef(spl), Sigma = vcov(spl), Terms = 2:3)
+
+## Tabulate result
+pred <- predict(spl, data.frame(dose = seq(0, 60, 12)), xref = 0)
+print(pred, digits = 2)
+
+## Figure 1 A of the paper
+newdata = data.frame(dose = seq(0, 60, 1))
+with(predict(spl, newdata, xref = 0),{
+  plot(get("rcs(dose, knots)dose"), pred, type = "l", log = "y", ylab = "Relative risk", las = 1,
+       xlab = "Alcohol intake, grams/day", ylim = c(.8, 1.8), bty = "l")
+  lines(get("rcs(dose, knots)dose"), ci.lb, lty = "dashed")
+  lines(get("rcs(dose, knots)dose"), ci.ub, lty = "dashed")
+})
+rug(alcohol_lc$dose)
