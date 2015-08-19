@@ -36,8 +36,8 @@ The links below demonstrate how the models, methods, and techniques described in
 
 **Older R script in txt format based on dosresmeta version 1.3.1 available on CRAN.**
 
-* [Coffee consumption and all causes mortality](http://alessiocrippa.altervista.org/coffee_mort.txt)
-* [Alcohol intake and colorectal cancer](http://alessiocrippa.altervista.org/examples/alcohol_crc.txt)
-* [Alcohol intake and lung cancer](http://alessiocrippa.altervista.org/examples/alcohol_lc.txt)
-* [Body mass index and renal cancer](http://alessiocrippa.altervista.org/examples/ts_glst_bmi_ex.txt)
-* [Alcohol intake and cardiovascular risk](http://alessiocrippa.altervista.org/examples/ts_glst_alcohol_ex.txt)
+* [Coffee consumption and all causes mortality](/downloads/codes/coffee_mort.txt)
+* [Alcohol intake and colorectal cancer](/downloads/codes/alcohol_crc.txt)
+* [Alcohol intake and lung cancer](/downloads/codes/alcohol_lc.txt)
+* [Body mass index and renal cancer](/downloads/codes/ts_glst_bmi_ex.txt)
+* [Alcohol intake and cardiovascular risk](/downloads/codes/ts_glst_alcohol_ex.txt)

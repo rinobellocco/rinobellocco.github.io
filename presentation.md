@@ -9,9 +9,9 @@ Presentation
 
 ## Statistical Meetings
 
-* June 8, 2015 [5thNBBC](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnxhbGVzc2lvY3JpcHBhfGd4OjY3NmZhMTRjMmJkNWU4YTk)
-* September 26, 2013 [Episeminar](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnxhbGVzc2lvY3JpcHBhfGd4OjQwZWVkMjJkMjJlYzExOTE)
-* June 9, 2013 [4thNBBC](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnxhbGVzc2lvY3JpcHBhfGd4OjZhNjhmZDhjMDgyNjNiMQ)
+* June 8, 2015 [5thNBBC](/downloads/presentation/crippa5thNBBC.pdf)
+* September 26, 2013 [Episeminar](/downloads/presentation/Episeminar.pdf)
+* June 9, 2013 [4thNBBC](/downloads/presentation/4thNBBCweb.pdf)
 
 ## Karolinska Institutet
 
