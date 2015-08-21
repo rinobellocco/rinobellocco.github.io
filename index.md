@@ -6,9 +6,17 @@ title: Home
 About
 ========
 
-* I am currently a PhD student in Epidemiology and Biostatistics
-* I work at Karolinska Institutet, Stockholm, Sweden
-
+<div style="-webkit-column-count: 2; -moz-column-count: 2; column-count: 2; -webkit-column-rule: 1px dotted #e0e0e0; -moz-column-rule: 1px dotted #e0e0e0;">
+<div style="display: inline-block">
+<ul>
+<li>I am currently a PhD student in Epidemiology and Biostatistics</li>
+<li>I work at Karolinska Institutet, Stockholm, Sweden</li>
+</ul> </div>
+<div style="display: inline-block;">
+<img src="/downloads/pic/profile.jpg" alt="Alessio Crippa" style="width: 200px;"/>
+</div>
+</div>
+ 
 
 Contact
 ===============
@@ -21,6 +29,10 @@ SE-171 77, Stockholm, Sweden
 
 **Phone**: 	+46(0)852487578
 
+**Email**: <a href="mailto:alessio.crippa@ki.se">alessio<span class="at">@</span>ki.se</a> or
+<a href="mailto:alessio.crippa@gmail.com">alessio<span class="at">@</span>gmail.com</a>
+
+&nbsp;
 
 About this site
 ===============

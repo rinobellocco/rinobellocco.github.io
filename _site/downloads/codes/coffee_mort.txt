@@ -1,0 +1,156 @@
+## Summarized data about the relation between coffee consumption
+## and all causes mortality in 18 prospective cohort.
+
+## Crippa A., Discacciati A., Larsson S.C., Wolk A, Orsini N.
+## Coffee Consumption and Mortality From All Causes, Cardiovascular Disease, 
+## and Cancer: A Dose-Response Meta-Analysis
+## American Journal of Epidemiology. 2014 
+
+## libraries required:
+library(dosresmeta)
+library(rms)
+library(metafor)
+
+## -----------------------------------------------------------------------------
+## Main Analysis
+
+## Load data
+mortality <- read.table("http://alessiocrippa.altervista.org/data/coffee_allcause.txt")
+
+## Selecting only data with complete info for cases and n
+complete <- subset(mortality, complete.cases(cases, n))
+
+## Spline model (DerSimonian and Laird estimator)
+knots <- round(with(mortality, quantile(dose, probs = c(.25, .5, .75) )), 2)
+spl <- dosresmeta(formula = logrr ~ rcs(dose, knots), id = id, type = type,
+                  cases = cases, n = n, se = se, data = complete, method = "mm")
+summary(spl)
+
+## Graphical results
+newdata <- data.frame(dose = seq(0, 8, .01))
+with(predict(spl, newdata, expo = T), {
+   plot(get("rcs(dose, knots)dose"), pred, log = "y", type = "l", bty = "n",
+        xlab = "Coffee Consumption, cups/day", ylab = "relative risk",
+        ylim = c(.7, 1.1), las = 1)
+   matlines(get("rcs(dose, knots)dose"), cbind(ci.lb, ci.ub), 
+            lty = 2, col = "black")
+})
+
+## Analytical predictions
+newdata <- data.frame(dose = seq(0, 8))
+completePred <- predict(spl, newdata, expo = T) 
+round(completePred, 2)
+
+## -----------------------------------------------------------------------------
+## Sensitivity analyses
+
+## Removing high coffee consumption category (> 6 cups/day)
+complete6 <- subset(complete, dose <= 6)
+spl6 <- dosresmeta(formula = logrr ~ rcs(dose, knots), id = id, type = type,
+                   cases = cases, n = n, se = se, data = complete6, method = "mm")
+summary(spl6)
+
+## Publication bias
+highlow <- aggregate(complete6, list(complete6$id), function(x) tail(x, n = 1))
+res <- rma(yi = logrr, sei = se, data = highlow, method = "DL")
+## Egger's regression test
+regtest.rma(res, model = "lm", predictor = "sei")
+#funnel(res)
+
+## Include also data with missing info on cases and n (assuming independence)
+missing <- subset(mortality, !complete.cases(cases, n))
+listModels <- lapply(split(missing, missing$id), function(x){
+   lm(logrr ~ 0 + rcs(dose, knots), weight = 1/I(se^2), data = x, 
+      subset = (se != 0))
+})
+## Using mvmeta
+bi <- rbind(as.matrix(model.frame(spl), ncol = 2), t(sapply(listModels, coef)))
+Si <- c(spl$vb, lapply(listModels, vcov))
+spl2 <- mvmeta(as.matrix(bi), Si, method = "mm")
+summary(spl2)
+
+## Predictions from 'mvmeta' object
+newdata2 <- cbind(dose = 0:8, doses = rcspline.eval(0:8, knots))
+pred <- exp(newdata2 %*% matrix(coef(spl2)))
+se.pred <- sqrt(diag(newdata2 %*% vcov(spl2) %*% t(newdata2)))
+ci.lb <- exp(log(pred) - qnorm(.975)*se.pred)
+ci.ub <- exp(log(pred) + qnorm(.975)*se.pred)
+missingPred <- data.frame(newdata2, pred, ci.lb, ci.ub)
+colnames(missingPred) <- colnames(completePred)
+round(missingPred, 2)
+
+mainTable <- do.call("rbind", 
+                   lapply(list(completePred[, 3:5], missingPred[, 3:5]), 
+                          function(x) 
+                             do.call("cbind", split(x, rownames(newdata))))
+)
+mainTable <- mainTable[, -c(1:3)]
+rownames(mainTable) <- c("complete", "incl.missing")
+colnames(mainTable) <-paste0(rep(c("rr", "low.rr", "upp.rr"), 8), 
+                            rep(1:8, each = 3))
+round(mainTable, 2)
+
+
+## -----------------------------------------------------------------------------
+## Subgroup analyses
+
+## Function to test heterogeneity in dose-response curves
+multitest <- function(models, Terms){
+   if (missing(Terms)) Terms <- 1:length(models)
+   b <- unlist(lapply(models[Terms], coef))
+   Si <- lapply(models[Terms], vcov)
+   L <- cbind(diag(rep(1, length(Terms))), 
+              diag(rep(-1, length(Terms))))
+   Sigma <- bdiag(Si)
+   wald.test(Sigma, b, L = L)
+}
+
+
+## 1. Sub country
+modelsCountry <- lapply(split(complete, complete$area), function(x){
+   dosresmeta(formula = logrr ~ rcs(dose, knots), id = id, type = type, se = se,
+              cases = cases, n = n, data = x, method = "mm")
+})
+#lapply(modelsCountry, function(x) round(predict(x, newdata, expo = T), 2))
+multitest(modelsCountry, Term = c(1, 3))
+
+
+## 2. Sub gender
+modelsGender <- lapply(split(complete, complete$gender), function(x){
+   dosresmeta(formula = logrr ~ rcs(dose, knots), id = id, type = type, se = se,
+              cases = cases, n = n, data = x, method = "mm")
+})
+#lapply(modelsGender, function(x) round(predict(x, newdata, expo = T), 2))
+multitest(modelsGender, Term = 1:2)
+
+
+## 3. Sub smoking
+modelsSmoking <- lapply(split(complete, complete$smoking), function(x){
+   dosresmeta(formula = logrr ~ rcs(dose, knots), id = id, type = type, se = se,
+              cases = cases, n = n, data = x, method = "mm")
+})
+#lapply(modelsSmoking, function(x) round(predict(x, newdata, expo = T), 2))
+multitest(modelsSmoking, Terms = c(1, 3))
+
+
+## 4. Sub alcohol
+modelsAlcohol <- lapply(split(complete, complete$alcohol), function(x){
+   dosresmeta(formula = logrr ~ rcs(dose, knots), id = id, type = type, se = se,
+              cases = cases, n = n, data = x, method = "mm")
+})
+#lapply(modelsAlcohol, function(x) round(predict(x, newdata, expo = T), 2))
+multitest(modelsAlcohol)
+
+## Subgroups table
+models <- list(modelsCountry, modelsGender, modelsSmoking, modelsAlcohol)
+subTable <- do.call("rbind", lapply(models, function(y){
+   do.call("rbind", lapply(y, function(x) 
+      do.call("cbind", split(predict(x, newdata, expo = T)[, 3:5], rownames(newdata))))
+   )}
+))
+
+## Final table
+subTable <- subTable[, -c(1:3)]
+colnames(subTable) <- colnames(mainTable)
+globalTable <- rbind(mainTable, subTable)
+round(globalTable, 2)

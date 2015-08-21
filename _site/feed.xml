@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Alessio Crippa</title>
-    <description>Powered by jekyll
+    <description>© Alessio Crippa. Powered by &lt;a href=http://jekyllrb.com/&gt;jekyll&lt;/a&gt;.  Source available on &lt;a href=https://github.com/alecri/alecri.github.io&gt;github&lt;/a&gt;.
 </description>
     <link>http://alessiocrippa.com/</link>
     <atom:link href="http://alessiocrippa.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 19 Aug 2015 23:49:15 +0200</pubDate>
-    <lastBuildDate>Wed, 19 Aug 2015 23:49:15 +0200</lastBuildDate>
+    <pubDate>Fri, 21 Aug 2015 10:00:31 +0200</pubDate>
+    <lastBuildDate>Fri, 21 Aug 2015 10:00:31 +0200</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
   </channel>

@@ -2,7 +2,8 @@
 title: Alessio Crippa
 email: alessio.crippa@gmail.com
 description: >
-  Powered by jekyll
+    © Alessio Crippa. Powered by <a href=http://jekyllrb.com/>jekyll</a>. 
+    Source available on <a href=https://github.com/alecri/alecri.github.io>github</a>.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://alessiocrippa.com" # the base hostname & protocol for your site
 twitter_username: AlessioCrippa
