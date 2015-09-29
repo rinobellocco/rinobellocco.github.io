@@ -9,8 +9,12 @@ Web Applications developed with Shiny
 
 For more examples visit [Shiny - Gallery](http://shiny.rstudio.com/gallery/)
 
-## Worked examples:
+## [Shiny app](http://shiny.rstudio.com/):
 
 * [Performing dose-response meta-analysis](https://alecri.shinyapps.io/dosresmeta/)
 
 * [Flexible modeling](https://alecri.shinyapps.io/flexmod)
+
+## [Dynamic Documents](http://rmarkdown.rstudio.com/):
+
+* [dosresmeta usage](https://alecri.shinyapps.io/dosresmeta_usage)
