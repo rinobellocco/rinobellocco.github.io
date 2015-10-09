@@ -15,6 +15,8 @@ For more examples visit [Shiny - Gallery](http://shiny.rstudio.com/gallery/)
 
 * [Flexible modeling](https://alecri.shinyapps.io/flexmod)
 
+* [Bias for heterogeneity measures in meta-anlaysis](https://alecri.shinyapps.io/bias) 
+
 ## [Dynamic Documents](http://rmarkdown.rstudio.com/):
 
 * [dosresmeta usage](https://alecri.shinyapps.io/dosresmeta_usage)
