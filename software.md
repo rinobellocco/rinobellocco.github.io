@@ -29,11 +29,11 @@ Extensions to meta-regression models and alternative estimation procedures are i
 
 The links below demonstrate how the models, methods, and techniques described in the respective articles/chapters can be applied via the `dosresmeta` package. The examples are run using dosresmeta version 2.0.0 avaiable on GitHub.
 
-# Dose-response model for a single study according to different study designs
+### Dose-response model for a single study according to different study designs
 
 * [Orsini, N., Bellocco, R., & Greenland, S. (2006). Generalized least squares for trend estimation of summarized dose-response data. Stata Journal, 6(1), 40.](http://rpubs.com/alecri/glst)
 
-# Modeling non-linear dose-response relations
+### Modeling non-linear dose-response relations
 
 * [Liu, Qin, et al. "A two-stage hierarchical regression model for meta-analysis of epidemiologic nonlinear dose–response data." Computational Statistics & Data Analysis 53.12 (2009): 4157-4167.](http://rpubs.com/alecri/qinliu)
 

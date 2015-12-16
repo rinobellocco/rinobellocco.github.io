@@ -25,11 +25,9 @@ Contact
 [Karolinska Institutet](http://ki.se/start)  
 **Visiting address** :  Widerströmska huset, Tomtebodavägen 18A, Solna 
 SE-171 77, Stockholm, Sweden  
-
-**Phone**: 	+46(0)720282766
-
+**Phone**: 	+46(0)720282766  
 **Email**: <a href="mailto:alessio.crippa@ki.se">alessio<span class="at">@</span>ki.se</a> or
-<a href="mailto:alessio.crippa@gmail.com">alessio<span class="at">@</span>gmail.com</a>
+<a href="mailto:alessio.crippa@gmail.com">alessio<span class="at">@</span>gmail.com</a>  
 
 
 Link
