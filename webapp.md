@@ -7,7 +7,6 @@ permalink: /webapp/
 Web Applications developed with Shiny
 ========
 
-For more examples visit [Shiny - Gallery](http://shiny.rstudio.com/gallery/)
 
 ## [Shiny app](http://shiny.rstudio.com/):
 
@@ -20,3 +19,6 @@ For more examples visit [Shiny - Gallery](http://shiny.rstudio.com/gallery/)
 ## [Dynamic Documents](http://rmarkdown.rstudio.com/):
 
 * [dosresmeta usage](https://alecri.shinyapps.io/dosresmeta_usage)
+
+
+For more examples visit [Shiny - Gallery](http://shiny.rstudio.com/gallery/)
