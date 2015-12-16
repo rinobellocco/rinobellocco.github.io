@@ -25,4 +25,4 @@ Publications
 
 ## Submitted
 
-* A new measure of between-studies heterogeneity in meta-analysis 2015. 2014. Submitted to Stat Med
+* A new measure of between-studies heterogeneity in meta-analysis 2015. Submitted to Stat Med

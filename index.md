@@ -21,16 +21,23 @@ About
 Contact
 ===============
 
-IMM - Institute of Environmental Medicine  
-Karolinska Institutet  
-**Visiting address** : Scheelelaboratoriet, Nobels Vag 13 Solna  
-**Postal address** : Institute of Environmental Medicine (IMM), C6, Nutritional epidemiology, Box 210
-SE-171 77, Stockholm, Sweden
+[PHS - Public Health Sciences](http://ki.se/en/phs/startpage)  
+[Karolinska Institutet](http://ki.se/start)  
+**Visiting address** :  Widerströmska huset, Tomtebodavägen 18A, Solna 
+SE-171 77, Stockholm, Sweden  
 
-**Phone**: 	+46(0)852487578
+**Phone**: 	+46(0)720282766
 
 **Email**: <a href="mailto:alessio.crippa@ki.se">alessio<span class="at">@</span>ki.se</a> or
 <a href="mailto:alessio.crippa@gmail.com">alessio<span class="at">@</span>gmail.com</a>
+
+
+Link
+===============
+
+* [Google scholar profile](https://scholar.google.it/citations?user=NLRD9vkAAAAJ&hl=en)  
+* [Stockholm R useR group](http://www.meetup.com/StockholmR/events/226376066/)
+
 
 &nbsp;
 
