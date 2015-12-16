@@ -4,11 +4,11 @@
     <title>Alessio Crippa</title>
     <description>© Alessio Crippa. Powered by &lt;a href=http://jekyllrb.com/&gt;jekyll&lt;/a&gt;.  Source available on &lt;a href=https://github.com/alecri/alecri.github.io&gt;github&lt;/a&gt;.
 </description>
-    <link>http://alessiocrippa.com/</link>
-    <atom:link href="http://alessiocrippa.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 21 Aug 2015 10:00:31 +0200</pubDate>
-    <lastBuildDate>Fri, 21 Aug 2015 10:00:31 +0200</lastBuildDate>
-    <generator>Jekyll v2.5.3</generator>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 19 Nov 2015 09:50:19 +0100</pubDate>
+    <lastBuildDate>Thu, 19 Nov 2015 09:50:19 +0100</lastBuildDate>
+    <generator>Jekyll v3.0.1</generator>
     
   </channel>
 </rss>

@@ -15,10 +15,14 @@ Publications
 
 * [Di Giuseppe, D., **Crippa, A.**, Orsini, N., & Wolk, A. (2014). Fish consumption and risk of rheumatoid arthritis: a dose-response meta-analysis. Arthritis research & therapy, 16(5), 446](http://www.ncbi.nlm.nih.gov/pubmed/25267142)
 
+* [**Crippa, A.**, et al. "Letter: coffee consumption and gallstone disease–a cautionary note on the assignment of exposure values in dose–response meta‐analyses." Alimentary pharmacology & therapeutics 43.1 (2016): 166-167](http://onlinelibrary.wiley.com/doi/10.1111/apt.13428/epdf)
+
+
+* **Crippa, A.**, & Orsini N.  “Multivariate Dose-Response Meta-Analysis: the dosresmeta R Package" 2015. J Stat Softw [In press]
+
+* Discacciati, A., **Crippa, A.**, & Orsini N.  “Goodness-of-fit tools for dose-response meta-analysis of binary outcomes" 2015. JRSM [In press]
 
 
 ## Submitted
 
-* **Crippa, A.**, & Orsini N.  “Multivariate Dose-Response Meta-Analysis: the dosresmeta R Package" 2014. Submitted to J Stat Softw
-
-* Discacciati, A., **Crippa, A.**, & Orsini N.  “Goodness-of-fit tools for dose-response meta-analysis of binary outcomes" 2015. Submitted to JRSM
+* A new measure of between-studies heterogeneity in meta-analysis 2015. 2014. Submitted to Stat Med
