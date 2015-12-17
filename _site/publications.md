@@ -18,7 +18,7 @@ Publications
 
 * [Di Giuseppe, D., **Crippa, A.**, Orsini, N. and Wolk, A., 2014. Fish consumption and risk of rheumatoid arthritis: a dose-response meta-analysis. Arthritis research & therapy, 16(5), p.446](http://www.ncbi.nlm.nih.gov/pubmed/25267142)
 
-* [Discacciati, A., **Crippa, A.**, & Orsini N.  “Goodness-of-fit tools for dose-response meta-analysis of binary outcomes" 2015. JRSM](http://onlinelibrary.wiley.com/doi/10.1002/jrsm.1194/epdf)
+* [Discacciati, A., **Crippa, A.**, & Orsini N.  Goodness-of-fit tools for dose-response meta-analysis of binary outcomes 2015. JRSM](http://onlinelibrary.wiley.com/doi/10.1002/jrsm.1194/epdf)
 
 * **Crippa, A.**, & Orsini N.  “Multivariate Dose-Response Meta-Analysis: the dosresmeta R Package" 2015. J Stat Softw [In press]
 
