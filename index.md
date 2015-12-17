@@ -3,6 +3,7 @@ layout: default
 title: Home
 ---
 
+
 About
 ========
 
@@ -11,6 +12,7 @@ About
 <ul>
 <li>I am currently a PhD student in Epidemiology and Biostatistics</li>
 <li>I work at Karolinska Institutet, Stockholm, Sweden</li>
+<li><a href="/downloads/CVPhD.pdf">CV</a> last updated December 17, 2015 </li>
 </ul> </div>
 <div style="display: inline-block;">
 <img src="/downloads/pic/profile.jpg" alt="Alessio Crippa" style="width: 200px;"/>
