@@ -10,11 +10,13 @@ Web Applications developed with Shiny
 
 ## [Shiny app](http://shiny.rstudio.com/):
 
-* [Performing dose-response meta-analysis](https://alecri.shinyapps.io/dosresmeta/)
-
-* [Flexible modeling](https://alecri.shinyapps.io/flexmod)
-
 * [Bias for heterogeneity measures in meta-anlaysis](https://alecri.shinyapps.io/bias) 
+
+* [Flexible modeling](https://alecri.shinyapps.io/flexmod)  
+
+* [Performing dose-response meta-analysis](https://alecri.shinyapps.io/dosresmeta/)  
+
+
 
 ## [Dynamic Documents](http://rmarkdown.rstudio.com/):
 

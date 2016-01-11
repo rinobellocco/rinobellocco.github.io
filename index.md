@@ -35,7 +35,9 @@ SE-171 77, Stockholm, Sweden
 Link
 ===============
 
+* [Karolinska Webpage](http://ki.se/en/people/alecri)  
 * [Google scholar profile](https://scholar.google.it/citations?user=NLRD9vkAAAAJ&hl=en)  
+* [Linkedin profile](https://www.linkedin.com/in/alessio-crippa-68519475)  
 * [Stockholm R useR group](http://www.meetup.com/StockholmR/events/226376066/)
 
 
