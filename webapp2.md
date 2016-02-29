@@ -1,7 +1,7 @@
 ---
 layout: default
 title: WebApp2
-permalink: /webapp2/
+permalink: /yssmaterial/
 ---
 
 Tables and Appendices for the paper in the YSS competition
