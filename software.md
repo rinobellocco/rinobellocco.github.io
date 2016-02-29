@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Software
-weight: 4
 permalink: /software/
 ---
 

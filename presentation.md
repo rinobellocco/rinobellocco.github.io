@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Presentation
-weight: 3
 permalink: /presentation/
 ---
 
