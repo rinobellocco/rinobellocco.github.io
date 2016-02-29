@@ -1,6 +1,6 @@
 ---
 layout: default
-title: yssmaterial
+title: YSSmaterial
 permalink: /yssmaterial/
 ---
 
