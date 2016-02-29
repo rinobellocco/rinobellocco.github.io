@@ -4,7 +4,7 @@ title: WebApp2
 permalink: /webapp2/
 ---
 
-Web Applications developed with Shiny
+Tables and Appendices for the paper in the YSS competition
 ========
 
 
