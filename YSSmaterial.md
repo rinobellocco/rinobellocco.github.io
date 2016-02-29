@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Tables and Appendices for the paper in the YSS competition
+title: YSSmaterial
 permalink: /YSSmaterial/
 ---
 
