@@ -8,19 +8,19 @@ Web Applications developed with Shiny
 ========
 
 
-## [Shiny app](http://shiny.rstudio.com/):
+## A new measure of between-studies heterogeneity in meta-analysis:
 
-* [Bias for heterogeneity measures in meta-anlaysis](https://alecri.shinyapps.io/bias) 
+## Tables
 
-* [Flexible modeling](https://alecri.shinyapps.io/flexmod)  
+* [Table I](/downloads/pdf/tab1.pdf)
+* [Table II](/downloads/pdf/tab2.pdf)
 
-* [Performing dose-response meta-analysis](https://alecri.shinyapps.io/dosresmeta/)  
+## Appendices
 
+* [Appendix A](/downloads/pdf/Append1.pdf)
+* [Appendix B](/downloads/pdf/Append2.pdf)
+* [Appendix C](/downloads/pdf/Append3.pdf)
 
+## Web App
 
-## [Dynamic Documents](http://rmarkdown.rstudio.com/):
-
-* [dosresmeta usage](https://alecri.shinyapps.io/dosresmeta_usage)
-
-
-For more examples visit [Shiny - Gallery](http://shiny.rstudio.com/gallery/)
+* [Bias analysis based on simulation](https://alecri.shinyapps.io/bias) 
