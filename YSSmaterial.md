@@ -4,18 +4,22 @@ title: Tables and Appendices for the paper in the YSS competition
 permalink: /YSSmaterial/
 ---
 
-Tables and Appendices for the paper "A new measure of between-studies heterogeneity in meta-analysis" in the YSS competition
+Tables and Appendices for the paper in the YSS competition
 ========
 
+## A new measure of between-studies heterogeneity in meta-analysis:
 
 ## Tables
 
-* 1
-* 2
+* [Table I](/downloads/pdf/tab1.pdf)
+* [Table II](/downloads/pdf/tab2.pdf)
 
 ## Appendices
 
-* 1
-* 2
+* [Appendix A](/downloads/pdf/Append1.pdf)
+* [Appendix B](/downloads/pdf/Append2.pdf)
+* [Appendix C](/downloads/pdf/Append3.pdf)
 
 ## Web App
+
+* [Bias analysis based on simulation](https://alecri.shinyapps.io/bias) 
