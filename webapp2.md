@@ -1,6 +1,6 @@
 ---
 layout: default
-title: WebApp2
+title: yssmaterial
 permalink: /yssmaterial/
 ---
 
