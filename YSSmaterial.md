@@ -1,7 +1,7 @@
 ---
 layout: default
 title: YSSmaterial
-permalink: /YSSmaterial/
+permalink: /yssmaterial/
 ---
 
 Tables and Appendices for the paper in the YSS competition
