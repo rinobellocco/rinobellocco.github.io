@@ -7,23 +7,24 @@ permalink: /publications/
 Publications
 ========
 
-## Refereed
+## 2016
 
-* **Crippa, A.**, & Orsini N.  “Multivariate Dose-Response Meta-Analysis: the dosresmeta R Package" 2016. J Stat Softw [In press]
+* **Crippa A**, Orsini N. Multivariate Dose-Response Meta-Analysis: the dosresmeta R Package. 2016. J Stat Softw. In press.
 
-* [Discacciati, A., **Crippa, A.**, & Orsini N.  “Goodness-of-fit tools for dose-response meta-analysis of binary outcomes" 2015. JRSM](http://onlinelibrary.wiley.com/doi/10.1002/jrsm.1194/epdf)
+* **Crippa A**, Khudyakov P, Wang M, Orsini N, Spiegelman D. A new measure of between-studies heterogeneity in meta-analysis. 2016. Statistics in Medicine. In Press.
 
-* [**Crippa, A.**, Discacciati, A., Orsini, N. and Oskarsson, V., 2016. Letter: coffee consumption and gallstone disease–a cautionary note on the assignment of exposure values in dose–response meta‐analyses. Alimentary pharmacology & therapeutics, 43(1), pp.166-167.](http://onlinelibrary.wiley.com/doi/10.1111/apt.13428/epdf)
-
-* [Larsson, S.C., **Crippa, A.**, Orsini, N., Wolk, A. and Michaëlsson, K., 2015. Milk Consumption and Mortality from All Causes, Cardiovascular Disease, and Cancer: A Systematic Review and Meta-Analysis. Nutrients, 7(9), pp.7749-7763
-](http://www.ncbi.nlm.nih.gov/pubmed/?term=Milk+Consumption+and+Mortality+from+All+Causes%2C+Cardiovascular+Disease%2C+and+Cancer%3A+A+Systematic+Review+and+Meta-Analysis)
-
-* [Di Giuseppe, D., **Crippa, A.**, Orsini, N. and Wolk, A., 2014. Fish consumption and risk of rheumatoid arthritis: a dose-response meta-analysis. Arthritis research & therapy, 16(5), p.446](http://www.ncbi.nlm.nih.gov/pubmed/25267142)
-
-* [**Crippa, A.**, Discacciati, A., Larsson, S.C., Wolk, A. and Orsini, N., 2014. Coffee consumption and mortality from all causes, cardiovascular disease, and cancer: a dose-response meta-analysis. American journal of epidemiology](http://www.ncbi.nlm.nih.gov/pubmed/25156996)
+* **Crippa A**, Discacciati A, Orsini N, Oskarsson V. [Letter: coffee consumption and gallstone disease - a cautionary note on the assignment of exposure values in dose-response meta-analyses](http://www.ncbi.nlm.nih.gov/pubmed/26638932). Aliment Pharmacol Ther. 2016 Jan;43(1):166-7. doi: 10.1111/apt.13428.
 
 
+## 2015
 
-## Submitted
+* Discacciati A, **Crippa A**, Orsini N. [Goodness of fit tools for dose-response meta-analysis of binary outcomes](http://onlinelibrary.wiley.com/doi/10.1002/jrsm.1194/pdf). Research Synthesis Methods. 2015. DOI: 10.1002/jrsm.1194.
 
-* A new measure of between-studies heterogeneity in meta-analysis 2015. Submitted to Stat Med
+* Larsson S, **Crippa A**, Orsini N, Wolk , Michaëlsson K. [Milk Consumption and Mortality from All Causes, Cardiovascular Disease, and Cancer: A Systematic Review and Meta-Analysis](http://www.ncbi.nlm.nih.gov/pubmed/26378576). Nutrients. 2015 Sep 11;7(9):7749-7763.
+
+
+## 2014
+
+* **Crippa A**, Discacciati A, Larsson SC, Wolk A, Orsini N. [Coffee Consumption and Mortality from All Causes, Cardiovascular Disease, and Cancer: A Dose-Response Meta-Analysis](http://www.ncbi.nlm.nih.gov/pubmed/25156996). Am J Epidemiol. 2014 Aug 24. pii: kwu194.
+
+* Di Giuseppe D, Crippa A, Orsini N, Wolk A. [Fish consumption and risk of rheumatoid arthritis: a dose-response meta-analysis](http://www.ncbi.nlm.nih.gov/pubmed/25267142). Arthritis Res Ther. 2014 Sep 30;16(5):446.
