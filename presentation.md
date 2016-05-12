@@ -16,6 +16,7 @@ Presentation
 
 ## Karolinska Institutet
 
+* May 12, 2016 [Half-time seminar](/downloads/presentation/half-time.pdf)
 * March 17, 2015 [Biostatistics group meeting](http://rpubs.com/alecri/introReprRes)
 * May 22, 2014 [NutEpi JC](http://rpubs.com/alecri/dosresmetaIntro)
 * Apr 8, 2014 [Biostatistics group meeting](http://rpubs.com/alecri/dosresmetaContinuous)
