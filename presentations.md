@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Presentation
+title: Presentations
 permalink: /presentation/
 ---
 
-Presentation
+Presentations
 ========
 
 ## Statistical Meetings

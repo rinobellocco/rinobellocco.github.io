@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /software/subpage
+permalink: /software/dosresmeta
 ---
 
 The dosresmeta R package: Performing multivariate dose-response meta-analysis
