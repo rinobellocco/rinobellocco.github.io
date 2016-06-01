@@ -6,12 +6,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>WebApp</title>
+  <title>Software</title>
   <meta name="description" content="© Alessio Crippa. Powered by <a href=http://jekyllrb.com/>jekyll</a>.  Source available on <a href=https://github.com/alecri/alecri.github.io>github</a>.
 ">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="/webapp/">
+  <link rel="canonical" href="/software/dosresmeta">
   <link rel="alternate" type="application/rss+xml" title="Alessio Crippa" href="/feed.xml" />
 </head>
 
@@ -38,10 +38,6 @@
           
         
           
-        
-          
-        
-          
           <a class="page-link" href="/">Home</a>
           
         
@@ -56,7 +52,7 @@
           
         
           
-          <a class="page-link" href="/software/">Software</a>
+          <a class="page-link" href="/software/dosresmeta">Software</a>
           
         
           
@@ -73,29 +69,54 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <h1 id="web-applications-developed-with-shiny">Web Applications developed with Shiny</h1>
+        <h1 id="the-dosresmeta-r-package-performing-multivariate-dose-response-meta-analysis">The dosresmeta R package: Performing multivariate dose-response meta-analysis</h1>
 
-<h2 id="shiny-apphttpshinyrstudiocom"><a href="http://shiny.rstudio.com/">Shiny app</a></h2>
+<p>The <code class="highlighter-rouge">dosresmeta</code> package is a free and open-source add-on for conducting (multivariate) dose-response meta-analysis with the statistical software environment <a href="https://www.r-project.org/">R</a>.
+You can install the package (or upgrade to the newest version) from <a href="https://cran.r-project.org/web/packages/dosresmeta/index.html">CRAN</a> directly within R by typing:</p>
+
+<p><code class="highlighter-rouge">install.packages("dosresmeta")</code></p>
+
+<p>Extensions to meta-regression models and alternative estimation procedures are included in an update version still under developement, which is avaiable on <a href="https://github.com/alecri/dosresmeta">GitHub</a> by typing:</p>
+
+<p><code class="highlighter-rouge">install.packages("devtools")</code></p>
+
+<p><code class="highlighter-rouge">devtools::install_github("alecri/dosresmeta")</code></p>
+
+<p> </p>
+
+<h2 id="reproducible-code">Reproducible code</h2>
 
 <ul>
-  <li>
-    <p><a href="https://alecri.shinyapps.io/bias">Bias for heterogeneity measures in meta-anlaysis</a></p>
-  </li>
-  <li>
-    <p><a href="https://alecri.shinyapps.io/flexmod">Flexible modeling</a></p>
-  </li>
-  <li>
-    <p><a href="https://alecri.shinyapps.io/dosresmeta/">Performing dose-response meta-analysis</a></p>
-  </li>
+  <li><a href="https://github.com/anddis/goodness-of-fit-meta-analysis"><em>GitHub repository</em> for Discacciati, A., <strong>Crippa, A.</strong>, &amp; Orsini N.  “Goodness-of-fit tools for dose-response meta-analysis of binary outcomes” 2015. JRSM</a></li>
 </ul>
 
-<h2 id="dynamic-documentshttprmarkdownrstudiocom"><a href="http://rmarkdown.rstudio.com/">Dynamic Documents</a></h2>
+<h2 id="analysis-examples">Analysis Examples</h2>
+
+<p>The links below demonstrate how the models, methods, and techniques described in the respective articles/chapters can be applied via the <code class="highlighter-rouge">dosresmeta</code> package. The examples are run using dosresmeta version 2.0.0 avaiable on GitHub.</p>
+
+<h3 id="dose-response-model-for-a-single-study-according-to-different-study-designs"><strong>Dose-response model for a single study according to different study designs</strong></h3>
 
 <ul>
-  <li><a href="https://alecri.shinyapps.io/dosresmeta_usage">dosresmeta usage</a></li>
+  <li><a href="http://rpubs.com/alecri/glst">Orsini, N., Bellocco, R., &amp; Greenland, S. (2006). Generalized least squares for trend estimation of summarized dose-response data. Stata Journal, 6(1), 40.</a></li>
 </ul>
 
-<p>For more examples visit <a href="http://shiny.rstudio.com/gallery/">Shiny - Gallery</a></p>
+<h3 id="modeling-non-linear-dose-response-relations"><strong>Modeling non-linear dose-response relations</strong></h3>
+
+<ul>
+  <li><a href="http://rpubs.com/alecri/qinliu">Liu, Qin, et al. “A two-stage hierarchical regression model for meta-analysis of epidemiologic nonlinear dose–response data.” Computational Statistics &amp; Data Analysis 53.12 (2009): 4157-4167.</a></li>
+</ul>
+
+<p> </p>
+
+<p><strong>Older R script in txt format based on dosresmeta version 1.3.1 available on CRAN.</strong></p>
+
+<ul>
+  <li><a href="/downloads/codes/coffee_mort.txt">Coffee consumption and all causes mortality</a></li>
+  <li><a href="/downloads/codes/alcohol_crc.txt">Alcohol intake and colorectal cancer</a></li>
+  <li><a href="/downloads/codes/alcohol_lc.txt">Alcohol intake and lung cancer</a></li>
+  <li><a href="/downloads/codes/ts_glst_bmi_ex.txt">Body mass index and renal cancer</a></li>
+  <li><a href="/downloads/codes/ts_glst_alcohol_ex.txt">Alcohol intake and cardiovascular risk</a></li>
+</ul>
 
       </div>
     </div>

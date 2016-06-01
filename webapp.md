@@ -8,7 +8,7 @@ Web Applications developed with Shiny
 ========
 
 
-## [Shiny app](http://shiny.rstudio.com/):
+## [Shiny app](http://shiny.rstudio.com/)
 
 * [Bias for heterogeneity measures in meta-anlaysis](https://alecri.shinyapps.io/bias) 
 
@@ -18,7 +18,7 @@ Web Applications developed with Shiny
 
 
 
-## [Dynamic Documents](http://rmarkdown.rstudio.com/):
+## [Dynamic Documents](http://rmarkdown.rstudio.com/)
 
 * [dosresmeta usage](https://alecri.shinyapps.io/dosresmeta_usage)
 

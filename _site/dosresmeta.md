@@ -1,7 +1,7 @@
----
+I---
 layout: default
 title: Software
-permalink: /software/
+permalink: /software
 ---
 
 The dosresmeta R package: Performing multivariate dose-response meta-analysis

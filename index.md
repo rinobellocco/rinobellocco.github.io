@@ -12,7 +12,7 @@ About
 <ul>
 <li>I am currently a PhD student in Epidemiology and Biostatistics</li>
 <li>I work at Karolinska Institutet, Stockholm, Sweden</li>
-<li><a href="/downloads/CVPhD.pdf">CV</a> last updated December 17, 2015 </li>
+<li><a href="/downloads/CVPhD.pdf">CV</a> last updated June 1, 2016 </li>
 </ul> </div>
 <div style="display: inline-block;">
 <img src="/downloads/pic/profile.jpg" alt="Alessio Crippa" style="width: 200px;"/>
@@ -36,7 +36,8 @@ Link
 ===============
 
 * [Karolinska Webpage](http://ki.se/en/people/alecri)  
-* [Google scholar profile](https://scholar.google.it/citations?user=NLRD9vkAAAAJ&hl=en)  
+* [Google scholar profile](https://scholar.google.it/citations?user=NLRD9vkAAAAJ&hl=en)
+* [ResearchGate](https://www.researchgate.net/profile/Alessio_Crippa)  
 * [Linkedin profile](https://www.linkedin.com/in/alessio-crippa-68519475)  
 * [Stockholm R useR group](http://www.meetup.com/StockholmR/events/226376066/)
 
