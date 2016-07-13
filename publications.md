@@ -9,6 +9,8 @@ Publications
 
 ## 2016
 
+* **Crippa A**, Orsini N. Dose-Response Meta-Analysis of Differences in Means. 2016. BMC Med Res Methodol. In press
+
 * **Crippa A**, Orsini N. Multivariate Dose-Response Meta-Analysis: the dosresmeta R Package. 2016. J Stat Softw. In press.
 
 * **Crippa A**, Khudyakov P, Wang M, Orsini N, Spiegelman D. [A new measure of between-studies heterogeneity in meta-analysis](http://onlinelibrary.wiley.com/doi/10.1002/sim.6980/abstract). Statistics in Medicine. 2016 May 10. doi: 10.1002/sim.6980.
