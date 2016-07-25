@@ -11,9 +11,8 @@ Presentations
 
 * July 14, 2016 [28thIBC](/downloads/presentation/28thIBC_poiwise.pdf)
 * July 11, 2016 [28thIBC](/downloads/presentation/28thIBC_measure.pdf)
-* June 28, 2016 [useR2016](http://rpubs.com/alecri/dose-response_meta-analysis)
+* June 28, 2016 [useR2016](http://rpubs.com/alecri/dose-response_meta-analysis) [video](https://channel9.msdn.com/Events/useR-international-R-User-conference/useR2016/Meta-Analysis-of-Epidemiological-Dose-Response-Studies-with-the-dosresmeta-R-package)
 * June 8, 2015 [5thNBBC](/downloads/presentation/crippa5thNBBC.pdf)
-* September 26, 2013 [Episeminar](/downloads/presentation/Episeminar.pdf)
 * June 9, 2013 [4thNBBC](/downloads/presentation/4thNBBCweb.pdf)
 
 
@@ -30,3 +29,4 @@ Presentations
 * March 17, 2015 [Biostatistics group meeting](http://rpubs.com/alecri/introReprRes)
 * May 22, 2014 [NutEpi JC](http://rpubs.com/alecri/dosresmetaIntro)
 * Apr 8, 2014 [Biostatistics group meeting](http://rpubs.com/alecri/dosresmetaContinuous)
+* September 26, 2013 [Episeminar](/downloads/presentation/Episeminar.pdf)

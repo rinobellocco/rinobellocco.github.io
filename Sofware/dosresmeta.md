@@ -38,6 +38,12 @@ The links below demonstrate how the models, methods, and techniques described in
 
 &nbsp;
 
+
+**Additional (useful) code**
+
+* [Missing number of cases/n. Assuming independence](/downloads/codes/missing cases n.txt)
+
+
 **Older R script in txt format based on dosresmeta version 1.3.1 available on CRAN.**
 
 * [Coffee consumption and all causes mortality](/downloads/codes/coffee_mort.txt)

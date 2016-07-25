@@ -1,0 +1,23 @@
+## How to handle missing info about cases/n
+
+# use the dosresmeta version on github
+library(dosresmeta)
+data("alcohol_cvd")
+
+# setting info on cases and n missing for two studies
+alcohol_cvd[alcohol_cvd$id %in% sample(unique(alcohol_cvd$id), 2), c("cases", "n")] <- NA
+     
+# defining covariance matrices
+Slist <- lapply(unique(alcohol_cvd$id), function(i)
+   with(subset(alcohol_cvd, id == i),
+        if (any(is.na(cases) | is.na(n)))
+           diag(se[!is.na(se)])
+        else
+           covar.logrr(cases = cases, n = n, y = logrr, v = I(se^2), type = type, 
+                       covariance = "gl")
+   ))
+
+# dosresmeta where the covariance matrices are given by the author
+quadr <- dosresmeta(formula = logrr ~ dose + I(dose^2), id = id, se = se, 
+                    type = type, cases = cases, n = n, data = alcohol_cvd,
+                    covariance = "user", Slist = Slist)
