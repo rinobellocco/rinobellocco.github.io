@@ -63,4 +63,5 @@ Di Giuseppe D, <b>Crippa A</b>, Orsini N, Wolk. <a href="http://www.ncbi.nlm.nih
 
   <li><a href="https://www.researchgate.net/publication/265054425_Coffee_Consumption_and_Mortality_From_All_Causes_Cardiovascular_Disease_and_Cancer_A_Dose-Response_Meta-Analysis?ev=prf_pub" target="_blank"><i class="fa-li fa fa-file-text"></i></a> 
 <b>Crippa A</b>, Discacciati A, Larsson SC, Wolk A, Orsini N. <a href="http://www.ncbi.nlm.nih.gov/pubmed/25156996" target="_blank"> Coffee Consumption and Mortality from All Causes, Cardiovascular Disease, and Cancer: A Dose-Response Meta-Analysis</a>. American journal of epidemiology. 2014 Aug 24:kwu194.
+</li>
 </ul>
