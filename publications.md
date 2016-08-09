@@ -56,7 +56,6 @@ Discacciati A, <b>Crippa A</b>, Orsini N. <a href="http://www.ncbi.nlm.nih.gov/p
 ## 2014
 
 <ul class="fa-ul">
-</li>
   <li><a href="https://www.researchgate.net/publication/266324813_Fish_consumption_and_risk_of_rheumatoid_arthritis_A_dose-response_meta-analysis" target="_blank"><i class="fa-li fa fa-file-text"></i></a> 
 Di Giuseppe D, <b>Crippa A</b>, Orsini N, Wolk. <a href="http://www.ncbi.nlm.nih.gov/pubmed/25267142" target="_blank"> Fish consumption and risk of rheumatoid arthritis: a dose-response meta-analysis</a>. Arthritis research & therapy. 2014 Sep 30;16(5):1.
 </li>
