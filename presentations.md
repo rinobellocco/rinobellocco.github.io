@@ -9,24 +9,78 @@ Presentations
 
 ## Statistical Meetings
 
-* July 14, 2016 [28thIBC](/downloads/presentation/28thIBC_poiwise.pdf)
-* July 11, 2016 [28thIBC](/downloads/presentation/28thIBC_measure.pdf)
-* June 28, 2016 [useR2016](http://rpubs.com/alecri/dose-response_meta-analysis) [video](https://channel9.msdn.com/Events/useR-international-R-User-conference/useR2016/Meta-Analysis-of-Epidemiological-Dose-Response-Studies-with-the-dosresmeta-R-package)
-* June 8, 2015 [5thNBBC](/downloads/presentation/crippa5thNBBC.pdf)
-* June 9, 2013 [4thNBBC](/downloads/presentation/4thNBBCweb.pdf)
+<ul class="fa-ul">
+  <li><a href="/downloads/presentation/28thIBC_poiwise.pdf" target="_blank"><i class="fa-li fa fa-file-text"></i></a> 
+July 14, 2016 28thIBC
+</li>
+<div style="height:10px"></div>
+
+  <li><a href="/downloads/presentation/28thIBC_measure.pdf" target="_blank"><i class="fa-li fa fa-file-text"></i></a> 
+July 11, 2016 28thIBC
+</li>
+<div style="height:10px"></div>
+
+  <li><a href="http://rpubs.com/alecri/dose-response_meta-analysis" target="_blank"><i class="fa-li fa fa-file-text"></i></a> 
+<a href="https://channel9.msdn.com/Events/useR-international-R-User-conference/useR2016/Meta-Analysis-of-Epidemiological-Dose-Response-Studies-with-the-dosresmeta-R-package" target="_blank"><i class="fa fa-video-camera" aria-hidden="true"></i></a> June 28, 2016 useR2016 
+</li>
+<div style="height:10px"></div>
+
+  <li><a href="/downloads/presentation/crippa5thNBBC.pdf" target="_blank"><i class="fa-li fa fa-file-text"></i></a> 
+June 8, 2015 5thNBBC
+</li>
+<div style="height:10px"></div>
+
+  <li><a href="/downloads/presentation/4thNBBCweb.pdf" target="_blank"><i class="fa-li fa fa-file-text"></i></a> 
+June 9, 2013 4thNBBC
+</li>
+</ul>
+
 
 
 ## Poster Presentations
 
-* June 24, 2016 [Epidemiology Congress of the Americas](/downloads/poster/A new measure of between-studies heterogeneity.pdf)
-* June 23, 2016 [Epidemiology Congress of the Americas](/downloads/poster/Point-wise averaging approach.pdf)    
-* June 27, 2015 [European Congress of Epidemiology - Healthy Living](/downloads/poster/healthyliving2015Crippa.pdf)
+<ul class="fa-ul">
+  <li><a href="/downloads/poster/A new measure of between-studies heterogeneity.pdf" target="_blank"><i class="fa-li fa fa-file-text"></i></a> 
+June 24, 2016 Epidemiology Congress of the Americas
+</li>
+<div style="height:10px"></div>
+
+  <li><a href="/downloads/poster/Point-wise averaging approach.pdf" target="_blank"><i class="fa-li fa fa-file-text"></i></a> 
+June 23, 2016 Epidemiology Congress of the Americas
+</li>
+<div style="height:10px"></div>
+
+  <li><a href="/downloads/poster/healthyliving2015Crippa.pdf" target="_blank"><i class="fa-li fa fa-file-text"></i></a> 
+June 27, 2015 European Congress of Epidemiology - Healthy Living
+</li>
+</ul>
+
 
 
 ## Karolinska Institutet
 
-* May 12, 2016 [Half-time seminar](/downloads/presentation/half-time.pdf)
-* March 17, 2015 [Biostatistics group meeting](http://rpubs.com/alecri/introReprRes)
-* May 22, 2014 [NutEpi JC](http://rpubs.com/alecri/dosresmetaIntro)
-* Apr 8, 2014 [Biostatistics group meeting](http://rpubs.com/alecri/dosresmetaContinuous)
-* September 26, 2013 [Episeminar](/downloads/presentation/Episeminar.pdf)
+<ul class="fa-ul">
+  <li><a href="/downloads/presentation/half-time.pdf" target="_blank"><i class="fa-li fa fa-file-text"></i></a> 
+May 12, 2016 Half-time seminar
+</li>
+<div style="height:10px"></div>
+
+  <li><a href="http://rpubs.com/alecri/introReprRes" target="_blank"><i class="fa-li fa fa-file-text"></i></a> 
+March 17, 2015 Biostatistics group meeting
+</li>
+<div style="height:10px"></div>
+
+  <li><a href="http://rpubs.com/alecri/dosresmetaIntro" target="_blank"><i class="fa-li fa fa-file-text"></i></a> 
+May 22, 2014 NutEpi JC
+</li>
+<div style="height:10px"></div>
+
+  <li><a href="http://rpubs.com/alecri/dosresmetaContinuous" target="_blank"><i class="fa-li fa fa-file-text"></i></a> 
+Apr 8, 2014 Biostatistics group meeting
+</li>
+<div style="height:10px"></div>
+
+  <li><a href="/downloads/presentation/Episeminar.pdf" target="_blank"><i class="fa-li fa fa-file-text"></i></a> 
+September 26, 2013 Episeminar
+</li>
+</ul>
