@@ -7,7 +7,6 @@ permalink: /publications/
 Publications
 ========
 
-
 ## 2016
 
 <ul class="fa-ul">
@@ -21,8 +20,12 @@ Smith AD, <b>Crippa A</b>, Woodcock J, Brage S. Total and leisure-time physical 
 </li>
 <div style="height:10px"></div>
 
+  <li><a href="https://www.researchgate.net/publication/305892213_Letter_to_editor_Ideal_cardiovascular_health_metrics_and_risk_of_cardiovascular_disease_or_mortality_A_meta-analysis" target="_blank"><i class="fa-li fa fa-file-text"></i></a> 
+Veledara E, <b>Crippa A</b>, Osondua CU, Younusa A, Nasira K. <a href="http://www.sciencedirect.com/science/article/pii/S0167527316317296" target="_blank"> Letter to editor: “Ideal cardiovascular health metrics and risk of cardiovascular disease or mortality: A meta-analysis”</a>. International Journal of Cardiology. 2016 Nov 1.
+</li>
+
   <li><a href="https://www.researchgate.net/publication/305804878_Dose-response_meta-analysis_of_differences_in_means" target="_blank"><i class="fa-li fa fa-file-text"></i></a> 
-<b>Crippa A</b>, Orsini N. <a href="https://www.ncbi.nlm.nih.gov/pubmed/27485429" target="_blank"> Dose-response meta-analysis of differences in means</a>. BMCMedical Research Methodology. 2016 Aug 2;16(1):91.
+<b>Crippa A</b>, Orsini N. <a href="https://www.ncbi.nlm.nih.gov/pubmed/27485429" target="_blank"> Dose-response meta-analysis of differences in means</a>. BMC Medical Research Methodology. 2016 Aug 2;16(1):91.
 </li>
 <div style="height:10px"></div>
 
