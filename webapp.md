@@ -4,23 +4,32 @@ title: WebApp
 permalink: /webapp/
 ---
 
-Web Applications developed with Shiny
+Web Applications and interactive documents
 ========
 
+<center> <h1><a href="http://shiny.rstudio.com/">Shiny Apps</a></h1> </center>
 
-## [Shiny app](http://shiny.rstudio.com/)
+[Bias for heterogeneity measures in meta-analysis](https://alecri.shinyapps.io/bias)  |  [Flexible modeling](https://alecri.shinyapps.io/flexmod)                         
+:------------------------------:|:----------------------------------:
+<a href="https://alecri.shinyapps.io/bias"><img src="/downloads/pic/bias.png" alt="bias" style="width: 400px;"/> |  <a href="https://alecri.shinyapps.io/flexmod"><img src="/downloads/pic/flexmod.png" alt="bias" style="width: 400px;"/> 
+                    
 
-* [Bias for heterogeneity measures in meta-anlaysis](https://alecri.shinyapps.io/bias) 
+<div style="height:20px"></div>
 
-* [Flexible modeling](https://alecri.shinyapps.io/flexmod)  
-
-* [Performing dose-response meta-analysis](https://alecri.shinyapps.io/dosresmeta/)  
-
-
-
-## [Dynamic Documents](http://rmarkdown.rstudio.com/)
-
-* [dosresmeta usage](https://alecri.shinyapps.io/dosresmeta_usage)
+[Performing dose-response meta-analysis](https://alecri.shinyapps.io/dosresmeta/)         |  [Shiny form](http://37.139.4.88//shiny/shinyForm/)                         
+:------------------------------:|:----------------------------------:
+<a href="https://alecri.shinyapps.io/dosresmeta/"><img src="/downloads/pic/dosresmeta_app.png" alt="bias" style="width: 400px;"/> |  <a href="http://37.139.4.88//shiny/shinyForm/"><img src="/downloads/pic/shiny_form.png" alt="bias" style="width: 400px;"/> 
+                  
 
 
-For more examples visit [Shiny - Gallery](http://shiny.rstudio.com/gallery/)
+<div style="height:50px"></div>
+
+-----------------------
+
+<center> <h1><a href="http://rmarkdown.rstudio.com/">Dynamic Documents</a></h1> </center>
+
+
+[dosresmeta usage](https://alecri.shinyapps.io/dosresmeta_usage)                         |                          
+:------------------------------:|:----------------------------------:
+<a href="https://alecri.shinyapps.io/dosresmeta_usage/"><img src="/downloads/pic/dosresmeta_usage.png" alt="bias" style="width: 400px;"/> |
+        

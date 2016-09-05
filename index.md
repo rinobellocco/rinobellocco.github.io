@@ -7,18 +7,23 @@ title: Home
 About
 ========
 
-<div style="-webkit-column-count: 2; -moz-column-count: 2; column-count: 2; -webkit-column-rule: 1px dotted #e0e0e0; -moz-column-rule: 1px dotted #e0e0e0;">
-<div style="display: inline-block">
-<ul>
-<li>I am currently a PhD student in Epidemiology and Biostatistics</li>
-<li>I work at Karolinska Institutet, Stockholm, Sweden</li>
-<li><a href="/downloads/CVPhD.pdf">CV</a> last updated June 1, 2016 </li>
-</ul> </div>
-<div style="display: inline-block;">
-<img src="/downloads/pic/profile.jpg" alt="Alessio Crippa" style="width: 200px;"/>
+
+<div>
+	<div style="width:200px;float:left;">
+		<a href="https://github.com/studiomohawk/jekyll-theme-the_minimum" class="left img"><img src="/downloads/pic/profile.jpg" style="width: 200px;"></a>
+	</div>
+	<div style="margin-left:200px;">
+		<ul>
+			<li>I am currently a PhD student in Epidemiology and Biostatistics</li>
+			<li>I work at Karolinska Institutet, Stockholm, Sweden</li>
+			<li><a href="/downloads/CVPhD.pdf">CV</a> last updated June 1, 2016 </li>
+		</ul>
 </div>
 </div>
- 
+
+
+<div style="height:150px"></div>
+
 
 Contact
 ===============
