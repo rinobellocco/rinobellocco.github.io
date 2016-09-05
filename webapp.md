@@ -32,4 +32,3 @@ Web Applications and interactive documents
 [dosresmeta usage](https://alecri.shinyapps.io/dosresmeta_usage)                         |                          
 :------------------------------:|:----------------------------------:
 <a href="https://alecri.shinyapps.io/dosresmeta_usage/"><img src="/downloads/pic/dosresmeta_usage.png" alt="bias" style="width: 400px;"/> |
-        
