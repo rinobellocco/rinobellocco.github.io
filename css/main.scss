@@ -125,6 +125,10 @@ hr {
   margin-bottom: 20px;
 }
 
+.boxed {
+  border: 1px solid black ;
+}
+
 @media screen and (min-width: 0px) and (max-width: 900px) {
     #lastfm_chart { display: none; }  /* show it on small screens */
     #twitter_follow {display: none; }
