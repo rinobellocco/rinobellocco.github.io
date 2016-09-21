@@ -9,14 +9,14 @@ Web Applications and interactive documents
 
 <center> <h1><a href="http://shiny.rstudio.com/">Shiny Apps</a></h1> </center>
 
-[Bias for heterogeneity measures in meta-analysis](https://alecri.shinyapps.io/bias)  |  [Flexible modeling](https://alecri.shinyapps.io/flexmod)                         
+[Bias for heterogeneity measures in meta-analysis](http://alessiocrippa.com/shiny/bias/)  |  [Flexible modeling](http://alessiocrippa.com/shiny/flexmod/)                         
 :------------------------------:|:----------------------------------:
 <a href="https://alecri.shinyapps.io/bias"><img src="/downloads/pic/bias.png" alt="bias" style="width: 400px;"/> |  <a href="https://alecri.shinyapps.io/flexmod"><img src="/downloads/pic/flexmod.png" alt="bias" style="width: 400px;"/> 
                     
 
 <div style="height:20px"></div>
 
-[Performing dose-response meta-analysis](https://alecri.shinyapps.io/dosresmeta/)         |  [Shiny form](http://37.139.4.88//shiny/shinyForm/)                         
+[Performing dose-response meta-analysis](http://alessiocrippa.com/shiny/dosresmeta/)         |  [Shiny form](http://37.139.4.88//shiny/shinyForm/)                         
 :------------------------------:|:----------------------------------:
 <a href="https://alecri.shinyapps.io/dosresmeta/"><img src="/downloads/pic/dosresmeta_app.png" alt="bias" style="width: 400px;"/> |  <a href="http://37.139.4.88//shiny/shinyForm/"><img src="/downloads/pic/shiny_form.png" alt="bias" style="width: 400px;"/> 
                   
