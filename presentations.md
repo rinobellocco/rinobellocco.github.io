@@ -60,6 +60,10 @@ June 27, 2015 European Congress of Epidemiology - Healthy Living
 ## Karolinska Institutet
 
 <ul class="fa-ul">
+<li><a href="http://rpubs.com/alecri/dosresmeta_phs" target="_blank"><i class="fa-li fa fa-file-text"></i></a> 
+Sept 22, 2016 Public Health Sciences seminar series
+</li>
+<ul class="fa-ul">
   <li><a href="/downloads/presentation/half-time.pdf" target="_blank"><i class="fa-li fa fa-file-text"></i></a> 
 May 12, 2016 Half-time seminar
 </li>
