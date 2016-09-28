@@ -60,6 +60,11 @@ June 27, 2015 European Congress of Epidemiology - Healthy Living
 ## Karolinska Institutet
 
 <ul class="fa-ul">
+<li><a href="http://rpubs.com/alecri/intro_shiny" target="_blank"><i class="fa-li fa fa-file-text"></i></a> 
+Sept 29, 2016 Public Health PHD student meetups
+</li>
+<div style="height:10px"></div>
+
 <li><a href="http://rpubs.com/alecri/dosresmeta_phs" target="_blank"><i class="fa-li fa fa-file-text"></i></a> 
 Sept 22, 2016 Public Health Sciences seminar series
 </li>
