@@ -1,9 +1,10 @@
 ---
 layout: default
 title: Home
+navigation_weight: 1
 ---
 
-<center> <h1><a href="http://rpubs.com/alecri/getStartedR">Slides for the workshop Get started with R available here</a></h1> </center>
+<center> <h1><a href="http://rpubs.com/alecri/getStartedR" target="_blank">Slides for the workshop Get started with R available here</a></h1> </center>
 
 
 About

@@ -2,6 +2,7 @@
 layout: default
 title: WebApp
 permalink: /webapp/
+navigation_weight: 5
 ---
 
 Web Applications and interactive documents

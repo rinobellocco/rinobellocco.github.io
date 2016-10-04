@@ -1,8 +1,16 @@
 ---
 layout: default
-title:
+title: Courses
 permalink: /courses/
+navigation_weight: 6
 ---
 
 Courses
 =====================
+
+
+<ul class="fa-ul">
+  <li><a href="http://rpubs.com/alecri/getStartedR" target="_blank"><i class="fa-li fa fa-file-text"></i></a>    Get started with R
+</li>
+<div style="height:10px"></div>
+</ul>
