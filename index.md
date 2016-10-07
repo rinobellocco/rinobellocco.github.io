@@ -13,7 +13,7 @@ About
 
 <div>
 	<div style="width:200px;float:left;">
-		<a href="https://github.com/studiomohawk/jekyll-theme-the_minimum" class="left img"><img src="/downloads/pic/profile.jpg" style="width: 200px;"></a>
+		<a href="http://alecri.github.io/downloads/pic/profile.jpg" class="left img"><img src="/downloads/pic/profile.jpg" style="width: 200px;"></a>
 	</div>
 	<div style="margin-left:200px;">
 		<ul>
