@@ -14,7 +14,7 @@ Organizer: Doctoral programme in Public Health Science, Karolinska Institutet
 Locations and time: October 13, 9.00-12.00, 13.00-15.00  
 Lecture room Sterky, Widerstromska huset, Tomtebodavagen 18A, plan 4
 
-[Syllabus](http://alecri.github.io/courses/getStartedR_folder/ex_getStartedR.pdf)
+[Syllabus](http://alecri.github.io/courses/getStartedR_folder/getStartedR_syllabus.pdf)
 
 <br>
 
@@ -47,7 +47,7 @@ The interactive part will be based on the marathon dataset while the exercises w
 
 They are related to the following publications:
 
-- [Hyponatremia among Runners in the Boston Marathon, N Engl J Med 2005;352:1550-6](downloads/Hyponatremia.pdf)
+- [Hyponatremia among Runners in the Boston Marathon, N Engl J Med 2005;352:1550-6](http://alecri.github.io/downloads/Hyponatremia.pdf)
 
 
 
