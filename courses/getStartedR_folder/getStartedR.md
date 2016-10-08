@@ -50,6 +50,7 @@ They are related to the following publications:
 - [Hyponatremia among Runners in the Boston Marathon, N Engl J Med 2005;352:1550-6](http://alecri.github.io/downloads/Hyponatremia.pdf)
 
 
+<br>
 
 ## Free resources to help you learn R
 
@@ -61,3 +62,5 @@ They are related to the following publications:
 ## Additional links
 
 - [Stockholm R useR group (SRUG)](http://www.meetup.com/StockholmR/)
+
+- [R-bloggers](https://www.r-bloggers.com/)
