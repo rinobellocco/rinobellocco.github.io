@@ -47,7 +47,7 @@ The interactive part will be based on the marathon dataset while the exercises w
 
 They are related to the following publications:
 
-- [Hyponatremia among Runners in the Boston Marathon, N Engl J Med 2005;352:1550-6](http://alecri.github.io/downloads/Hyponatremia.pdf)
+- [Hyponatremia among Runners in the Boston Marathon, N Engl J Med 2005;352:1550-6](http://alecri.github.io/downloads/hyponatremia.pdf)
 
 
 <br>
