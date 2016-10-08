@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /Courses/getStartedR
+permalink: /courses/getStartedR
 ---
 
 Get started with R
