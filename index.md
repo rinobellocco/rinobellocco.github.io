@@ -4,8 +4,6 @@ title: Home
 navigation_weight: 1
 ---
 
-<center> <h1><a href="/courses/getStartedR.html"> Web page for the workshop Get started with R available here</a></h1> </center>
-
 
 About
 ========
