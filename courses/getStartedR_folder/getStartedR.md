@@ -42,8 +42,8 @@ Lecture room Sterky, Widerstromska huset, Tomtebodavagen 18A, plan 4
 </li>
 <div style="height:10px"></div>
 
-<li><a href="" target="_blank"><i class="fa-li fa fa-file-text"></i> exercises + solution </a> 
-<a href="" target="_blank"> [Rmd] </a> 
+<li><a href="http://alecri.github.io/courses/getStartedR_folder/ex_getStartedR_solution.pdf" target="_blank"><i class="fa-li fa fa-file-text"></i> exercises + solution </a> 
+<a href="http://alecri.github.io/courses/getStartedR_folder/ex_getStartedR_solution.Rmd" target="_blank"> [Rmd] </a> 
 </li>
 </ul>
 
