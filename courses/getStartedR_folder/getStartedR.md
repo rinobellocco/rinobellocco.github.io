@@ -30,6 +30,10 @@ Lecture room Sterky, Widerstromska huset, Tomtebodavagen 18A, plan 4
 </ul>
 
 
+## R script:
+
+- Script [.R](http://alecri.github.io/courses/getStartedR_folder/code.R) [.txt](http://alecri.github.io/courses/getStartedR_folder/code.txt)
+
 ## Exercises:
 
 <ul class="fa-ul">
