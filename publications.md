@@ -10,12 +10,13 @@ Publications
 
 ## 2016
 
+<ul class="fa-ul">
+
 <li><i class="fa-li fa fa-file-text"></i>
 Smith AD, <b>Crippa A</b>, Woodcock J, Brage S. Total and leisure-time physical activity and incident type 2 diabetes mellitus: A systematic review and dose-response meta-analysis of prospective cohort studies. 2016. Diabetologia. In press.
 </li>
 <div style="height:10px"></div>
 
-<ul class="fa-ul">
 <li><a href="" target="_blank"><i class="fa-li fa fa-file-text"></i></a> 
 Vinceti M, Filippini T, <b>Crippa A</b>, de Sesmaisons A, Wise LA, Orsini N. Meta‐Analysis of Potassium Intake and the Risk of Stroke. Journal of the American Heart Association. 2016 Oct 1;5(10):e004210
 </li>
