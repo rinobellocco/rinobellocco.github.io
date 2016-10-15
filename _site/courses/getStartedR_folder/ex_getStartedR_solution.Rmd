@@ -1,0 +1,157 @@
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, message = FALSE)
+```
+
+## Get started with R, Exercises
+
+The dataset *lowbwt* is about a study that aims to identify risk factors associated with giving birth to a low birth weight baby (weighing less than 2500 grams).
+Variables that were thought to be of importance were age, weight of the subject at her last menstrual period, smoking during pregnancy and race.
+
+## Questions
+
+
+### Data inspection
+
+1. Load the **lowbwt** available at http://alecri.github.io/downloads/data/ (full address for Rdata file http://alecri.github.io/downloads/data/lowbwt.Rdata
+)
+
+```{r}
+library(tidyverse)
+## Load R dataset
+load(url("http://alecri.github.io/downloads/data/lowbwt.Rdata"))
+# check if it's loaded
+ls()
+```
+
+```{r, eval=FALSE}
+## Alternatively, other data format can be used
+lowbwt <- read.table("http://alecri.github.io/downloads/data/lowbwt.txt")
+lowbwt <- read.csv("http://alecri.github.io/downloads/data/lowbwt.csv")
+library(haven)
+lowbwt <- read_dta("http://alecri.github.io/downloads/data/lowbwt.dta")
+lowbwt <- read_sav("http://alecri.github.io/downloads/data/lowbwt.sav")
+lowbwt <- read_sas("http://alecri.github.io/downloads/data/lowbwt.sas7bdat")
+```
+
+
+2. How many observations and variables are in the dataset?
+
+```{r}
+# number of rows and columns
+dim(lowbwt)
+# or
+c(rows = nrow(lowbwt), cols = ncol(lowbwt))
+# names of variables
+names(lowbwt)
+```
+```{r}
+glimpse(lowbwt)
+```
+
+3. Sort the data by (increasing) age
+
+```{r}
+arrange(lowbwt, age)
+```
+
+
+4. Categorize age in two groups (< 30, >= 30 years). Attach the proper labels to the new factor variable.
+
+```{r}
+lowbwt$agecat = factor(lowbwt$age >= 30, labels = c("< 30", ">= 30"))
+table(lowbwt$agecat)
+```
+
+5. Select and print white subjects whose child's birth weight is less than 1.5 kg 
+
+```{r}
+filter(lowbwt, bwt < 1500)
+```
+
+
+
+### Univariate statistics
+
+6. Summarize the continuous response variable birth weight. What is its mean and standard deviation?  
+
+```{r}
+summary(lowbwt$bwt)
+c(mean = mean(lowbwt$bwt), std = sd(lowbwt$bwt))
+```
+
+
+7. Provide a graphical presentation of its distribution  
+
+```{r}
+ggplot(lowbwt, aes(x = bwt)) + 
+  geom_histogram(aes(y = ..density..)) +
+  geom_density() +
+  geom_vline(xintercept = 2500, lty = "dotted")
+```
+
+8. Categorize birth weight in two groups: <2500 g and >= 2500 g  (same as the *lwt* variable)
+
+```{r}
+summary(lowbwt$bwt)
+lowbwt <- mutate(lowbwt, bwt_cat = cut(bwt, c(700, 2500, 5000), right = F,
+                 levels = c(1, 0), labels = c("<2.5 kg", ">=2.5 kg")))
+head(lowbwt$bwt_cat)
+# check also with the variable 'low'
+```
+
+9. What is the percentage of women who had a baby weighting less than 2.5 kg?
+
+```{r}
+tab <- table(lowbwt$bwt_cat)
+prop.table(tab)
+```
+
+10. Provide a graphical presentation for this binary variable
+
+```{r}
+ggplot(lowbwt, aes(x = bwt_cat)) + 
+  geom_bar(aes(y = ..count../sum(..count..))) +
+  labs(y = "Percentage", x = "Low Birth Weight")
+```
+
+
+### Bivariate association
+
+11.  What is the mean and standard deviation of mother’s age among white, black, and other races?
+
+```{r}
+lowbwt %>% group_by(race) %>%
+  summarise(mean = mean(age), std = sd(age))
+```
+
+12. Present graphically the distribution of mother's age in the races subgroups
+
+```{r}
+ggplot(lowbwt, aes(x = age, color = race)) +
+  stat_density(geom = "line")
+```
+
+13. What is the percentage of smoking mothers among white, black, and other races?
+
+```{r}
+tab <- with(lowbwt, table(race, smoke))
+prop.table(tab, margin = 2)
+```
+
+14. What is the difference in the mean birth weight comparing smoker vs non-smoker women? Test the hypothesis of equality of means. What do you conclude?
+
+```{r}
+lowbwt %>% group_by(smoke) %>% summarize(mean(bwt))
+t.test(bwt ~ smoke, data = lowbwt)
+```
+
+
+15. What is the risk of low birth weight among smoker and non-smoker women? Test the hypothesis of equality of proportions (no association). What do you conclude?
+
+```{r}
+tab <- with(lowbwt, table(bwt_cat, smoke))
+chisq.test(tab)
+library(Epi)
+with(lowbwt, twoby2(smoke, bwt_cat))
+```
+
