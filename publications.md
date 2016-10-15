@@ -28,7 +28,7 @@ Vinceti M, Filippini T, <b>Crippa A</b>, de Sesmaisons A, Wise LA, Orsini N. Met
 <div style="height:10px"></div>
 
   <li><a href="https://www.researchgate.net/publication/305892213_Letter_to_editor_Ideal_cardiovascular_health_metrics_and_risk_of_cardiovascular_disease_or_mortality_A_meta-analysis" target="_blank"><i class="fa-li fa fa-file-text"></i></a> 
-Veledara E, <b>Crippa A</b>, Osondua CU, Younusa A, Nasira K. <a href="https://www.ncbi.nlm.nih.gov/pubmed/27521549" target="_blank"> Letter to editor: “Ideal cardiovascular health metrics and risk of cardiovascular disease or mortality: A meta-analysis”</a>. International Journal of Cardiology. 2016 Nov 1.
+Veledar E, <b>Crippa A</b>, Osondua CU, Younusa A, Nasira K. <a href="https://www.ncbi.nlm.nih.gov/pubmed/27521549" target="_blank"> Letter to editor: “Ideal cardiovascular health metrics and risk of cardiovascular disease or mortality: A meta-analysis”</a>. International Journal of Cardiology. 2016 Nov 1.
 </li>
 
   <li><a href="https://www.researchgate.net/publication/305804878_Dose-response_meta-analysis_of_differences_in_means" target="_blank"><i class="fa-li fa fa-file-text"></i></a> 
