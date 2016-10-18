@@ -24,9 +24,17 @@ Web Applications and interactive documents
 <div style="height:20px"></div>
 
 
-[Learning and memory: Morris Water Maze](http://alessiocrippa.com/shiny/fluoride/)         |  [Shiny form](http://alessiocrippa.com/shiny/shinyForm/)                         
+[Learning and memory: Morris Water Maze](http://alessiocrippa.com/shiny/fluoride/)         |  [QSL](http://alessiocrippa.com/shiny/QSL/)                         
 :------------------------------:|:----------------------------------:
-<a href="http://alessiocrippa.com/shiny/fluoride/"><img src="/downloads/pic/fluoride.png" style="width: 400px;"/> |  <a href="http://37.139.4.88//shiny/shinyForm/"><img src="/downloads/pic/shiny_form.png" style="width: 400px;"/> 
+<a href="http://alessiocrippa.com/shiny/fluoride/"><img src="/downloads/pic/fluoride.png" style="width: 400px;"/> |  <a href="http://alessiocrippa.com/shiny/QSL/"><img src="/downloads/pic/QSL.png" style="width: 400px;"/> 
+
+
+<div style="height:20px"></div>
+
+
+[Shiny form](http://alessiocrippa.com/shiny/shinyForm/)        |                           
+:------------------------------:|:----------------------------------:
+<a href="http://alessiocrippa.com/shiny/shinyForm/"><img src="/downloads/pic/shiny_form.png" style="width: 400px;"/>  |  
 
 
 <div style="height:20px"></div>

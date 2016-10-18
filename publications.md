@@ -13,7 +13,7 @@ Publications
 <ul class="fa-ul">
 
 <li><i class="fa-li fa fa-file-text"></i>
-Smith AD, <b>Crippa A</b>, Woodcock J, Brage S. Total and leisure-time physical activity and incident type 2 diabetes mellitus: A systematic review and dose-response meta-analysis of prospective cohort studies. 2016. Diabetologia. In press.
+Smith AD, <b>Crippa A</b>, Woodcock J, Brage S. <a href="https://www.ncbi.nlm.nih.gov/pubmed/27747395" target="_blank">Total and leisure-time physical activity and incident type 2 diabetes mellitus: A systematic review and dose-response meta-analysis of prospective cohort studies</a>. 2016. Diabetologia.
 </li>
 <div style="height:10px"></div>
 
