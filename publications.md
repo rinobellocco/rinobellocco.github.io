@@ -10,6 +10,7 @@ Publications
 
 ## 2016
 
+<ul class="fa-ul">
 
 
 <li><a href="/downloads/jss1256.pdf" target="_blank"><i class="fa-li fa fa-file-text"></i></a> 
