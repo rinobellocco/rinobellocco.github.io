@@ -12,9 +12,18 @@ Publications
 
 <ul class="fa-ul">
 
+<li><a href="https://www.researchgate.net/publication/309189255_Physical_activity_and_incident_type_2_diabetes_mellitus_a_systematic_review_and_dose-response_meta-analysis_of_prospective_cohort_studies" target="_blank"><i class="fa-li fa fa-file-text"></i></a>
+Smith AD, <b>Crippa A</b>, Woodcock J, Brage S. <a href="https://www.ncbi.nlm.nih.gov/pubmed/27747395"  target="_blank">Total and leisure-time physical activity and incident type 2 diabetes mellitus: A systematic review and dose-response meta-analysis of prospective cohort studies</a>. Diabetologia. 2016 Oct 17;1–19.
+</li>
+<div style="height:10px"></div>
+
+<li><a href="http://jaha.ahajournals.org/content/5/10/e004210.full.pdf+html" target="_blank"><i class="fa-li fa fa-file-text"></i></a> 
+Vinceti M, Filippini T, <b>Crippa A</b>, de Sesmaisons A, Wise LA, Orsini N. <a href="http://jaha.ahajournals.org/content/5/10/e004210.abstract" target="_blank">Meta‐Analysis of Potassium Intake and the Risk of Stroke</a>. Journal of the American Heart Association. 2016 Oct 1;5(10):e004210.
+</li>
+<div style="height:10px"></div>
 
 <li><a href="/downloads/jss1256.pdf" target="_blank"><i class="fa-li fa fa-file-text"></i></a> 
-<b>Crippa A</b>, Orsini N. <a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=Multivariate+Dose-Response+Meta-Analysis%3A+the+dosresmeta+R+Package" target="_blank">Multivariate Dose-Response Meta-Analysis: the dosresmeta R Package</a>. Journal of Statistical Software, Code Snippets, 72(1), 1-15. doi:10.18637/jss.v072.c01
+<b>Crippa A</b>, Orsini N. <a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=Multivariate+Dose-Response+Meta-Analysis%3A+the+dosresmeta+R+Package" target="_blank">Multivariate Dose-Response Meta-Analysis: the dosresmeta R Package</a>. Journal of Statistical Software, Code Snippets, 72(1), 1-15. doi:10.18637/jss.v072.c01.
 </li>
 <div style="height:10px"></div>
 
