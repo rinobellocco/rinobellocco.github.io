@@ -13,3 +13,5 @@ Software
 - [dosresmeta](/software/dosresmeta.html): Performing Multivariate Dose-Response Meta-Analysis
 
 - [hetmeta](/software/hetmeta.html): Heterogeneity Measures in Meta-Analysis
+
+- [alecri](https://github.com/alecri/alecri): Several Useful Functions: a Miscellaneous R Package
