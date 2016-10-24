@@ -95,3 +95,15 @@ Apr 8, 2014 Biostatistics group meeting
 September 26, 2013 Episeminar
 </li>
 </ul>
+
+
+
+
+## Other
+
+<ul class="fa-ul">
+<li><a href="http://rpubs.com/alecri/fluoride" target="_blank"><i class="fa-li fa fa-file-text"></i></a> 
+Oct 12, 2016 WebEx meeting NTP
+</li>
+<div style="height:10px"></div>
+</ul>

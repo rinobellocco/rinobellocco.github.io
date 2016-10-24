@@ -8,7 +8,10 @@ navigation_weight: 4
 Software
 ========
 
-## Developed R packages (release version on CRAN, development version on GitHub)
+## Developed R packages
+<!--
+<h2>(release version on CRAN, development version on GitHub)</h2>
+-->
 
 - [dosresmeta](/software/dosresmeta.html): Performing Multivariate Dose-Response Meta-Analysis
 
