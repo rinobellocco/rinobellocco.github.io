@@ -5,6 +5,10 @@ navigation_weight: 1
 ---
 
 
+
+<a href="/downloads/Exercices_KI_Stockholm_Oct2016-3.pdf">Exercises</a>
+
+
 About
 ========
 
