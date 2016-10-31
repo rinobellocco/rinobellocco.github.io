@@ -23,7 +23,7 @@ Vinceti M, Filippini T, <b>Crippa A</b>, de Sesmaisons A, Wise LA, Orsini N. <a 
 <div style="height:10px"></div>
 
 <li><a href="/downloads/jss1256.pdf" target="_blank"><i class="fa-li fa fa-file-text"></i></a> 
-<b>Crippa A</b>, Orsini N. <a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=Multivariate+Dose-Response+Meta-Analysis%3A+the+dosresmeta+R+Package" target="_blank">Multivariate Dose-Response Meta-Analysis: the dosresmeta R Package</a>. Journal of Statistical Software, Code Snippets, 72(1), 1-15. doi:10.18637/jss.v072.c01.
+<b>Crippa A</b>, Orsini N. <a href="https://www.jstatsoft.org/article/view/v072c01/0" target="_blank">Multivariate Dose-Response Meta-Analysis: the dosresmeta R Package</a>. Journal of Statistical Software, Code Snippets, 72(1), 1-15. doi:10.18637/jss.v072.c01.
 </li>
 <div style="height:10px"></div>
 
