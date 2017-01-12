@@ -1,6 +1,7 @@
 ---
 layout: default
 permalink: /software/hetmeta
+show_in_nav: false
 ---
 
 The hetmeta R package: Heterogeneity Measures in Meta-Analysis
