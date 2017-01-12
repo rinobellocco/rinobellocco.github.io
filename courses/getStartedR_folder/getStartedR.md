@@ -2,6 +2,7 @@
 layout: default
 permalink: /courses/getStartedR
 show_in_nav: false
+navigation_weight: 8
 ---
 
 Get started with R

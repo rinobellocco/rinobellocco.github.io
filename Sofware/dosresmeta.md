@@ -2,6 +2,7 @@
 layout: default
 permalink: /software/dosresmeta
 show_in_nav: false
+navigation_weight: 7
 ---
 
 The dosresmeta R package: Performing multivariate dose-response meta-analysis
