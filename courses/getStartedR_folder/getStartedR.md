@@ -6,9 +6,8 @@ permalink: /courses/getStartedR
 Get started with R
 ========
 
-##
 
-## Last update: October 8, 2016
+ Last update: October 8, 2016
 
 Organizer: Doctoral programme in Public Health Science, Karolinska Institutet
 
@@ -19,7 +18,7 @@ Lecture room Sterky, Widerstromska huset, Tomtebodavagen 18A, plan 4
 
 <br>
 
-## Lecture notes:
+ Lecture notes:
 
 <ul class="fa-ul">
 <li><a href="http://rpubs.com/alecri/getStartedR" target="_blank"><i class="fa-li fa fa-file-text"></i> slides </a> 
@@ -31,11 +30,11 @@ Lecture room Sterky, Widerstromska huset, Tomtebodavagen 18A, plan 4
 </ul>
 
 
-## R script:
+ R script:
 
 - Script [.R](http://alecri.github.io/courses/getStartedR_folder/code.R) [.txt](http://alecri.github.io/courses/getStartedR_folder/code.txt)
 
-## Exercises:
+ Exercises:
 
 <ul class="fa-ul">
 <li><a href="http://alecri.github.io/courses/getStartedR_folder/ex_getStartedR.pdf" target="_blank"><i class="fa-li fa fa-file-text"></i> exercises </a> 
@@ -48,7 +47,7 @@ Lecture room Sterky, Widerstromska huset, Tomtebodavagen 18A, plan 4
 </li>
 </ul>
 
-## Dataset
+ Dataset
 
 The interactive part will be based on the marathon dataset while the exercises will be based on the lowbwt dataset. Datasets in different format ar available [here](http://alecri.github.io/data/).
 
@@ -59,14 +58,14 @@ They are related to the following publications:
 
 <br>
 
-## Free resources to help you learn R
+ Free resources to help you learn R
 
 - [R for Data Science](http://r4ds.had.co.nz/)
 
 - [Advanced R](http://adv-r.had.co.nz/)
 
 
-## Additional links
+ Additional links
 
 - [Stockholm R useR group (SRUG)](http://www.meetup.com/StockholmR/)
 
