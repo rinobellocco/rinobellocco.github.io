@@ -1,6 +1,7 @@
 ---
-layout: blog
+layout: default
 permalink: /courses/getStartedR
+show_in_nav: false
 ---
 
 Get started with R

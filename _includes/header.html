@@ -16,9 +16,9 @@
       <div class="trigger">
           {% assign navigation_pages = site.html_pages | sort: 'navigation_weight' %}
         {% for page in navigation_pages %}
-          {% if page.title %}
+          {% unless show_in_nav == false %}
           <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-          {% endif %}
+          {% endunless %}
         {% endfor %}
       </div>
     </nav>
