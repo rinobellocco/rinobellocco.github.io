@@ -12,7 +12,7 @@ Publications
 
 <ul class="fa-ul">
   <li><a href="" target="_blank"><i class="fa-li fa fa-file-text"></i></a> 
-<b>Crippa A</b>, Larsson SC, Discacciati A, Wolk A, Orsini N. <a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=Red+and+processed+meat+consumption+and+risk+of+bladder+cancer%3A+a+dose%E2%80%93response+meta-analysis+of+epidemiological+studies" target="_blank"> Red and processed meat consumption and risk of bladder cancer: a dose-response meta-analysis of epidemiological studies.</a>. Arthritis research & therapy. 2014 Sep 30;16(5):1.
+<b>Crippa A</b>, Larsson SC, Discacciati A, Wolk A, Orsini N. <a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=Red+and+processed+meat+consumption+and+risk+of+bladder+cancer%3A+a+dose%E2%80%93response+meta-analysis+of+epidemiological+studies" target="_blank"> Red and processed meat consumption and risk of bladder cancer: a dose-response meta-analysis of epidemiological studies.</a>. European Journal of Nutrition. 2017 Jan.
 </li>
 <div style="height:10px"></div>
 </ul>

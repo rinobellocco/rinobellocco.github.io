@@ -1,12 +1,11 @@
 ---
 layout: default
 permalink: /courses/getStartedR
+navigation_weight: 10
 ---
 
 Get started with R
 ========
-
-<h2> </h2>
 
 ## Last update: October 8, 2016
 
