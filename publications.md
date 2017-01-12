@@ -8,12 +8,22 @@ navigation_weight: 2
 Publications
 ========
 
+## 2017
+
+<ul class="fa-ul">
+  <li><a href="" target="_blank"><i class="fa-li fa fa-file-text"></i></a> 
+<b>Crippa A</b>, Larsson SC, Discacciati A, Wolk A, Orsini N. <a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=Red+and+processed+meat+consumption+and+risk+of+bladder+cancer%3A+a+dose%E2%80%93response+meta-analysis+of+epidemiological+studies" target="_blank"> Red and processed meat consumption and risk of bladder cancer: a dose-response meta-analysis of epidemiological studies.</a>. Arthritis research & therapy. 2014 Sep 30;16(5):1.
+</li>
+<div style="height:10px"></div>
+</ul>
+
+
 ## 2016
 
 <ul class="fa-ul">
 
 <li><a href="https://www.researchgate.net/publication/309189255_Physical_activity_and_incident_type_2_diabetes_mellitus_a_systematic_review_and_dose-response_meta-analysis_of_prospective_cohort_studies" target="_blank"><i class="fa-li fa fa-file-text"></i></a>
-Smith AD, <b>Crippa A</b>, Woodcock J, Brage S. <a href="https://www.ncbi.nlm.nih.gov/pubmed/27747395"  target="_blank">Total and leisure-time physical activity and incident type 2 diabetes mellitus: A systematic review and dose-response meta-analysis of prospective cohort studies</a>. Diabetologia. 2016 Oct 17;1–19.
+Smith AD, <b>Crippa A</b>, Woodcock J, Brage S. <a href="https://www.ncbi.nlm.nih.gov/pubmed/27747395"  target="_blank">Total and leisure-time physical activity and incident type 2 diabetes mellitus: A systematic review and dose-response meta-analysis of prospective cohort studies</a>. European Journal of Nutrition. 2017 Jan.
 </li>
 <div style="height:10px"></div>
 

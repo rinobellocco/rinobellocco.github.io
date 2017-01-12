@@ -7,8 +7,6 @@ Get started with R
 ========
 
 
-## Last update: October 8, 2016
-
 Organizer: Doctoral programme in Public Health Science, Karolinska Institutet
 
 Locations and time: October 13, 9.00-12.00, 13.00-15.00  
