@@ -1,7 +1,6 @@
 ---
-layout: default
+layout: blog
 permalink: /courses/getStartedR
-navigation_weight: 10
 ---
 
 Get started with R
