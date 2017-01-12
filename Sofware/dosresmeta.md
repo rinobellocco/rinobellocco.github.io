@@ -19,13 +19,13 @@ Extensions to meta-regression models and alternative estimation procedures are i
 
 &nbsp;
 
- Reproducible code
+## Reproducible code
 
 
 * [*GitHub repository* for Discacciati, A., **Crippa, A.**, & Orsini N.  “Goodness-of-fit tools for dose-response meta-analysis of binary outcomes" 2015. JRSM](https://github.com/anddis/goodness-of-fit-meta-analysis)
 
 
- Analysis Examples
+## Analysis Examples
 
 The links below demonstrate how the models, methods, and techniques described in the respective articles/chapters can be applied via the `dosresmeta` package. The examples are run using dosresmeta version 2.0.0 avaiable on GitHub.
 
