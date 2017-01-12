@@ -2,6 +2,7 @@
 layout: default
 title: WebApp
 permalink: /webapp/
+menu: main
 navigation_weight: 5
 ---
 

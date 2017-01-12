@@ -2,6 +2,7 @@
 layout: default
 title: Publications
 permalink: /publications/
+menu: main
 navigation_weight: 2
 ---
 

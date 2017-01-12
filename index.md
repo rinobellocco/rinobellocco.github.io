@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Home
+menu: main
 navigation_weight: 1
 ---
 

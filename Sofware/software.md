@@ -2,6 +2,7 @@
 layout: default
 title: Software
 permalink: /software/
+menu: main
 navigation_weight: 4
 ---
 

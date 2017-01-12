@@ -2,6 +2,7 @@
 layout: default
 title: Presentations
 permalink: /presentation/
+menu: main
 navigation_weight: 3
 ---
 
