@@ -46,6 +46,7 @@ Link
 * [Google scholar profile](https://scholar.google.it/citations?user=NLRD9vkAAAAJ&hl=en)
 * [ResearchGate](https://www.researchgate.net/profile/Alessio_Crippa)  
 * [Linkedin profile](https://www.linkedin.com/in/alessio-crippa-68519475)  
+* [Publons](https://publons.com/author/1209057/alessio-crippa#profile)  
 * [Rpubs](http://rpubs.com/alecri)  
 * [Stockholm R useR group](http://www.meetup.com/StockholmR/events/226376066/)
 
