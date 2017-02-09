@@ -29,7 +29,7 @@ Smith AD, <b>Crippa A</b>, Woodcock J, Brage S. <a href="https://www.ncbi.nlm.ni
 <div style="height:10px"></div>
 
 <li><a href="http://jaha.ahajournals.org/content/5/10/e004210.full.pdf+html" target="_blank"><i class="fa-li fa fa-file-text"></i></a> 
-Vinceti M, Filippini T, <b>Crippa A</b>, de Sesmaisons A, Wise LA, Orsini N. <a href="http://jaha.ahajournals.org/content/5/10/e004210.abstract" target="_blank">Meta‐Analysis of Potassium Intake and the Risk of Stroke</a>. Journal of the American Heart Association. 2016 Oct 1;5(10):e004210.
+Vinceti M, Filippini T, <b>Crippa A</b>, de Sesmaisons A, Wise LA, Orsini N. <a href="https://www.ncbi.nlm.nih.gov/pubmed/27792643" target="_blank">Meta‐Analysis of Potassium Intake and the Risk of Stroke</a>. Journal of the American Heart Association. 2016 Oct 1;5(10):e004210.
 </li>
 <div style="height:10px"></div>
 
