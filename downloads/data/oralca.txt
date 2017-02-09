@@ -1,0 +1,339 @@
+"id" "sex" "age" "stage" "time" "event" "all"
+"1" 1 "Male" 65.4227357354068 "unkn" 5.081 "Alive" 1
+"2" 2 "Female" 83.0878326579782 "III" 0.419 "Oral ca. death" 1
+"3" 3 "Male" 52.5900777570912 "II" 7.915 "Other death" 1
+"4" 4 "Male" 77.08629941956 "I" 2.48 "Other death" 1
+"5" 5 "Male" 80.3362172817872 "IV" 2.5 "Oral ca. death" 1
+"6" 6 "Female" 82.5813163946993 "IV" 0.167 "Other death" 1
+"7" 7 "Male" 73.0752381995401 "II" 5.925 "Alive" 1
+"8" 8 "Male" 74.4962216624685 "unkn" 1.503 "Oral ca. death" 1
+"9" 9 "Female" 56.4998357244551 "IV" 13.333 "Oral ca. death" 1
+"10" 10 "Male" 49.4907458109737 "II" 7.666 "Alive" 1
+"11" 11 "Male" 53.0801664658854 "IV" 2.834 "Alive" 1
+"12" 12 "Female" 79.0822472894536 "unkn" 0.914 "Oral ca. death" 1
+"13" 13 "Male" 60.4944693899902 "III" 3.083 "Other death" 1
+"14" 14 "Male" 74.0800569488556 "IV" 4.668 "Other death" 1
+"15" 15 "Female" 88.407622385281 "IV" 4.816 "Other death" 1
+"16" 16 "Male" 64.4124411345965 "II" 2.166 "Oral ca. death" 1
+"17" 17 "Male" 79.9939765633555 "II" 5.837 "Other death" 1
+"18" 18 "Female" 90.748548899354 "IV" 0.162 "Oral ca. death" 1
+"19" 19 "Male" 65.1598948636513 "unkn" 3.666 "Other death" 1
+"20" 20 "Female" 63.1584711422629 "IV" 0.504 "Oral ca. death" 1
+"21" 21 "Female" 65.6609352754353 "I" 5.229 "Alive" 1
+"22" 22 "Male" 78.3265797831561 "II" 1.916 "Other death" 1
+"23" 23 "Male" 62.8244442010732 "I" 5.916 "Other death" 1
+"24" 24 "Female" 72.4071843171612 "II" 14.396 "Alive" 1
+"25" 25 "Male" 92.2379805059686 "unkn" 0.419 "Other death" 1
+"26" 26 "Female" 55.2403898806265 "I" 6.998 "Other death" 1
+"27" 27 "Male" 65.9867484393824 "IV" 5.246 "Other death" 1
+"28" 28 "Male" 57.3157375971964 "IV" 1.815 "Alive" 1
+"29" 29 "Male" 74.403132187055 "IV" 0.747 "Other death" 1
+"30" 30 "Female" 82.6525024641332 "IV" 5.503 "Oral ca. death" 1
+"31" 31 "Male" 49.4031321870552 "III" 7.231 "Alive" 1
+"32" 32 "Male" 15.1516810864091 "I" 14.48 "Alive" 1
+"33" 33 "Female" 50.566750629723 "I" 1.9 "Alive" 1
+"34" 34 "Male" 57.8222538604753 "III" 4.244 "Other death" 1
+"35" 35 "Female" 47.8151352535319 "III" 1.418 "Oral ca. death" 1
+"36" 36 "Male" 41.901215639032 "II" 2.746 "Other death" 1
+"37" 37 "Male" 63.3117949841201 "IV" 0.252 "Oral ca. death" 1
+"38" 38 "Male" 47.7329974811082 "I" 16.564 "Alive" 1
+"39" 39 "Female" 79.7283977658526 "III" 7.918 "Other death" 1
+"40" 40 "Male" 65.1462052349141 "III" 19.833 "Other death" 1
+"41" 41 "Female" 47.8123973277845 "III" 1.166 "Oral ca. death" 1
+"42" 42 "Male" 48.7268645274339 "III" 7.748 "Other death" 1
+"43" 43 "Male" 45.3126711203593 "III" 5.229 "Alive" 1
+"44" 44 "Male" 84.8072500273793 "II" 10.919 "Other death" 1
+"45" 45 "Female" 72.1388675939111 "II" 7.984 "Oral ca. death" 1
+"46" 46 "Female" 86.4801226590735 "IV" 0.83 "Oral ca. death" 1
+"47" 47 "Female" 88.0599058153543 "II" 4.917 "Other death" 1
+"48" 48 "Female" 71.3120140181798 "III" 13.336 "Other death" 1
+"49" 49 "Female" 66.474099222429 "unkn" 10.502 "Other death" 1
+"50" 50 "Male" 56.6394699375753 "II" 1.421 "Oral ca. death" 1
+"51" 51 "Male" 58.7285072828824 "unkn" 2.563 "Alive" 1
+"52" 52 "Male" 54.0603438834737 "IV" 5.248 "Other death" 1
+"53" 53 "Female" 69.3105902967911 "unkn" 13.081 "Other death" 1
+"54" 54 "Female" 71.8924542766401 "III" 6.672 "Alive" 1
+"55" 55 "Female" 74.2251670134706 "unkn" 3.146 "Alive" 1
+"56" 56 "Female" 77.2998576278612 "III" 9.834 "Alive" 1
+"57" 57 "Male" 51.0568393385172 "IV" 0.914 "Other death" 1
+"58" 58 "Male" 38.2241813602016 "I" 9.648 "Other death" 1
+"59" 59 "Female" 58.6381557332163 "I" 8.923 "Alive" 1
+"60" 60 "Male" 61.3870331836599 "unkn" 1.982 "Alive" 1
+"61" 61 "Female" 80.8865403570258 "IV" 6.913 "Oral ca. death" 1
+"62" 62 "Male" 59.4704851604424 "IV" 1.084 "Oral ca. death" 1
+"63" 63 "Female" 61.8825977439492 "II" 15.901 "Alive" 1
+"64" 64 "Male" 52.8885116635636 "III" 2.661 "Oral ca. death" 1
+"65" 65 "Male" 66.7177746139523 "II" 1.747 "Other death" 1
+"66" 66 "Male" 52.8830358120688 "IV" 9.919 "Oral ca. death" 1
+"67" 67 "Male" 67.2188150257364 "II" 15.833 "Other death" 1
+"68" 68 "Male" 69.8800788522615 "unkn" 3.253 "Other death" 1
+"69" 69 "Male" 79.380681195926 "I" 3.168 "Other death" 1
+"70" 70 "Male" 78.8851166356369 "unkn" 0.665 "Oral ca. death" 1
+"71" 71 "Male" 54.9638593801337 "I" 6.166 "Other death" 1
+"72" 72 "Male" 56.4642426897383 "III" 11.499 "Other death" 1
+"73" 73 "Female" 75.2135582083015 "II" 11.748 "Oral ca. death" 1
+"74" 74 "Male" 51.7960792903295 "III" 9.563 "Alive" 1
+"75" 75 "Female" 89.4644617237982 "unkn" 8.167 "Other death" 1
+"76" 76 "Female" 40.8799693352316 "I" 16.397 "Alive" 1
+"77" 77 "Male" 62.1262731354727 "III" 8.337 "Alive" 1
+"78" 78 "Male" 46.8787646479027 "unkn" 0.668 "Oral ca. death" 1
+"79" 79 "Male" 87.7121892454277 "unkn" 0.167 "Oral ca. death" 1
+"80" 80 "Female" 74.2936151571569 "II" 8.983 "Alive" 1
+"81" 81 "Female" 73.5434235023547 "unkn" 2.664 "Oral ca. death" 1
+"82" 82 "Male" 53.8714270068995 "unkn" 4.923 "Other death" 1
+"83" 83 "Female" 71.8760267221551 "unkn" 3.499 "Alive" 1
+"84" 84 "Male" 50.0383309604645 "III" 2.171 "Oral ca. death" 1
+"85" 85 "Female" 54.8735078304676 "I" 11.581 "Other death" 1
+"86" 86 "Female" 47.8698937684808 "IV" 2.831 "Other death" 1
+"87" 87 "Male" 72.6180045997153 "IV" 2.5 "Oral ca. death" 1
+"88" 88 "Male" 75.5393713722483 "IV" 15.316 "Other death" 1
+"89" 89 "Female" 71.1230971416057 "II" 5.396 "Alive" 1
+"90" 90 "Male" 70.7041945022452 "unkn" 1.418 "Oral ca. death" 1
+"91" 91 "Female" 54.1999780965941 "I" 3.833 "Other death" 1
+"92" 92 "Male" 36.4554813273462 "II" 14.396 "Alive" 1
+"93" 93 "Female" 82.2062205672983 "III" 14.166 "Other death" 1
+"94" 94 "Male" 40.6226043149709 "IV" 19.146 "Alive" 1
+"95" 95 "Female" 68.5330193845143 "IV" 0.999 "Oral ca. death" 1
+"96" 96 "Male" 78.4525243675391 "II" 4.914 "Oral ca. death" 1
+"97" 97 "Male" 76.0267221552951 "IV" 2.067 "Oral ca. death" 1
+"98" 98 "Female" 74.3675391523382 "IV" 3.335 "Oral ca. death" 1
+"99" 99 "Female" 83.369839009966 "unkn" 0.914 "Oral ca. death" 1
+"100" 100 "Male" 65.2748877450445 "IV" 0.252 "Other death" 1
+"101" 101 "Male" 48.2751067791041 "unkn" 2.084 "Oral ca. death" 1
+"102" 102 "Male" 46.6953236228233 "I" 3.25 "Other death" 1
+"103" 103 "Female" 84.1145548132733 "II" 1.084 "Oral ca. death" 1
+"104" 104 "Female" 85.8640893658965 "unkn" 0.252 "Oral ca. death" 1
+"105" 105 "Male" 52.1958164494579 "II" 0.671 "Other death" 1
+"106" 106 "Female" 81.9433796955427 "unkn" 1.834 "Oral ca. death" 1
+"107" 107 "Male" 76.188259774395 "unkn" 4.838 "Oral ca. death" 1
+"108" 108 "Female" 58.6901763224182 "unkn" 1.166 "Oral ca. death" 1
+"109" 109 "Female" 48.1053553827621 "III" 9.081 "Other death" 1
+"110" 110 "Female" 70.1073266893002 "III" 0.917 "Other death" 1
+"111" 111 "Female" 74.529076771438 "unkn" 0.246 "Oral ca. death" 1
+"112" 112 "Female" 73.4475961011935 "IV" 0.83 "Oral ca. death" 1
+"113" 113 "Female" 69.7760376738584 "III" 7.748 "Oral ca. death" 1
+"114" 114 "Female" 68.7739568502902 "III" 7.65 "Alive" 1
+"115" 115 "Male" 48.4339064724563 "I" 11.734 "Alive" 1
+"116" 116 "Female" 70.5234914029131 "III" 7.398 "Alive" 1
+"117" 117 "Male" 68.8560946227137 "IV" 1.081 "Oral ca. death" 1
+"118" 118 "Male" 63.1885883254845 "II" 7.483 "Alive" 1
+"119" 119 "Female" 44.6062862775161 "I" 7.066 "Alive" 1
+"120" 120 "Male" 53.6879859818202 "unkn" 18.899 "Alive" 1
+"121" 121 "Female" 62.0194940313218 "II" 0.917 "Oral ca. death" 1
+"122" 122 "Female" 61.6033293177088 "IV" 1.081 "Other death" 1
+"123" 123 "Female" 41.178403241704 "IV" 11.901 "Other death" 1
+"124" 124 "Female" 70.6877669477603 "IV" 0.914 "Oral ca. death" 1
+"125" 125 "Female" 53.6003723579017 "II" 6.732 "Alive" 1
+"126" 126 "Male" 44.4337969554265 "II" 17.916 "Other death" 1
+"127" 127 "Female" 78.438834738802 "IV" 1.418 "Oral ca. death" 1
+"128" 128 "Female" 76.1006461504765 "I" 3.587 "Oral ca. death" 1
+"129" 129 "Male" 76.352535319242 "I" 0.832 "Other death" 1
+"130" 130 "Female" 82.682619647355 "unkn" 0.668 "Oral ca. death" 1
+"131" 131 "Female" 81.9351659183003 "III" 4.589 "Other death" 1
+"132" 132 "Female" 68.7684809987952 "III" 5.58 "Other death" 1
+"133" 133 "Male" 69.5104588763552 "I" 3.833 "Oral ca. death" 1
+"134" 134 "Male" 73.7624575621508 "II" 3.398 "Alive" 1
+"135" 135 "Female" 81.6011389771108 "III" 1.084 "Oral ca. death" 1
+"136" 136 "Male" 38.5992771876029 "I" 8.397 "Alive" 1
+"137" 137 "Male" 51.7687000328549 "unkn" 2.916 "Oral ca. death" 1
+"138" 138 "Male" 58.4328113021575 "IV" 5.079 "Oral ca. death" 1
+"139" 139 "Female" 52.3491402913153 "unkn" 5.834 "Oral ca. death" 1
+"140" 140 "Female" 64.0154419012156 "unkn" 7.915 "Other death" 1
+"141" 141 "Male" 41.6821815792357 "I" 10.563 "Other death" 1
+"142" 142 "Female" 81.5135253531923 "III" 0.583 "Oral ca. death" 1
+"143" 143 "Male" 58.0139086627971 "IV" 0.419 "Oral ca. death" 1
+"144" 144 "Male" 51.7604862556127 "unkn" 3.001 "Other death" 1
+"145" 145 "Female" 66.8409812725879 "IV" 6.749 "Oral ca. death" 1
+"146" 146 "Male" 57.0967035374001 "III" 2.396 "Alive" 1
+"147" 147 "Male" 52.179388894973 "IV" 0.496 "Oral ca. death" 1
+"148" 148 "Female" 85.0125944584383 "II" 1.665 "Other death" 1
+"149" 149 "Male" 60.2535319242143 "II" 3.901 "Alive" 1
+"150" 150 "Female" 74.263497973935 "III" 2.563 "Alive" 1
+"151" 151 "Male" 72.423611871646 "I" 5.815 "Alive" 1
+"152" 152 "Male" 59.9249808345198 "IV" 1.314 "Alive" 1
+"153" 153 "Male" 54.2519986857956 "I" 2.899 "Alive" 1
+"154" 154 "Female" 85.0919943051144 "IV" 1.413 "Oral ca. death" 1
+"155" 155 "Female" 83.175446281897 "IV" 5.164 "Other death" 1
+"156" 156 "Male" 62.7532581316393 "IV" 14.067 "Other death" 1
+"157" 157 "Male" 51.9192859489651 "IV" 19.671 "Other death" 1
+"158" 158 "Female" 59.8373672106013 "II" 3.502 "Oral ca. death" 1
+"159" 159 "Female" 60.8367101084218 "II" 0.75 "Oral ca. death" 1
+"160" 160 "Male" 69.4995071733656 "IV" 1.333 "Other death" 1
+"161" 161 "Female" 72.1662468513853 "III" 9.084 "Oral ca. death" 1
+"162" 162 "Female" 71.9198335341146 "II" 4.17 "Oral ca. death" 1
+"163" 163 "Male" 31.4149600262842 "IV" 15.173 "Alive" 1
+"164" 164 "Female" 68.6726535976345 "I" 3.001 "Other death" 1
+"165" 165 "Female" 80.4210929799585 "II" 0.747 "Oral ca. death" 1
+"166" 166 "Male" 78.668820501588 "II" 4.331 "Oral ca. death" 1
+"167" 167 "Male" 78.0856423173805 "IV" 1.084 "Oral ca. death" 1
+"168" 168 "Male" 76.4209834629285 "II" 1.251 "Oral ca. death" 1
+"169" 169 "Female" 64.0017522724784 "I" 22.007 "Other death" 1
+"170" 170 "Female" 72.3359982477273 "unkn" 0.999 "Oral ca. death" 1
+"171" 171 "Female" 26.2512320665865 "unkn" 16.756 "Alive" 1
+"172" 172 "Male" 75.1697513963422 "I" 1.999 "Oral ca. death" 1
+"173" 173 "Female" 67.5829591501479 "I" 3.173 "Alive" 1
+"174" 174 "Female" 48.3326032198006 "II" 12.09 "Alive" 1
+"175" 175 "Male" 58.9995619318804 "IV" 0.586 "Oral ca. death" 1
+"176" 176 "Female" 77.0835614938123 "I" 6.174 "Alive" 1
+"177" 177 "Female" 64.9162194721278 "unkn" 3.34 "Alive" 1
+"178" 178 "Male" 69.332493702771 "I" 5.673 "Alive" 1
+"179" 179 "Female" 82.9126054101412 "unkn" 0.496 "Other death" 1
+"180" 180 "Female" 51.9138100974701 "unkn" 6.341 "Alive" 1
+"181" 181 "Male" 73.8281677800896 "IV" 1.251 "Oral ca. death" 1
+"182" 182 "Male" 68.9957288358339 "II" 13.673 "Other death" 1
+"183" 183 "Male" 77.3217610338409 "III" 0.167 "Other death" 1
+"184" 184 "Female" 35.9133720293507 "IV" 4.504 "Alive" 1
+"185" 185 "Male" 80.9084437630052 "II" 1.333 "Oral ca. death" 1
+"186" 186 "Male" 56.4122221005366 "IV" 4.58 "Other death" 1
+"187" 187 "Male" 72.9082247289452 "II" 2.664 "Other death" 1
+"188" 188 "Female" 76.9083342459751 "I" 10.341 "Alive" 1
+"189" 189 "Male" 41.9915671886977 "unkn" 4.09 "Alive" 1
+"190" 190 "Male" 62.8189683495784 "unkn" 0.17 "Oral ca. death" 1
+"191" 191 "Female" 85.6587449348374 "II" 5.832 "Other death" 1
+"192" 192 "Female" 74.6577592815684 "II" 10.007 "Alive" 1
+"193" 193 "Female" 84.2322856204141 "II" 2.168 "Oral ca. death" 1
+"194" 194 "Male" 64.7355163727959 "III" 7.414 "Other death" 1
+"195" 195 "Female" 56.7352973387362 "I" 2.754 "Alive" 1
+"196" 196 "Female" 61.1543094951267 "II" 6.587 "Oral ca. death" 1
+"197" 197 "Male" 28.4908553280034 "III" 12.756 "Alive" 1
+"198" 198 "Female" 80.9878436096812 "II" 10.081 "Other death" 1
+"199" 199 "Male" 72.4017084656666 "unkn" 0.167 "Oral ca. death" 1
+"200" 200 "Female" 52.9049392180484 "II" 2.412 "Other death" 1
+"201" 201 "Male" 76.5660935275434 "II" 14.007 "Other death" 1
+"202" 202 "Male" 53.8139305662032 "unkn" 5.673 "Alive" 1
+"203" 203 "Male" 80.823568064834 "I" 4.668 "Other death" 1
+"204" 204 "Male" 70.8191873836381 "IV" 0.419 "Oral ca. death" 1
+"205" 205 "Female" 56.9023108093309 "I" 7.34 "Alive" 1
+"206" 206 "Female" 87.3206658635418 "I" 0.665 "Oral ca. death" 1
+"207" 207 "Female" 85.0728288248824 "unkn" 0.334 "Oral ca. death" 1
+"208" 208 "Male" 60.154966597306 "III" 1.166 "Oral ca. death" 1
+"209" 209 "Male" 49.9041725988391 "IV" 4.172 "Alive" 1
+"210" 210 "Male" 35.6505311575947 "III" 8.424 "Alive" 1
+"211" 211 "Female" 58.1508049501699 "III" 1.081 "Oral ca. death" 1
+"212" 212 "Male" 56.4806702442231 "IV" 0.756 "Oral ca. death" 1
+"213" 213 "Female" 46.8185302814588 "III" 0.832 "Oral ca. death" 1
+"214" 214 "Male" 49.9808345197678 "unkn" 0.668 "Oral ca. death" 1
+"215" 215 "Male" 54.0685576607164 "unkn" 3.173 "Alive" 1
+"216" 216 "Male" 58.4848318913591 "unkn" 4.504 "Alive" 1
+"217" 217 "Female" 83.8955207534773 "I" 4.674 "Alive" 1
+"218" 218 "Female" 71.6433030336218 "unkn" 13.84 "Alive" 1
+"219" 219 "Male" 36.5622604314972 "II" 4.424 "Alive" 1
+"220" 220 "Female" 80.3143138758076 "II" 2.415 "Oral ca. death" 1
+"221" 221 "Male" 63.2296572116963 "III" 1.58 "Oral ca. death" 1
+"222" 222 "Male" 72.0622056729821 "III" 5.342 "Alive" 1
+"223" 223 "Male" 39.7273025955537 "III" 9.342 "Alive" 1
+"224" 224 "Male" 51.7248932208959 "II" 10.259 "Alive" 1
+"225" 225 "Male" 51.4730040521301 "unkn" 0.671 "Oral ca. death" 1
+"226" 226 "Female" 29.9775490088709 "III" 19.921 "Alive" 1
+"227" 227 "Male" 47.8096594020369 "IV" 0.085 "Oral ca. death" 1
+"228" 228 "Male" 49.9780965940204 "unkn" 0.832 "Oral ca. death" 1
+"229" 229 "Male" 53.1458766838243 "unkn" 0.162 "Oral ca. death" 1
+"230" 230 "Female" 72.8069214762895 "III" 6.253 "Other death" 1
+"231" 231 "Male" 65.8087832657977 "III" 13.166 "Oral ca. death" 1
+"232" 232 "Female" 73.1409484174792 "I" 1.166 "Oral ca. death" 1
+"233" 233 "Male" 67.3940422735734 "II" 3.581 "Oral ca. death" 1
+"234" 234 "Male" 40.3104807797613 "II" 16.756 "Alive" 1
+"235" 235 "Male" 78.0582630599058 "I" 1.336 "Oral ca. death" 1
+"236" 236 "Male" 61.718322199102 "IV" 1.582 "Other death" 1
+"237" 237 "Female" 79.2218815025735 "III" 0.917 "Other death" 1
+"238" 238 "Male" 56.0535538276201 "III" 2.752 "Oral ca. death" 1
+"239" 239 "Male" 48.3900996604971 "III" 12.756 "Alive" 1
+"240" 240 "Female" 81.4779323184757 "II" 7.329 "Oral ca. death" 1
+"241" 241 "Male" 52.7187602672216 "II" 1.081 "Oral ca. death" 1
+"242" 242 "Male" 70.142919724017 "unkn" 0.747 "Other death" 1
+"243" 243 "Male" 32.4717993648012 "IV" 0.58 "Oral ca. death" 1
+"244" 244 "Male" 42.1339393275655 "IV" 0.589 "Oral ca. death" 1
+"245" 245 "Male" 69.636403460738 "II" 0.419 "Other death" 1
+"246" 246 "Female" 73.5516372795971 "unkn" 3.173 "Alive" 1
+"247" 247 "Female" 66.4631475194392 "III" 15.091 "Other death" 1
+"248" 248 "Male" 59.9660497207317 "III" 2.998 "Oral ca. death" 1
+"249" 249 "Female" 81.7188697842514 "I" 0.17 "Other death" 1
+"250" 250 "Male" 75.966487788851 "unkn" 1.339 "Other death" 1
+"251" 251 "Male" 64.7984886649874 "unkn" 3.001 "Other death" 1
+"252" 252 "Male" 55.2978863213229 "III" 4.92 "Other death" 1
+"253" 253 "Male" 59.2103822144343 "I" 13.585 "Other death" 1
+"254" 254 "Male" 53.964516482313 "III" 1.084 "Oral ca. death" 1
+"255" 255 "Female" 72.4619428321103 "unkn" 4.257 "Alive" 1
+"256" 256 "Male" 62.4657759281567 "III" 16.999 "Other death" 1
+"257" 257 "Male" 55.7961888073594 "III" 12.504 "Alive" 1
+"258" 258 "Female" 70.715146205235 "I" 2.33 "Oral ca. death" 1
+"259" 259 "Female" 81.7927937794327 "III" 0.671 "Oral ca. death" 1
+"260" 260 "Female" 52.7926842624029 "I" 17.259 "Alive" 1
+"261" 261 "Male" 63.5417807469062 "unkn" 5.585 "Other death" 1
+"262" 262 "Male" 53.5401379914576 "unkn" 2.921 "Alive" 1
+"263" 263 "Female" 77.2067681524477 "unkn" 3.666 "Other death" 1
+"264" 264 "Male" 67.4597524915123 "unkn" 15.581 "Other death" 1
+"265" 265 "Male" 62.6273135472566 "IV" 0.085 "Oral ca. death" 1
+"266" 266 "Male" 31.3766290658198 "unkn" 2.839 "Alive" 1
+"267" 267 "Male" 70.70967035374 "III" 0.249 "Other death" 1
+"268" 268 "Female" 69.5378381338298 "II" 10.42 "Oral ca. death" 1
+"269" 269 "Female" 73.2066586354179 "II" 1.418 "Other death" 1
+"270" 270 "Male" 71.8732887964079 "II" 3.587 "Other death" 1
+"271" 271 "Male" 61.7867703427883 "I" 5.342 "Alive" 1
+"272" 272 "Male" 58.9530171941735 "III" 5.418 "Other death" 1
+"273" 273 "Male" 68.5384952360093 "II" 13.755 "Oral ca. death" 1
+"274" 274 "Female" 58.2877012375425 "unkn" 16.58 "Other death" 1
+"275" 275 "Female" 48.7022231957069 "II" 12.424 "Alive" 1
+"276" 276 "Female" 50.2902201292302 "III" 14.754 "Alive" 1
+"277" 277 "Male" 26.7002518891688 "unkn" 18.174 "Alive" 1
+"278" 278 "Female" 64.9518125068448 "III" 14.672 "Alive" 1
+"279" 279 "Male" 59.7853466213996 "IV" 1.169 "Oral ca. death" 1
+"280" 280 "Female" 84.6977329974811 "II" 0.498 "Oral ca. death" 1
+"281" 281 "Female" 31.8639798488666 "II" 0.665 "Oral ca. death" 1
+"282" 282 "Male" 50.8651845361956 "IV" 6.426 "Alive" 1
+"283" 283 "Male" 82.5320337312453 "unkn" 3.258 "Alive" 1
+"284" 284 "Female" 61.447267550104 "I" 14.341 "Alive" 1
+"285" 285 "Male" 45.5289672544081 "unkn" 4.172 "Alive" 1
+"286" 286 "Female" 75.5256817435113 "IV" 0.419 "Oral ca. death" 1
+"287" 287 "Female" 66.6931332822255 "III" 9.081 "Other death" 1
+"288" 288 "Female" 57.4389442558318 "II" 2.42 "Other death" 1
+"289" 289 "Female" 72.6974044463914 "III" 11.671 "Oral ca. death" 1
+"290" 290 "Male" 47.1114883364362 "III" 0.917 "Oral ca. death" 1
+"291" 291 "Female" 51.7796517358447 "III" 8.504 "Alive" 1
+"292" 292 "Female" 58.1124739897054 "II" 9.832 "Other death" 1
+"293" 293 "Female" 74.8631037126272 "II" 1.413 "Oral ca. death" 1
+"294" 294 "Female" 33.1946117621289 "II" 11.838 "Alive" 1
+"295" 295 "Male" 39.1085313766291 "III" 3.329 "Oral ca. death" 1
+"296" 296 "Male" 69.5186726535976 "unkn" 1.667 "Other death" 1
+"297" 297 "Male" 73.2696309276093 "III" 3.915 "Other death" 1
+"298" 298 "Male" 69.6884240499398 "I" 7.754 "Alive" 1
+"299" 299 "Male" 73.6940094184647 "IV" 3.671 "Alive" 1
+"300" 300 "Male" 75.6926952141057 "II" 17.588 "Alive" 1
+"301" 301 "Female" 81.6914905267768 "I" 5.588 "Alive" 1
+"302" 302 "Male" 39.2728069214763 "II" 10.007 "Alive" 1
+"303" 303 "Female" 38.0215748548899 "II" 15.091 "Alive" 1
+"304" 304 "Male" 82.603219800679 "IV" 0.914 "Oral ca. death" 1
+"305" 305 "Female" 82.7674953455262 "I" 0.498 "Oral ca. death" 1
+"306" 306 "Female" 56.7708903734531 "I" 12.424 "Alive" 1
+"307" 307 "Male" 69.9375752929582 "unkn" 3.838 "Alive" 1
+"308" 308 "Female" 45.8465666411128 "II" 16.589 "Alive" 1
+"309" 309 "Male" 68.4371919833534 "IV" 0.329 "Oral ca. death" 1
+"310" 310 "Female" 61.9318804074032 "II" 13.336 "Other death" 1
+"311" 311 "Female" 54.5148395575511 "I" 4.339 "Alive" 1
+"312" 312 "Male" 76.683824334684 "III" 0.999 "Oral ca. death" 1
+"313" 313 "Male" 51.930237651955 "IV" 9.503 "Alive" 1
+"314" 314 "Male" 54.5997152557225 "III" 3.168 "Other death" 1
+"315" 315 "Female" 62.9312233052237 "IV" 7.001 "Other death" 1
+"316" 316 "Female" 65.3460738144781 "IV" 1.999 "Oral ca. death" 1
+"317" 317 "Female" 64.34399299091 "II" 23.258 "Alive" 1
+"318" 318 "Female" 33.9311137881939 "III" 0.413 "Oral ca. death" 1
+"319" 319 "Male" 71.2572555032309 "I" 6.916 "Oral ca. death" 1
+"320" 320 "Male" 58.7613623918519 "IV" 3.669 "Other death" 1
+"321" 321 "Male" 53.512758733983 "unkn" 2.834 "Oral ca. death" 1
+"322" 322 "Female" 71.4242689738255 "II" 11.425 "Alive" 1
+"323" 323 "Male" 43.6753915233819 "unkn" 5.175 "Alive" 1
+"324" 324 "Female" 67.5090351549666 "unkn" 5.259 "Alive" 1
+"325" 325 "Female" 77.1766509692256 "IV" 5.175 "Alive" 1
+"326" 326 "Female" 72.6755010404117 "II" 9.585 "Other death" 1
+"327" 327 "Male" 34.9249808345198 "unkn" 3.838 "Alive" 1
+"328" 328 "Male" 48.5023546161428 "II" 13.008 "Alive" 1
+"329" 329 "Male" 71.3421312014018 "III" 1.084 "Oral ca. death" 1
+"330" 330 "Female" 64.4261307633335 "II" 8.756 "Alive" 1
+"331" 331 "Male" 40.2584601905596 "II" 5.418 "Other death" 1
+"332" 332 "Male" 56.7572007447159 "III" 1.418 "Other death" 1
+"333" 333 "Male" 32.1733654583288 "unkn" 2.754 "Alive" 1
+"334" 334 "Female" 71.2490417259883 "III" 9.9 "Other death" 1
+"335" 335 "Male" 56.4231738035264 "III" 20.923 "Alive" 1
+"336" 336 "Female" 84.9195049830248 "III" 1.084 "Oral ca. death" 1
+"337" 337 "Male" 87.3370934180266 "unkn" 1.087 "Other death" 1
+"338" 338 "Male" 62.7532581316395 "II" 6.007 "Other death" 1
