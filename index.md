@@ -6,6 +6,9 @@ navigation_weight: 1
 ---
 
 
+<h2><a href="http://alecri.github.io/downloads/review_survival.R">Code for the workshop</a></h2>
+
+
 About
 ========
 
