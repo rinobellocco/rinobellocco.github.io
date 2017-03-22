@@ -36,8 +36,7 @@ Contact
 
 [PHS - Public Health Sciences](http://ki.se/en/phs/startpage)  
 [Karolinska Institutet](http://ki.se/start)  
-**Visiting address** :  Widerströmska huset, Tomtebodavägen 18A, Solna 
-SE-171 77, Stockholm, Sweden  
+**Visiting address** :  Solnavägen 1E (Torsplan), Stockholm SE-113 65, Sweden  
 **Phone**: 	+46(0)720282766  
 **Email**: <a href="mailto:alessio.crippa@ki.se">alessio.crippa<span class="at">@</span>ki.se</a> or
 <a href="mailto:alessio.crippa@gmail.com">alessio.crippa<span class="at">@</span>gmail.com</a>  
