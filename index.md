@@ -8,6 +8,7 @@ navigation_weight: 1
 
 <div style="height:50px"></div>
 <h1><center><a href="http://alecri.github.io/downloads/review_survival.R">Code for the workshop on survival analysis in R</a></center></h1>
+<h1><center><a href="http://rpubs.com/alecri/258589">Review on survival analysis in R</a></center></h1>
 <div style="height:50px"></div>
 
 About

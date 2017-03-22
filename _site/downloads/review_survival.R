@@ -97,14 +97,14 @@ do.call(marrangeGrob, list(grobs = lapply(glist, function(x) x$plot), ncol = 3, 
 
 ## ----aggregating data----------------------------------------------------
 cuts <- seq(0, 23, 1)
-lifetab_dat = orca %>%
+lifetab_dat <- orca %>%
   mutate(time_cat = cut(time, cuts)) %>%
   group_by(time_cat) %>%
   summarise(nlost = sum(all == 0),
             nevent = sum(all == 1))
 
 ## ----suvTable lifetable--------------------------------------------------
-dat_lt <- with(lifetab_dat, lifetab(tis = cuts[-length(cuts)], ninit = nrow(orca), 
+dat_lt <- with(lifetab_dat, lifetab(tis = cuts, ninit = nrow(orca), 
                                     nlost = nlost, nevent = nevent))
 round(dat_lt, 4)
 
@@ -192,15 +192,6 @@ survdiff(su_obj ~ stage, data = orca)
 
 ## ----Peto & Peto test----------------------------------------------------
 survdiff(su_obj ~ stage, data = orca, rho = 1)
-
-## ------------------------------------------------------------------------
-orca$agegr <- cut(orca$age, breaks = c(0, 55, 75, 95))
-stat.table(list(sex, agegr), list(count(), percent(agegr)), margins = T, data = orca)
-
-## ---- fig.width=12-------------------------------------------------------
-su_agrx <- survfit(su_obj ~ agegr + sex, data = orca)
-gg_agrx <- ggsurvplot(su_agrx)
-gg_agrx$plot + theme_bw() + facet_wrap( ~ agegr)
 
 ## ----cox model-----------------------------------------------------------
 m1 <- coxph(su_obj ~ sex + I((age-65)/10) + stage, data = orca)
