@@ -18,7 +18,7 @@ About
 		<ul>
 			<li>I am currently a PhD student in Epidemiology and Biostatistics</li>
 			<li>I work at Karolinska Institutet, Stockholm, Sweden</li>
-			<li><a href="/downloads/CVPhD.pdf">CV</a> last updated June 1, 2016 </li>
+			<li><a href="/downloads/CVPhD.pdf">CV</a> last updated April 5, 2017 </li>
 		</ul>
 </div>
 </div>
