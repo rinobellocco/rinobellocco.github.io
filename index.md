@@ -5,8 +5,6 @@ menu: main
 navigation_weight: 1
 ---
 
-<h2> <a href="/downloads/std.pdf">Slides standardization</a> </h2>
-
 About
 ========
 
