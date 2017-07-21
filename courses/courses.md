@@ -14,4 +14,4 @@ Courses
 
 - [Advanced statistics in Epidemiology - Master in Public Health Epidemiology]()
 
-- [A not so short review on survival analysis in R](http://rpubs.com/alecri/258589)        [R script](alecri.github.io/downloads/review_survival.R)
+- [A not so short review on survival analysis in R](http://rpubs.com/alecri/258589)        [R script](downloads/review_survival.R)
