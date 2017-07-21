@@ -42,6 +42,11 @@ June 9, 2013 4thNBBC
 ## Poster Presentations
 
 <ul class="fa-ul">
+  <li><a href="/downloads/poster/useR2017!.pdf" target="_blank"><i class="fa-li fa fa-file-text"></i></a> 
+July 5, 2017 useR2017!
+</li>
+<div style="height:10px"></div>
+
   <li><a href="/downloads/poster/A new measure of between-studies heterogeneity.pdf" target="_blank"><i class="fa-li fa fa-file-text"></i></a> 
 June 24, 2016 Epidemiology Congress of the Americas
 </li>
