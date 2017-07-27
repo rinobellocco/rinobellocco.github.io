@@ -17,3 +17,10 @@ A development version is hosted and avaiable on [GitHub](https://github.com/alec
 `install.packages("devtools")`
 
 `devtools::install_github("alecri/hetmeta”)`
+
+
+&nbsp;
+
+## Reproducible code
+
+* [*GitHub repository* for **Crippa, A.**, Khudyakov P, Wang M, Orsini N, & Spiegelman D "A new measure of between-studies heterogeneity in meta-analysis". Statistics in Medicine. 2016 May 10. doi: 10.1002/sim.6980](https://github.com/alecri/Rb_heterogeneity)
