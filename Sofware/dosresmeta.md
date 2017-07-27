@@ -23,8 +23,10 @@ Extensions to meta-regression models and alternative estimation procedures are i
 
 ## Reproducible code
 
+* [*GitHub repository* for **Crippa, A.**, & Orsini N.  “ Dose-response meta-analysis of differences in means" 2016. BMC Medical Research Methodology](https://github.com/alecri/differences-in-mean)
 
 * [*GitHub repository* for Discacciati, A., **Crippa, A.**, & Orsini N.  “Goodness-of-fit tools for dose-response meta-analysis of binary outcomes" 2015. JRSM](https://github.com/anddis/goodness-of-fit-meta-analysis)
+
 
 
 ## Analysis Examples
