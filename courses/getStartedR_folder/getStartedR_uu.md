@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /courses/getStartedR
+permalink: /courses/getStartedR_uu
 show_in_nav: false
 navigation_weight: 8
 ---
@@ -16,7 +16,7 @@ Get started with R (Uppsala University)
 ## Lecture notes:
 
 
-Organizer: Nils Hailer
+Organizer: Nils Hailer  
 Locations and time: October 12, 12.00-16.30  
 
 
