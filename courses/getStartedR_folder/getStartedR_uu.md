@@ -5,20 +5,22 @@ show_in_nav: false
 navigation_weight: 8
 ---
 
-Get started with R (Uppsala University)
+Get started with R (Uppsala University Hospital)
 ========
 
-## Last update: September 15, 2017
+## Last update: October 6, 2017
 
+Organizer: Nils Hailer  
+Time: October 12, 12.00-16.30  
 
 <br>
 
 ## Lecture notes:
 
-
-Organizer: Nils Hailer  
-Locations and time: October 12, 12.00-16.30  
-
+<ul class="fa-ul">
+<li><a href="http://rpubs.com/alecri/getStartedR_uu" target="_blank"><i class="fa-li fa fa-file-text"></i> slides </a> 
+</li>
+</ul>
 
 
 ## R script:
@@ -42,6 +44,8 @@ They are related to the following publications:
 - [R for Data Science](http://r4ds.had.co.nz/)
 
 - [Advanced R](http://adv-r.had.co.nz/)
+
+- [ModernDive - An Introduction to Statistical and Data Sciences via R](http://moderndive.com/)
 
 
 ## Additional links
