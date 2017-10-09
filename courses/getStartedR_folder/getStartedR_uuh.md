@@ -27,6 +27,8 @@ Time: October 12, 12.00-16.30
 
 - Script [.R]() [.txt]()
 
+- Script in the slides [.R](http://alecri.github.io/courses/getStartedR_folder/ioslides_uuh.R) [.txt](http://alecri.github.io/courses/getStartedR_folder/ioslides_uuh.txt)
+
 ## Exercises:
 
 <ul class="fa-ul">
