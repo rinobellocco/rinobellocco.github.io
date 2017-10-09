@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /courses/getStartedR_uu
+permalink: /courses/getStartedR_uuh
 show_in_nav: false
 navigation_weight: 8
 ---
@@ -8,7 +8,7 @@ navigation_weight: 8
 Get started with R (Uppsala University Hospital)
 ========
 
-## Last update: October 6, 2017
+## Last update: October 9, 2017
 
 Organizer: Nils Hailer  
 Time: October 12, 12.00-16.30  
@@ -18,12 +18,26 @@ Time: October 12, 12.00-16.30
 ## Lecture notes:
 
 <ul class="fa-ul">
-<li><a href="http://rpubs.com/alecri/getStartedR_uu" target="_blank"><i class="fa-li fa fa-file-text"></i> slides </a> 
+<li><a href="http://rpubs.com/alecri/getStartedR_uuh" target="_blank"><i class="fa-li fa fa-file-text"></i> slides </a> 
 </li>
 </ul>
 
 
 ## R script:
+
+- Script [.R]() [.txt]()
+
+## Exercises:
+
+<ul class="fa-ul">
+<li><a href="http://alecri.github.io/courses/getStartedR_folder/ex_getStartedR.pdf" target="_blank"><i class="fa-li fa fa-file-text"></i> exercises </a> 
+</li>
+<div style="height:10px"></div>
+
+<li><a href="http://alecri.github.io/courses/getStartedR_folder/ex_getStartedR_solution.pdf" target="_blank"><i class="fa-li fa fa-file-text"></i> exercises + solution </a> 
+</li>
+</ul>
+
 
 
 ## Dataset

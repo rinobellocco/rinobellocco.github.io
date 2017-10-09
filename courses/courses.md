@@ -9,7 +9,7 @@ navigation_weight: 6
 Courses
 =====================
 
-- [Get started with R (Uppsala 2017 October)](/courses/getStartedR_uu.html)
+- [Get started with R (Uppsala 2017 October)](/courses/getStartedR_uuh.html)
 
 - [Get started with R (KI-PHS 2016 October)](/courses/getStartedR.html)
 
