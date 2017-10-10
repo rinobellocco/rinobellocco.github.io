@@ -11,7 +11,9 @@ Get started with R (Uppsala University Hospital)
 ## Last update: October 9, 2017
 
 Organizer: Nils Hailer  
-Time: October 12, 12.00-16.30  
+Time and location: October 12, 12.00-16.30  
+Konferensrummet, Department of Orthopedics, Akademiska sjukhuset ing 61, 6 tr  
+751 85 Uppsala
 
 <br>
 
@@ -44,7 +46,7 @@ Time: October 12, 12.00-16.30
 
 ## Dataset
 
-The interactive part will be based on the oralca dataset. 
+The interactive part will be based on the oralca dataset.  
 Datasets in different format ar available [here](http://alecri.github.io/data/).
 
 They are related to the following publications:
