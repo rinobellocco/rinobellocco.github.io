@@ -27,7 +27,7 @@ Konferensrummet, Department of Orthopedics, Akademiska sjukhuset ing 61, 6 tr
 
 ## R script:
 
-- Script [.R]() [.txt]()
+- Script [.R](http://alecri.github.io/courses/getStartedR_folder/code_uuh.R) [.txt](http://alecri.github.io/courses/getStartedR_folder/code_uuh.txt)
 
 - Script in the slides [.R](http://alecri.github.io/courses/getStartedR_folder/ioslides_uuh.R) [.txt](http://alecri.github.io/courses/getStartedR_folder/ioslides_uuh.txt)
 
