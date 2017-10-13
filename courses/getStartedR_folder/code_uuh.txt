@@ -124,6 +124,15 @@ p_ex1 = ggplot(orca1, aes(x = age, y = time)) +
   geom_point(aes(shape = event, color = event)) +
   geom_smooth(se = F)
 
+# how to change even more parameters (Nil's question)
+ggplot(orca1, aes(x = age, y = time)) +
+  geom_point(aes(shape = event, color = event)) +
+  geom_smooth(se = F) +
+  # change the default for shapes (?pch) and color
+  scale_color_manual(values = c("green", "purple", "orange")) +
+  scale_shape_manual(values = c(16, 4, 8)) +
+  theme_classic()
+
 
 library(plotly)
 ggplotly(p_ex1)
