@@ -46,6 +46,7 @@ The links below demonstrate how the models, methods, and techniques described in
 **Additional (useful) code**
 
 * [Missing number of cases/n. Assuming independence](/downloads/codes/missing cases n.txt)
+* [Loop for selecting best fractional polynomial](/downloads/codes/fp_splines_example.txt)
 
 
 **Older R script in txt format based on dosresmeta version 1.3.1 available on CRAN.**
