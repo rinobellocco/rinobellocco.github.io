@@ -12,13 +12,18 @@ Presentations
 ## Statistical Meetings
 
 <ul class="fa-ul">
+  <li><a href="/downloads/presentation/eph.pdf" target="_blank"><i class="fa-li fa fa-file-text"></i></a> 
+November 2, 2017 European Public Health Conference
+</li>
+<div style="height:10px"></div>
+
   <li><a href="/downloads/presentation/28thIBC_poiwise.pdf" target="_blank"><i class="fa-li fa fa-file-text"></i></a> 
-July 14, 2016 28thIBC
+July 14, 2016 28th International Biometric Conferences
 </li>
 <div style="height:10px"></div>
 
   <li><a href="/downloads/presentation/28thIBC_measure.pdf" target="_blank"><i class="fa-li fa fa-file-text"></i></a> 
-July 11, 2016 28thIBC
+July 11, 2016 28th International Biometric Conferences
 </li>
 <div style="height:10px"></div>
 
@@ -28,12 +33,12 @@ July 11, 2016 28thIBC
 <div style="height:10px"></div>
 
   <li><a href="/downloads/presentation/crippa5thNBBC.pdf" target="_blank"><i class="fa-li fa fa-file-text"></i></a> 
-June 8, 2015 5thNBBC
+June 8, 2015 5th Nordic-Baltic Biometric Conference
 </li>
 <div style="height:10px"></div>
 
   <li><a href="/downloads/presentation/4thNBBCweb.pdf" target="_blank"><i class="fa-li fa fa-file-text"></i></a> 
-June 9, 2013 4thNBBC
+June 9, 2013 4th Nordic-Baltic Biometric Conference
 </li>
 </ul>
 
