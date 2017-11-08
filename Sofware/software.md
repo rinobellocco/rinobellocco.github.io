@@ -21,4 +21,4 @@ Software
 - [alecri](https://github.com/alecri/alecri): Several Useful Functions: a Miscellaneous R Package
 
 
-Check how many people use my R packages at http://alessiocrippa.com/shiny/my_packages_usage/
+Check how many people use my R packages at [http://alessiocrippa.com/shiny/my_packages_usage/](http://alessiocrippa.com/shiny/my_packages_usage/)
