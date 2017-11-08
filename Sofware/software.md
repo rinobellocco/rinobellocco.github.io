@@ -19,3 +19,6 @@ Software
 - [hetmeta](/software/hetmeta.html): Heterogeneity Measures in Meta-Analysis
 
 - [alecri](https://github.com/alecri/alecri): Several Useful Functions: a Miscellaneous R Package
+
+
+Check how many people use my R packages at http://alessiocrippa.com/shiny/my_packages_usage/

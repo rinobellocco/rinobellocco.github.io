@@ -46,6 +46,6 @@ Web Applications and interactive documents
 <center> <h1><a href="http://rmarkdown.rstudio.com/">Dynamic Documents</a></h1> </center>
 
 
-[dosresmeta usage](http://alessiocrippa.com/shiny/dosresmeta_usage/)                         |                          
+[dosresmeta usage](http://alessiocrippa.com/shiny/my_packages_usage/)                         |                          
 :------------------------------:|:----------------------------------:
-<a href="https://alecri.shinyapps.io/dosresmeta_usage/"><img src="/downloads/pic/dosresmeta_usage.png" alt="bias" style="width: 400px;"/> |
+<a href="http://alessiocrippa.com/shiny/my_packages_usage/"><img src="/downloads/pic/my_packages_usage.png" alt="bias" style="width: 400px;"/> |
