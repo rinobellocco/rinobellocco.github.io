@@ -16,3 +16,20 @@ Courses
 - [Advanced statistics in Epidemiology - Master in Public Health Epidemiology]()
 
 - [A not so short review on survival analysis in R](http://rpubs.com/alecri/258589)        [[R script]](/courses/review_survival.R)
+
+<div style="height:50px"></div>
+
+Useful teaching material
+=====================
+
+- [Visualizing multivariate logistic regression (document)](http://rpubs.com/alecri/multivLogistic)  
+
+- [Difference between Binomial and Poisson distribution (web app)](http://alessiocrippa.com/shiny/bin_poi/)  
+
+- [Discrete random variables (lab document)](http://rpubs.com/alecri/discr_rv)
+
+- [The Normal distribution (lab document)](http://rpubs.com/alecri/norm_rv)
+
+- [Multivariable (2 dim) linear regression with no interaction (plot)](https://plot.ly/~alecri/216/no-interaction/)
+
+- [Multivariable (2 dim) linear regression with interaction (plot)](https://plot.ly/~alecri/214/interaction/)

@@ -11,7 +11,7 @@ alcohol_cvd[alcohol_cvd$id %in% sample(unique(alcohol_cvd$id), 2), c("cases", "n
 Slist <- lapply(unique(alcohol_cvd$id), function(i)
    with(subset(alcohol_cvd, id == i),
         if (any(is.na(cases) | is.na(n)))
-           diag(se[!is.na(se)])
+           diag(se[se != 0 & !is.na(se)]^2, nrow = sum(se != 0 & !is.na(se)))
         else
            covar.logrr(cases = cases, n = n, y = logrr, v = I(se^2), type = type, 
                        covariance = "gl")
