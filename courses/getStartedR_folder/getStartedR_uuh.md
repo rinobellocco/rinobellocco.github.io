@@ -20,16 +20,19 @@ Konferensrummet, Department of Orthopedics, Akademiska sjukhuset ing 61, 6 tr
 ## Lecture notes:
 
 <ul class="fa-ul">
-<li><a href="http://rpubs.com/alecri/getStartedR_uuh" target="_blank"><i class="fa-li fa fa-file-text"></i> slides </a> 
+<li><a href="http://rpubs.com/alecri/getStartedR_uuh" target="_blank"><i class="fa-li fa fa-file-text"></i> slides (Part 1)</a> 
+</li>
+<li><a href="http://rpubs.com/alecri/introR_part2" target="_blank"><i class="fa-li fa fa-file-text"></i> slides (Part 2)</a> 
 </li>
 </ul>
 
 
 ## R script:
 
-- Script [.R](http://alecri.github.io/courses/getStartedR_folder/code_uuh.R) [.txt](http://alecri.github.io/courses/getStartedR_folder/code_uuh.txt)
+- Script (Pat 1) [.R](http://alecri.github.io/courses/getStartedR_folder/code_uuh.R) [.txt](http://alecri.github.io/courses/getStartedR_folder/code_uuh.txt)
 
-- Script in the slides [.R](http://alecri.github.io/courses/getStartedR_folder/ioslides_uuh.R) [.txt](http://alecri.github.io/courses/getStartedR_folder/ioslides_uuh.txt)
+- Script in the slides  (Pat 1) [.R](http://alecri.github.io/courses/getStartedR_folder/ioslides_uuh.R) [.txt](http://alecri.github.io/courses/getStartedR_folder/ioslides_uuh.txt)
+
 
 ## Exercises:
 
@@ -53,6 +56,8 @@ They are related to the following publications:
 
 - [Competing risks analysis of cause-specific mortality in patients with
    oral squamous cell carcinoma](http://www.stats4life.se/docs/comp_risk.pdf)
+   
+- [Health inequalities among British civil servants: the Whitehall II study](http://alecri.github.io/downloads/whitehall.pdf)
 
 
 <br>
