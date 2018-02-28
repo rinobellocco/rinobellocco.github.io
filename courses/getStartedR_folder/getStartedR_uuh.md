@@ -37,14 +37,22 @@ Konferensrummet, Department of Orthopedics, Akademiska sjukhuset ing 61, 6 tr
 ## Exercises:
 
 <ul class="fa-ul">
-<li><a href="http://alecri.github.io/courses/getStartedR_folder/ex_getStartedR.pdf" target="_blank"><i class="fa-li fa fa-file-text"></i> exercises </a> 
+<li><a href="http://alecri.github.io/courses/getStartedR_folder/ex_getStartedR.pdf" target="_blank"><i class="fa-li fa fa-file-text"></i> exercises (Part 1) </a> 
 </li>
 <div style="height:10px"></div>
 
-<li><a href="http://alecri.github.io/courses/getStartedR_folder/ex_getStartedR_solution.pdf" target="_blank"><i class="fa-li fa fa-file-text"></i> exercises + solution </a> 
+<li><a href="http://alecri.github.io/courses/getStartedR_folder/ex_getStartedR_solution.pdf" target="_blank"><i class="fa-li fa fa-file-text"></i> exercises + solution (Part 1) </a> 
 </li>
 </ul>
 
+<ul class="fa-ul">
+<li><a href="http://alecri.github.io/courses/getStartedR_folder/ex_survival.pdf" target="_blank"><i class="fa-li fa fa-file-text"></i> exercises (Part 2) </a> 
+</li>
+<div style="height:10px"></div>
+
+<li><a href="http://alecri.github.io/courses/getStartedR_folder/ex_survival_solution.pdf" target="_blank"><i class="fa-li fa fa-file-text"></i> exercises + solution (Part 2) </a> 
+</li>
+</ul>
 
 
 ## Dataset
