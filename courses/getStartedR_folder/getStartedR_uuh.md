@@ -22,10 +22,12 @@ Konferensrummet, Department of Orthopedics, Akademiska sjukhuset ing 61, 6 tr
 <ul class="fa-ul">
 <li><a href="http://rpubs.com/alecri/getStartedR_uuh" target="_blank"><i class="fa-li fa fa-file-text"></i> slides (Part 1)</a> 
 </li>
+<div style="height:10px"></div>
+
 <li><a href="http://rpubs.com/alecri/introR_part2" target="_blank"><i class="fa-li fa fa-file-text"></i> slides (Part 2)</a> 
 </li>
 </ul>
-
+<div style="height:10px"></div>
 
 ## R script:
 
@@ -33,7 +35,9 @@ Konferensrummet, Department of Orthopedics, Akademiska sjukhuset ing 61, 6 tr
 
 - Script in the slides  (Pat 1) [.R](http://alecri.github.io/courses/getStartedR_folder/ioslides_uuh.R) [.txt](http://alecri.github.io/courses/getStartedR_folder/ioslides_uuh.txt)
 
+- Script (Pat 2) [.R](http://alecri.github.io/courses/getStartedR_folder/code_uuh2.R) [.txt](http://alecri.github.io/courses/getStartedR_folder/code_uuh2.txt)
 
+<div style="height:10px"></div>
 ## Exercises:
 
 <ul class="fa-ul">
