@@ -49,3 +49,18 @@ Web Applications and interactive documents
 [my packages usage](http://alessiocrippa.com/shiny/my_packages_usage/)                         |                          
 :------------------------------:|:----------------------------------:
 <a href="http://alessiocrippa.com/shiny/my_packages_usage/"><img src="/downloads/pic/my_packages_usage.png" alt="bias" style="width: 400px;"/> |
+
+
+<div style="height:20px"></div>
+
+
+-----------------------
+
+<center> <h1><a href="https://bookdown.org/">Bookdown</a></h1> </center>
+
+[My PhD thesis](https://bookdown.org/alecri/thesis/)                         |                          
+:------------------------------:|:----------------------------------:
+<a href="https://bookdown.org/alecri/thesis/"><img src="/downloads/pic/thesis.png" alt="bias" style="width: 400px;"/> |
+
+
+<div style="height:20px"></div>

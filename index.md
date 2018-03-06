@@ -11,13 +11,16 @@ About
 
 <div>
 	<div style="width:200px;float:left;">
-		<a href="http://alecri.github.io/downloads/pic/profile.jpg" class="left img"><img src="/downloads/pic/profile.jpg" style="width: 200px;"></a>
+		<a href="/downloads/pic/profile2.jpg" class="left img"><img src="/downloads/pic/profile2.jpg" style="width: 200px;"></a>
 	</div>
 	<div style="margin-left:200px;">
 		<ul>
+			<div style="height:20px"></div>
 			<li>I am currently a PhD student in Epidemiology and Biostatistics</li>
+						<div style="height:20px"></div>
 			<li>I work at Karolinska Institutet, Stockholm, Sweden</li>
-			<li><a href="/downloads/CVPhD.pdf">CV</a> last updated July 21, 2017 </li>
+						<div style="height:20px"></div>
+			<li><a href="/downloads/CVPhD.pdf">CV</a> last updated March 6, 2018 </li>
 		</ul>
 </div>
 </div>
@@ -41,6 +44,7 @@ Link
 ===============
 
 * [Karolinska Webpage](http://ki.se/en/people/alecri)  
+* [Stat4life](http://stats4life.se/)  
 * [Google scholar profile](https://scholar.google.it/citations?user=NLRD9vkAAAAJ&hl=en)
 * [ResearchGate](https://www.researchgate.net/profile/Alessio_Crippa)  
 * [Linkedin profile](https://www.linkedin.com/in/alessio-crippa-68519475)  

@@ -22,3 +22,10 @@ Software
 
 
 Check how many people use my R packages at [http://alessiocrippa.com/shiny/my_packages_usage/](http://alessiocrippa.com/shiny/my_packages_usage/)
+
+<div style="height:50px"></div>
+
+## Bookdown
+
+My PhD thesis is available [here](https://bookdown.org/alecri/thesis/1-intro.html) as a book written in [bookdown](https://bookdown.org/).  
+The code to reproduce the pdf is available as a public repository on [GitHub](https://github.com/alecri/kappa).
