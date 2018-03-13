@@ -1,20 +1,22 @@
-## ----setup, include=FALSE------------------------------------------------
-knitr::opts_chunk$set(comment = NA, fig.align = "center", warning = FALSE)
+## ----setup, include = FALSE----------------------------------------------
+library(knitr)
+library(kfigr)
+opts_chunk$set(comment = NA, fig.align = "center", warning = FALSE)
 options(width = 95, show.signif.stars = F)
 
 ## ----extract code (ignore), eval = FALSE, echo = FALSE-------------------
 ## knitr::purl("review_survival.Rmd")
 
 ## ----load packages, message=FALSE----------------------------------------
-pkg <- c("knitr", "kfigr", "tidyverse", "survival", "ggfortify", "survminer", "plotly",
-         "gridExtra", "Epi", "KMsurv", "gnm", "cmprsk", "mstate", "flexsurv", "splines",
-         "epitools", "eha", "shiny")
+pkg <- c("tidyverse", "survival", "ggfortify", "survminer", "plotly", "gridExtra", 
+         "Epi", "KMsurv", "gnm", "cmprsk", "mstate", "flexsurv", "splines",
+         "epitools", "eha", "shiny", "ctqr")
 new.pkg <- pkg[!(pkg %in% installed.packages()[, "Package"])]
 if (length(new.pkg)) install.packages(new.pkg, dependencies = TRUE)
 sapply(pkg, require, character.only = TRUE)
 
 ## ----read data-----------------------------------------------------------
-orca <- read.table("http://www.stats4life.se/data/oralca.txt", header = T)
+orca <- read.table("http://www.stats4life.se/data/oralca.txt")
 
 ## ----describe data-------------------------------------------------------
 head(orca)
@@ -35,7 +37,7 @@ title("B)")
 
 ## ----table events--------------------------------------------------------
 table(orca$event)
-orca$all <- 1*(orca$event != "Alive")
+orca <- mutate(orca, all = event != "Alive")
 table(orca$all)
 
 ## ----follow-up, fig.cap="Figure 2: Possible representations of follow-up time.", anchor = "Figure"----
@@ -58,7 +60,7 @@ grid.arrange(
   ggplot(orca, aes(x = id, y = time)) +
   geom_linerange(aes(ymin = 0, ymax = time)) +
   geom_point(aes(shape = event, color = event), stroke = 1, cex = 2) +
-  scale_shape_manual(values = c(1, 3, 4)) +
+  scale_shape_manual(values = c(1, 3, 4)) + guides(shape = F, color = F) +
   labs(y = "Time (years)", x = "Subject ID") + coord_flip() + theme_classic(),
   orca %>%
   mutate(age_orig = age,
@@ -76,8 +78,7 @@ su_obj <- Surv(orca$time, orca$all)
 str(su_obj)
 
 ## ----KMmethod------------------------------------------------------------
-fit_km <- survfit(su_obj ~ 1, data = orca)
-# str(fit_km)
+fit_km <- survfit(Surv(time, all) ~ 1, data = orca)
 print(fit_km, print.rmean = TRUE)
 
 ## ----suvTable KM---------------------------------------------------------
@@ -93,7 +94,7 @@ glist <- list(
   ggsurvplot(fit_km, fun = "cumhaz",  main = "Cumulative Hazard"),
   ggsurvplot(fit_km, fun = "cloglog", main = "Complementary log−log")
 )
-do.call(marrangeGrob, list(grobs = lapply(glist, function(x) x$plot), ncol = 3, nrow = 1))
+arrange_ggsurvplots(glist, print = TRUE, ncol = 3, nrow = 1)
 
 ## ----aggregating data----------------------------------------------------
 cuts <- seq(0, 23, 1)
@@ -161,10 +162,14 @@ grid.arrange(
 
 ## ----incidence rates-----------------------------------------------------
 #ci.exp(glm(all ~ 0 + stage, data = orca, family = "poisson", offset = log(time)))
-with(orca %>% group_by(stage) %>%
-  summarise(D = sum(all),
-            Y = sum(time)),
-  cbind(stage, pois.approx(x = D, pt = Y)))
+group_by(orca, stage) %>%
+  summarise(
+    D = sum(all),
+    Y = sum(time)
+  ) %>%
+  cbind(
+    pois.approx(x = .$D, pt = .$Y)
+  )
 
 ## ----comp surv stages----------------------------------------------------
 su_stg  <- survfit(su_obj ~ stage, data = orca)
@@ -185,7 +190,7 @@ glist <- list(
   ggsurvplot(su_stg, fun = "cloglog")
 )
 # plot(su_stg, fun = "cloglog")
-do.call(marrangeGrob, list(grobs = lapply(glist, function(x) x$plot), ncol = 2, nrow = 1))
+arrange_ggsurvplots(glist, print = TRUE, ncol = 2, nrow = 1)
 
 ## ----M-H logrank test----------------------------------------------------
 survdiff(su_obj ~ stage, data = orca)
@@ -217,10 +222,8 @@ newd$id <- 1:12
 newd
 
 ## ----survival from cox, fig.width=12-------------------------------------
-fortify(survfit(m2, newdata = newd)) %>%
-  gather(strata, surv, surv.1:surv.12) %>%
-  mutate(id = gsub("surv.","", strata)) %>%
-  merge(newd, by = "id") %>% 
+surv_summary(survfit(m2, newdata = newd)) %>%
+  merge(newd, by.x = "strata", by.y = "id") %>%
   ggplot(aes(x = time, y = surv, col = sex, linetype = factor(age))) +
   geom_step() + facet_grid(. ~ st3) +
   labs(x = "Time (years)", y = "Survival probability") + theme_classic()
@@ -269,8 +272,8 @@ load(url("http://www.stats4life.se/data/mod_poi2.Rdata"))
 newd <- data.frame(time = unique(orca2$time), dur = 1,
                    sex = "Female", age = 65, st3 = "I+II")
 blhaz <- 1000*data.frame(ci.pred(mod_poi2, newdata = newd))
-xint <- unique(cbind(orca_splitted$tstart, orca_splitted$time))
-ggplot(blhaz, aes(x = xint[, 1], y = Estimate, xend = xint[, 2], yend = Estimate)) + geom_segment() +
+xint <- sort(unique(orca_splitted$time))
+ggplot(blhaz, aes(x = c(0, xint[-214]), y = Estimate, xend = xint, yend = Estimate)) + geom_segment() +
   scale_y_continuous(trans = "log", breaks = c(.001, .1, 50, 500, 5000)) +
   theme_classic() + labs(x = "Time (years)", y = "Baseline hazard")
 
@@ -384,6 +387,53 @@ orca3 <- survSplit(Surv(time, all) ~ ., data = orca2, cut = c(5, 15), episode = 
 head(orca3)
 m3 <- coxph(Surv(tstart, time, all) ~ relevel(sex, 2):strata(tgroup) + I((age-65)/10) + st3, data = orca3)
 m3
+
+## ------------------------------------------------------------------------
+p <- .25
+fit_qs <- ctqr(Surv(time, all) ~ st3, p = p,  data = orca2)
+fit_qs
+
+## ------------------------------------------------------------------------
+fit_kms <- survfit(Surv(time, all) ~ st3, data = orca2)
+pc_qs <- data_frame(
+  st3 = levels(orca2$st3),
+  coef = coef(fit_qs),
+  time_p = c(NA, coef[-1] + coef[1]),
+  time_ref = coef[1],
+  p = c(p, p - .005, p + .005)
+)[-1, ]
+
+surv_summary(fit_kms, data = orca2) %>%
+  ggplot(aes(time, surv, col = st3)) +
+  geom_step() +
+  geom_segment(data = pc_qs, aes(x = time_p, y = 1 - p, xend = time_ref, 
+                                 yend = 1 - p))
+
+## ------------------------------------------------------------------------
+fit_q <- ctqr(Surv(time, all) ~ sex + I((age-65)/10) + st3, p = seq(.1, .7, .1), 
+              data = orca2)
+fit_q
+
+## ----plots percentiles---------------------------------------------------
+coef_q <- data.frame(coef(fit_q)) %>%
+  rownames_to_column(var = "coef") %>%
+  gather(p, beta, -coef) %>%
+  mutate(
+    p = as.double(gsub("p...", "", p)),
+    se = c(sapply(fit_q$covar, function(x) sqrt(diag(x)))),
+    low = beta - 1.96 * se,
+    up = beta + 1.96 * se
+    )
+ggplot(coef_q, aes(p, beta)) +
+  geom_line() +
+  geom_ribbon(aes(ymin = low, ymax = up), alpha = .1) +
+  facet_wrap(~ coef, nrow = 2, scales = "free") +
+  theme_bw()
+
+## ------------------------------------------------------------------------
+expand.grid(sex = c("Male", "Female"), age = c(40, 80), st3 = levels(orca2$st3)) %>% cbind(
+  round(predict(fit_q, newdata = .), 3)
+)
 
 ## ----CIF-----------------------------------------------------------------
 cif <- Cuminc(time = "time", status = "event", data = orca2)
