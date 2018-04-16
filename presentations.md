@@ -12,6 +12,12 @@ Presentations
 ## Statistical Meetings
 
 <ul class="fa-ul">
+	
+	<li><a href="/downloads/presentation/phd-defense.pdf" target="_blank"><i class="fa-li fa fa-file-text"></i></a> 
+Apr 13, 2018 PhD defense
+</li>
+<div style="height:10px"></div>
+
   <li><a href="/downloads/presentation/eph.pdf" target="_blank"><i class="fa-li fa fa-file-text"></i></a> 
 November 2, 2017 European Public Health Conference
 </li>
@@ -73,7 +79,7 @@ June 27, 2015 European Congress of Epidemiology - Healthy Living
 
 <ul class="fa-ul">
 <li><a href="http://rpubs.com/alecri/intro_shiny" target="_blank"><i class="fa-li fa fa-file-text"></i></a> 
-Sept 29, 2016 Public Health PHD student meetups
+Sept 29, 2016 Public Health PhD student meetups
 </li>
 <div style="height:10px"></div>
 
