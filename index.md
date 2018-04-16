@@ -20,7 +20,7 @@ About
 						<div style="height:20px"></div>
 			<li>I work at Karolinska Institutet, Stockholm, Sweden</li>
 						<div style="height:20px"></div>
-			<li><a href="/downloads/CVPhD.pdf">CV</a> last updated A 16, 2018 </li>
+			<li><a href="/downloads/CVPhD.pdf">CV</a> last updated Apr 16, 2018 </li>
 		</ul>
 </div>
 </div>
