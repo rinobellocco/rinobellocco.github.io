@@ -16,11 +16,11 @@ About
 	<div style="margin-left:200px;">
 		<ul>
 			<div style="height:20px"></div>
-			<li>I am currently a PhD student in Epidemiology and Biostatistics</li>
+			<li>I am a postdoctoral researcher in Epidemiology and Biostatistics</li>
 						<div style="height:20px"></div>
 			<li>I work at Karolinska Institutet, Stockholm, Sweden</li>
 						<div style="height:20px"></div>
-			<li><a href="/downloads/CVPhD.pdf">CV</a> last updated March 6, 2018 </li>
+			<li><a href="/downloads/CVPhD.pdf">CV</a> last updated A 16, 2018 </li>
 		</ul>
 </div>
 </div>
