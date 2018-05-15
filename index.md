@@ -20,7 +20,7 @@ About
 						<div style="height:20px"></div>
 			<li>I work at Karolinska Institutet, Stockholm, Sweden</li>
 						<div style="height:20px"></div>
-			<li><a href="/downloads/CVPhD.pdf">CV</a> last updated Apr 16, 2018 </li>
+			<li><a href="/downloads/CVPhD.pdf">CV</a> last updated May 15, 2018 </li>
 		</ul>
 </div>
 </div>
@@ -32,9 +32,9 @@ About
 Contact
 ===============
 
-[PHS - Public Health Sciences](http://ki.se/en/phs/startpage)  
+[MEB - Department of Medical Epidemiology and Biostatistics](https://ki.se/en/meb/startpage)  
 [Karolinska Institutet](http://ki.se/start)  
-**Visiting address** :  Solnavägen 1E (Torsplan), Stockholm SE-113 65, Sweden  
+**Visiting address** : Nobels väg 12A, 171 65 Solna, Sweden  
 **Phone**: 	+46(0)720282766  
 **Email**: <a href="mailto:alessio.crippa@ki.se">alessio.crippa<span class="at">@</span>ki.se</a> or
 <a href="mailto:alessio.crippa@gmail.com">alessio.crippa<span class="at">@</span>gmail.com</a>  

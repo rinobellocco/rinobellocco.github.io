@@ -9,6 +9,22 @@ navigation_weight: 2
 Publications
 ========
 
+## 2018
+
+<ul class="fa-ul">
+
+  <li><a href="https://www.researchgate.net/publication/325065533_One-stage_dose-response_meta-analysis_for_aggregated_data" target="_blank"><i class="fa-li fa fa-file-text"></i></a> 
+<b>Crippa A</b>, Discacciati A, Bottai M, Spiegelman D, Orsini N. <a href="https://www.ncbi.nlm.nih.gov/pubmed/29742975" target="_blank"> One-stage dose-response meta-analysis for aggregated data.</a>. Statistical Methods in Medical Research. 2018 0962280218773122. 
+</li>
+<div style="height:10px"></div>
+	
+<li><a href="https://www.researchgate.net/publication/325021574_A_Pointwise_Approach_to_Dose-Response_Meta-Analysis_of_Aggregated_Data?_sg=_ZP4cld17tNfOel7QGlgk-B8iWlIXKz5_BX0PEWRMm793cBjoHfIw4vKJkXJYDNA3E0EvlXvLk2mOwWTQijviki3sCFAWmCtewPO7y4K.CrnzXSR5F1kxRhOknFDvP-Iom7_TDDoWD88NrZMZT_sxjOjTSdpjEPQRiRDXCY39eyiwCHlTSynn2x3p2v7DEg" target="_blank"><i class="fa-li fa fa-file-text"></i></a> 
+<b>Crippa A</b>, Thomas I, Orsini N. <a href="" target="_blank"> A pointwise approach to dose-response meta-analysis of aggregated data</a>. International Journal of Statistics in Medical Research. 2018 May 8;7(2):25-32.
+</li>
+
+</ul>
+
+
 ## 2017
 
 <ul class="fa-ul">
