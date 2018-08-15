@@ -47,7 +47,8 @@ The links below demonstrate how the models, methods, and techniques described in
 
 * [Missing number of cases/n. Assuming independence](/downloads/codes/missing cases n.txt)  
 * [Loop for selecting best fractional polynomial](/downloads/codes/fp_splines_example.txt)  
-* [Leave-one-out sensitivity analysis](/downloads/codes/leave1out.txt)  
+* [Leave-one-out dose-response meta-analysis](/downloads/codes/leave1out.txt)  
+* [Cumulative dose-response meta-analysis](/downloads/codes/cumulative.txt)  
 * [Sensitivity analysis to location of knots in a spline model](/downloads/codes/knots_location.txt)
 
 
