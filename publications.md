@@ -13,6 +13,11 @@ Publications
 
 <ul class="fa-ul">
   <li><a href="" target="_blank"><i class="fa-li fa fa-file-text"></i></a> 
+Brage S, Abbas A, Mok A, Garcia L, McNamara E, <b>Crippa A</b>, Sa T, Smith A, Kim D, Im J, Olayinka O. <a href="" target="_blank"> Non-occupational physical activity and risk of cardiovascular disease, cancer, and mortality: a dose-response meta-analysis of prospective studies.</a>. Journal of Physical Activity and Health. 2018 Oct 1, Vol. 15, No. 10, pp. S36-S36. 
+</li>
+<div style="height:10px"></div>
+
+  <li><a href="" target="_blank"><i class="fa-li fa fa-file-text"></i></a> 
 Lugo A, Peveri G, Bosetti C, Bagnardi V, <b>Crippa A</b>, Orsini N, Rota M, Gallus, S. <a href="https://www.ncbi.nlm.nih.gov/pubmed/30347287" target="_blank"> Strong excess risk of pancreatic cancer for low frequency and duration of cigarette smoking: A comprehensive review and meta-analysis.</a>. European Journal of Cancer. 2018 104, pp.117-126. 
 </li>
 <div style="height:10px"></div>
