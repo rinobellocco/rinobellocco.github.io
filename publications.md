@@ -13,6 +13,11 @@ Publications
 
 <ul class="fa-ul">
   <li><a href="" target="_blank"><i class="fa-li fa fa-file-text"></i></a> 
+Trevisan C, <b>Crippa A</b>, Ek S, Welmer AK, Sergi G, Maggi S, Manzato E, Bea JW, Cauley JA, Decullier E, Hirani V. <a href="" target="_blank"> Nutritional status, body mass index, and the risk of falls in community-dwelling older adults: a systematic review and meta-analysis.</a>. Journal of the American Medical Directors Association. 2018 Dec 13.
+</li>
+<div style="height:10px"></div>
+
+  <li><a href="" target="_blank"><i class="fa-li fa fa-file-text"></i></a> 
 Brage S, Abbas A, Mok A, Garcia L, McNamara E, <b>Crippa A</b>, Sa T, Smith A, Kim D, Im J, Olayinka O. <a href="" target="_blank"> Non-occupational physical activity and risk of cardiovascular disease, cancer, and mortality: a dose-response meta-analysis of prospective studies.</a>. Journal of Physical Activity and Health. 2018 Oct 1, Vol. 15, No. 10, pp. S36-S36. 
 </li>
 <div style="height:10px"></div>
