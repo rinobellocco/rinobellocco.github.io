@@ -70,9 +70,9 @@ Web Applications and interactive documents
 
 <center> <h1><a href="https://rmarkdown.rstudio.com/flexdashboard/">Dashboard</a></h1> </center>
 
-[ProBio progress](/downloads/dashboard_probio.html)                         |                          
+[ProBio progress](/downloads/probio_dash.html)                         |                          
 :------------------------------:|:----------------------------------:
-<a href="/downloads/dashboard_probio.html"><img src="/downloads/pic/dashboard_probio.png" alt="bias" style="width: 400px;"/> |
+<a href="/downloads/probio_dash.html"><img src="/downloads/pic/probio_dash.png" alt="bias" style="width: 400px;"/> |
 
 
 <div style="height:20px"></div>
