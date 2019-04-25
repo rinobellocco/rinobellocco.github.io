@@ -1,17 +1,24 @@
+## ----setup, include = FALSE----------------------------------------------
+library(knitr)
+library(kfigr)
+opts_chunk$set(comment = NA, fig.align = "center", warning = FALSE)
+options(width = 95, show.signif.stars = F)
+
+## ----extract code (ignore), eval = FALSE, echo = FALSE-------------------
+## knitr::purl("review_survival.Rmd")
+
 ## ----load packages, message=FALSE----------------------------------------
-pkg <- c("tidyverse", "survival", "ggfortify", "survminer", "plotly", "gridExtra", 
-         "Epi", "KMsurv", "gnm", "cmprsk", "mstate", "flexsurv", "splines",
-         "epitools", "eha", "shiny", "ctqr", "scales")
-new.pkg <- pkg[!(pkg %in% installed.packages()[, "Package"])]
-if (length(new.pkg)) install.packages(new.pkg, dependencies = TRUE)
-sapply(pkg, require, character.only = TRUE)
+if (!require(pacman)) install.packages("pacman")
+pacman::p_load(tidyverse, survival, ggfortify, survminer, plotly, gridExtra, 
+               Epi, KMsurv, gnm, cmprsk, mstate, flexsurv, splines, epitools, 
+               eha, shiny, ctqr, scales)
 
 ## ----read data-----------------------------------------------------------
 orca <- read.table("http://www.stats4life.se/data/oralca.txt")
 
 ## ----describe data-------------------------------------------------------
 head(orca)
-str(orca)
+glimpse(orca)
 summary(orca)
 
 ## ----boxDiagram, fig.cap = "Figure 1: Box diagram for transitions.", anchor = "Figure"----
@@ -134,6 +141,9 @@ fit_w <- flexsurvreg(su_obj ~ 1, data = orca, dist = "weibull")
 fit_ll <- flexsurvreg(su_obj ~ 1, data = orca, dist = "llogis")
 fit_sp <- flexsurvspline(su_obj ~ 1, data = orca, k = 1, scale = "odds")
 
+## ----ggflexsurvplot------------------------------------------------------
+ggflexsurvplot(fit_exp, xlab = "Time (years)", censor = F)
+
 ## ----comparison parametric surv, fig.width=12----------------------------
 grid.arrange(
   ggplot(data.frame(summary(fit_exp)), aes(x = time)) + 
@@ -207,6 +217,13 @@ orca2 <- orca %>%
 m2 <- coxph(Surv(time, all) ~ sex + I((age-65)/10) + st3, data = orca2, ties = "breslow")
 round(ci.exp(m2), 4)
 
+## ----forest plot, fig.width=12-------------------------------------------
+grid.arrange(
+  ggforest(m1, data = orca),
+  ggforest(m2, data = orca2),
+  ncol = 2
+)
+
 ## ----newdata for predictions---------------------------------------------
 newd <- expand.grid(sex = c("Male", "Female"), age = c(40, 80), st3 = levels(orca2$st3))
 newd$id <- 1:12
@@ -250,9 +267,9 @@ summary(mod_poi)
 round(data.frame(cox = ci.exp(m2), poisson = ci.exp(mod_poi)), 4)
 
 ## ----poisson basehazard (takes time), echo=c(1:3), eval=-c(2, 3), eval=FALSE----
-orca_splitted$dur <- with(orca_splitted, time - tstart)
-mod_poi2 <- glm(all ~ -1 + factor(time) + sex + I((age-65)/10) + st3, 
-                data = orca_splitted, family = poisson, offset = log(dur))
+## orca_splitted$dur <- with(orca_splitted, time - tstart)
+## mod_poi2 <- glm(all ~ -1 + factor(time) + sex + I((age-65)/10) + st3,
+##                 data = orca_splitted, family = poisson, offset = log(dur))
 
 ## ----loading from url, echo=FALSE----------------------------------------
 orca_splitted$dur <- with(orca_splitted, time - tstart)
@@ -295,65 +312,65 @@ ggplot(surv_cox, aes(time, surv)) + geom_step(aes(col = "Cox")) +
   labs(x = "Time (years)", y = "Survival", col = "Models") + theme_classic()
 
 ## ---- eval = FALSE-------------------------------------------------------
-library(shiny)
-library(tidyverse)
-library(splines)
-library(Epi)
-library(survival)
-library(flexsurv)
-library(ggfortify)
-
-shinyApp(
-  
-  ui = fluidPage(
-    h2("Choose covariate pattern:"),
-    selectInput("sex", label = h3("Sex"), 
-                choices = list("Female" = "Female" , "Male" = "Male")),
-    sliderInput("age", label = h3("Age"),
-                min = 20, max = 80, value = 65),
-    selectInput("st3", label = h3("Stage (3 levels)"), 
-                choices = list("Stage I and II" = "I+II", "Stage III" = "III",
-                               "Stage IV" = "IV")),
-    plotOutput("survPlot")
-  ),
-  
-  server = function(input, output){
-    
-    orca <- read.table("http://www.stats4life.se/data/oralca.txt", header = T)
-    orca2 <- orca %>%
-      filter(stage != "unkn") %>%
-      mutate(st3 = Relevel(droplevels(stage), list(1:2, 3, 4)),
-             all = 1*(event != "Alive"))
-    m2 <- coxph(Surv(time, all) ~ sex + I((age-65)/10) + st3, data = orca2, ties = "breslow")
-    m2w <- flexsurvreg(Surv(time, all) ~ sex + I((age-65)/10) + st3, data = orca2, dist = "weibull")
-    cuts <- sort(unique(orca2$time[orca2$all == 1]))
-    orca_splitted <- survSplit(Surv(time, all) ~ ., data = orca2, cut = cuts, episode = "tgroup")
-    orca_splitted$dur <- with(orca_splitted, time - tstart)
-    k <- quantile(orca2$time, 1:5/6)
-    mod_poi2s <- glm(all ~ ns(time, knots = k) + sex + I((age-65)/10) + st3, 
-                     data = orca_splitted, family = poisson, offset = log(dur))
-    
-    newd <- reactive({
-      data.frame(sex = input$sex, age = input$age, st3 = input$st3)      
-    })
-    
-    output$survPlot <- renderPlot({
-      newd <- newd()
-      surv_cox <- fortify(survfit(m2, newdata = newd))
-      surv_weibull <- summary(m2w, newdata = newd, tidy = TRUE)
-      tbmid <- sort(unique(.5*(orca_splitted$tstart + orca_splitted$time)))
-      mat <- cbind(1, ns(tbmid, knots = k), 1*(input$sex == "Male"), (input$age - 65)/10, 
-                   1*(input$st3 == "III"), 1*(input$st3 == "IV"))
-      Lambda <- ci.cum(mod_poi2s, ctr.mat = mat, intl = diff(c(0, tbmid)))
-      surv_poisson <- data.frame(exp(-Lambda))
-      
-      ggplot(surv_cox, aes(time, surv)) + geom_step(aes(col = "Cox")) +
-        geom_line(data = surv_weibull, aes(y = est, col = "Weibull")) +
-        geom_line(data = surv_poisson, aes(x = c(0, tbmid[-1]), y = Estimate, col = "Poisson")) +
-        labs(x = "Time (years)", y = "Survival", col = "Models") + theme_classic()
-    })
-  }
-)
+## library(shiny)
+## library(tidyverse)
+## library(splines)
+## library(Epi)
+## library(survival)
+## library(flexsurv)
+## library(ggfortify)
+## 
+## shinyApp(
+## 
+##   ui = fluidPage(
+##     h2("Choose covariate pattern:"),
+##     selectInput("sex", label = h3("Sex"),
+##                 choices = list("Female" = "Female" , "Male" = "Male")),
+##     sliderInput("age", label = h3("Age"),
+##                 min = 20, max = 80, value = 65),
+##     selectInput("st3", label = h3("Stage (3 levels)"),
+##                 choices = list("Stage I and II" = "I+II", "Stage III" = "III",
+##                                "Stage IV" = "IV")),
+##     plotOutput("survPlot")
+##   ),
+## 
+##   server = function(input, output){
+## 
+##     orca <- read.table("http://www.stats4life.se/data/oralca.txt", header = T)
+##     orca2 <- orca %>%
+##       filter(stage != "unkn") %>%
+##       mutate(st3 = Relevel(droplevels(stage), list(1:2, 3, 4)),
+##              all = 1*(event != "Alive"))
+##     m2 <- coxph(Surv(time, all) ~ sex + I((age-65)/10) + st3, data = orca2, ties = "breslow")
+##     m2w <- flexsurvreg(Surv(time, all) ~ sex + I((age-65)/10) + st3, data = orca2, dist = "weibull")
+##     cuts <- sort(unique(orca2$time[orca2$all == 1]))
+##     orca_splitted <- survSplit(Surv(time, all) ~ ., data = orca2, cut = cuts, episode = "tgroup")
+##     orca_splitted$dur <- with(orca_splitted, time - tstart)
+##     k <- quantile(orca2$time, 1:5/6)
+##     mod_poi2s <- glm(all ~ ns(time, knots = k) + sex + I((age-65)/10) + st3,
+##                      data = orca_splitted, family = poisson, offset = log(dur))
+## 
+##     newd <- reactive({
+##       data.frame(sex = input$sex, age = input$age, st3 = input$st3)
+##     })
+## 
+##     output$survPlot <- renderPlot({
+##       newd <- newd()
+##       surv_cox <- fortify(survfit(m2, newdata = newd))
+##       surv_weibull <- summary(m2w, newdata = newd, tidy = TRUE)
+##       tbmid <- sort(unique(.5*(orca_splitted$tstart + orca_splitted$time)))
+##       mat <- cbind(1, ns(tbmid, knots = k), 1*(input$sex == "Male"), (input$age - 65)/10,
+##                    1*(input$st3 == "III"), 1*(input$st3 == "IV"))
+##       Lambda <- ci.cum(mod_poi2s, ctr.mat = mat, intl = diff(c(0, tbmid)))
+##       surv_poisson <- data.frame(exp(-Lambda))
+## 
+##       ggplot(surv_cox, aes(time, surv)) + geom_step(aes(col = "Cox")) +
+##         geom_line(data = surv_weibull, aes(y = est, col = "Weibull")) +
+##         geom_line(data = surv_poisson, aes(x = c(0, tbmid[-1]), y = Estimate, col = "Poisson")) +
+##         labs(x = "Time (years)", y = "Survival", col = "Models") + theme_classic()
+##     })
+##   }
+## )
 
 ## ----quadratic age-------------------------------------------------------
 m3 <- coxph(Surv(time, all) ~ sex + I(age-65) + I((age-65)^2) + st3, data = orca2)
@@ -385,7 +402,7 @@ fit_qs
 
 ## ------------------------------------------------------------------------
 fit_kms <- survfit(Surv(time, all) ~ st3, data = orca2)
-pc_qs <- data_frame(
+pc_qs <- tibble(
   st3 = levels(orca2$st3),
   coef = coef(fit_qs),
   time_p = c(NA, coef[-1] + coef[1]),
