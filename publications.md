@@ -9,6 +9,17 @@ navigation_weight: 2
 Publications
 ========
 
+## 2019
+
+<ul class="fa-ul">
+  <li><a href="" target="_blank"><i class="fa-li fa fa-file-text"></i></a> 
+Filippini T, Hatch E.E., Rothman K.J., Heck J.E., Park A.S., <b>Crippa A</b>, Orsini N., Vinceti
+M.. <a href="" target="_blank"> Association between Outdoor Air Pollution and Childhood Leukemia: A Systematic Review and Dose–Response Meta-Analysis.</a>. Environmental Health Perspectives. 2019.
+</li>
+
+</ul>
+
+
 ## 2018
 
 <ul class="fa-ul">
