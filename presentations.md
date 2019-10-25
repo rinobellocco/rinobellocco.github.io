@@ -13,6 +13,11 @@ Presentations
 
 <ul class="fa-ul">
 	
+	  <li><a href="http://rpubs.com/alecri/useR2019" target="_blank"><i class="fa-li fa fa-file-text"></i></a> 
+	<a href="https://www.youtube.com/watch?v=CmiijpmQqi4&t=663s" target="_blank"><i class="fa fa-video-camera" aria-hidden="true"></i></a> July 12, 2019 useR!2019 
+	</li>
+	<div style="height:10px"></div>
+	
 	<li><a href="/downloads/presentation/phd-defense.pdf" target="_blank"><i class="fa-li fa fa-file-text"></i></a> 
 Apr 13, 2018 PhD defense
 </li>
@@ -78,6 +83,12 @@ June 27, 2015 European Congress of Epidemiology - Healthy Living
 ## Karolinska Institutet
 
 <ul class="fa-ul">
+	
+<li><a href="http://rpubs.com/alecri/probio_design" target="_blank"><i class="fa-li fa fa-file-text"></i></a> 
+May 14, 2019 Faculty Event at MEB
+</li>
+<div style="height:10px"></div>
+
 <li><a href="http://rpubs.com/alecri/intro_shiny" target="_blank"><i class="fa-li fa fa-file-text"></i></a> 
 Sept 29, 2016 Public Health PhD student meetups
 </li>

@@ -9,13 +9,16 @@ navigation_weight: 6
 Courses
 =====================
 
+- [A not so short review on survival analysis in R](http://rpubs.com/alecri/258589)        [[R script]](/courses/review_survival.R) [[.txt]](/courses/review_survival.txt)  
+
+- [Studying Mediation in Intervention Evaluation]  [[slides]](/courses/medation.pdf) [[.R script]](/courses/mediation.R)  
+
 - [Get started with R (Uppsala 2017 October)](/courses/getStartedR_uuh.html)
 
 - [Get started with R (KI-PHS 2016 October)](/courses/getStartedR.html)
 
 - [Advanced statistics in Epidemiology - Master in Public Health Epidemiology]()
 
-- [A not so short review on survival analysis in R](http://rpubs.com/alecri/258589)        [[R script]](/courses/review_survival.R) [[.txt]](/courses/review_survival.txt)  
 
 <div style="height:50px"></div>
 

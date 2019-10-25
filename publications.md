@@ -13,10 +13,20 @@ Publications
 
 <ul class="fa-ul">
   <li><a href="" target="_blank"><i class="fa-li fa fa-file-text"></i></a> 
-Filippini T, Hatch E.E., Rothman K.J., Heck J.E., Park A.S., <b>Crippa A</b>, Orsini N., Vinceti
-M.. <a href="" target="_blank"> Association between Outdoor Air Pollution and Childhood Leukemia: A Systematic Review and Dose–Response Meta-Analysis.</a>. Environmental Health Perspectives. 2019.
+Blond K, Brinkløv CF, Ried-Larsen M, <b>Crippa A</b>,, Grøntved A. <a href="https://www.ncbi.nlm.nih.gov/pubmed/31406017" target="_blank"> Association of high amounts of physical activity with mortality risk: a systematic review and meta-analysis. British journal of sports medicine.</a>. 2019 Aug 12:bjsports-2018.
 </li>
+<div style="height:10px"></div>
 
+  <li><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6785230/" target="_blank"><i class="fa-li fa fa-file-text"></i></a> 
+Filippini T, Hatch E.E., Rothman K.J., Heck J.E., Park A.S., <b>Crippa A</b>, Orsini N., Vinceti
+M.. <a href="https://www.ncbi.nlm.nih.gov/pubmed/31017485" target="_blank"> Association between Outdoor Air Pollution and Childhood Leukemia: A Systematic Review and Dose–Response Meta-Analysis.</a>. Environmental Health Perspectives. 2019.
+</li>
+<div style="height:10px"></div>
+
+<li><a href="https://www.researchgate.net/publication/325065533_One-stage_dose-response_meta-analysis_for_aggregated_data" target="_blank"><i class="fa-li fa fa-file-text"></i></a> 
+<b>Crippa A</b>, Discacciati A, Bottai M, Spiegelman D, Orsini N. <a href="https://www.ncbi.nlm.nih.gov/pubmed/29742975" target="_blank"> One-stage dose-response meta-analysis for aggregated data.</a>. Statistical Methods in Medical Research. 2019 May;28(5):1579-96.
+</li>
+	
 </ul>
 
 
@@ -24,7 +34,7 @@ M.. <a href="" target="_blank"> Association between Outdoor Air Pollution and Ch
 
 <ul class="fa-ul">
   <li><a href="" target="_blank"><i class="fa-li fa fa-file-text"></i></a> 
-Trevisan C, <b>Crippa A</b>, Ek S, Welmer AK, Sergi G, Maggi S, Manzato E, Bea JW, Cauley JA, Decullier E, Hirani V. <a href="" target="_blank"> Nutritional status, body mass index, and the risk of falls in community-dwelling older adults: a systematic review and meta-analysis.</a>. Journal of the American Medical Directors Association. 2018 Dec 13.
+Trevisan C, <b>Crippa A</b>, Ek S, Welmer AK, Sergi G, Maggi S, Manzato E, Bea JW, Cauley JA, Decullier E, Hirani V. <a href="https://www.ncbi.nlm.nih.gov/pubmed/30554987" target="_blank"> Nutritional status, body mass index, and the risk of falls in community-dwelling older adults: a systematic review and meta-analysis.</a>. Journal of the American Medical Directors Association. 2018 Dec 13.
 </li>
 <div style="height:10px"></div>
 
@@ -38,11 +48,6 @@ Lugo A, Peveri G, Bosetti C, Bagnardi V, <b>Crippa A</b>, Orsini N, Rota M, Gall
 </li>
 <div style="height:10px"></div>
 
-<li><a href="https://www.researchgate.net/publication/325065533_One-stage_dose-response_meta-analysis_for_aggregated_data" target="_blank"><i class="fa-li fa fa-file-text"></i></a> 
-<b>Crippa A</b>, Discacciati A, Bottai M, Spiegelman D, Orsini N. <a href="https://www.ncbi.nlm.nih.gov/pubmed/29742975" target="_blank"> One-stage dose-response meta-analysis for aggregated data.</a>. Statistical Methods in Medical Research. 2018 0962280218773122. 
-</li>
-<div style="height:10px"></div>
-	
 <li><a href="https://www.researchgate.net/publication/325021574_A_Pointwise_Approach_to_Dose-Response_Meta-Analysis_of_Aggregated_Data?_sg=_ZP4cld17tNfOel7QGlgk-B8iWlIXKz5_BX0PEWRMm793cBjoHfIw4vKJkXJYDNA3E0EvlXvLk2mOwWTQijviki3sCFAWmCtewPO7y4K.CrnzXSR5F1kxRhOknFDvP-Iom7_TDDoWD88NrZMZT_sxjOjTSdpjEPQRiRDXCY39eyiwCHlTSynn2x3p2v7DEg" target="_blank"><i class="fa-li fa fa-file-text"></i></a> 
 <b>Crippa A</b>, Thomas I, Orsini N. <a href="" target="_blank"> A pointwise approach to dose-response meta-analysis of aggregated data</a>. International Journal of Statistics in Medical Research. 2018 May 8;7(2):25-32.
 </li>
@@ -54,14 +59,20 @@ Lugo A, Peveri G, Bosetti C, Bagnardi V, <b>Crippa A</b>, Orsini N, Rota M, Gall
 
 <ul class="fa-ul">
 
-<li><a href="" target="_blank"><i class="fa-li fa fa-file-text"></i></a> 
-Aneni EC, <b>Crippa A</b>, Osondu CU, Valero‐Elizondo J, Younus A, Nasir K, Veledar E. <a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=Estimates+of+Mortality+Benefit+From+Ideal+Cardiovascular+Health+Metrics%3A+A+Dose+Response+Meta-Analysis" target="_blank"> Estimates of Mortality Benefit From Ideal Cardiovascular Health Metrics: A Dose Response Meta-Analysis</a>. Journal of the American Heart Association. 2017 Dec 1;6(12):e006904.
+<li><a href="https://www.researchgate.net/publication/322001842_Estimates_of_Mortality_Benefit_From_Ideal_Cardiovascular_Health_Metrics_A_Dose_Response_Meta-Analysis/fulltext/5a3d03440f7e9ba868897773/Estimates-of-Mortality-Benefit-From-Ideal-Cardiovascular-Health-Metrics-A-Dose-Response-Meta-Analysis.pdf" target="_blank"><i class="fa-li fa fa-file-text"></i></a> 
+Aneni EC, <b>Crippa A</b>, Osondu CU, Valero‐Elizondo J, Younus A, Nasir K, Veledar E. <a href="https://www.ncbi.nlm.nih.gov/pubmed/29269350" target="_blank"> Estimates of Mortality Benefit From Ideal Cardiovascular Health Metrics: A Dose Response Meta-Analysis</a>. Journal of the American Heart Association. 2017 Dec 1;6(12):e006904.
 </li>
 <div style="height:10px"></div>
 	
 <li><a href="https://www.researchgate.net/publication/311864288_Red_and_processed_meat_consumption_and_risk_of_bladder_cancer_a_dose-response_meta-analysis_of_epidemiological_studies" target="_blank"><i class="fa-li fa fa-file-text"></i></a> 
-<b>Crippa A</b>, Larsson SC, Discacciati A, Wolk A, Orsini N. <a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=Red+and+processed+meat+consumption+and+risk+of+bladder+cancer%3A+a+dose%E2%80%93response+meta-analysis+of+epidemiological+studies" target="_blank"> Red and processed meat consumption and risk of bladder cancer: a dose-response meta-analysis of epidemiological studies</a>. European Journal of Nutrition. 2017 Jan.
+<b>Crippa A</b>, Larsson SC, Discacciati A, Wolk A, Orsini N. <a href="https://www.ncbi.nlm.nih.gov/pubmed/28070638" target="_blank"> Red and processed meat consumption and risk of bladder cancer: a dose-response meta-analysis of epidemiological studies</a>. European Journal of Nutrition. 2017 Jan.
 </li>
+<div style="height:10px"></div>
+
+  <li><a href="http://onlinelibrary.wiley.com/doi/10.1002/jrsm.1194/pdf" target="_blank"><i class="fa-li fa fa-file-text"></i></a> 
+Discacciati A, <b>Crippa A</b>, Orsini N. <a href="http://www.ncbi.nlm.nih.gov/pubmed/26679736" target="_blank"> Goodness of fit tools for dose-response meta-analysis of binary outcomes</a>. Research synthesis methods. 2017 Jun;8(2):149-60.
+</li>
+
 </ul>
 
 
@@ -110,11 +121,6 @@ Veledar E, <b>Crippa A</b>, Osondua CU, Younusa A, Nasira K. <a href="https://ww
 <ul class="fa-ul">
   <li><a href="https://www.researchgate.net/publication/282041424_Milk_Consumption_and_Mortality_from_All_Causes_Cardiovascular_Disease_and_Cancer_A_Systematic_Review_and_Meta-Analysis" target="_blank"><i class="fa-li fa fa-file-text"></i></a> 
 Larsson S, <b>Crippa A</b>, Orsini N, Wolk, Michaëlsson K. <a href="http://www.ncbi.nlm.nih.gov/pubmed/26378576" target="_blank"> Milk Consumption and Mortality from All Causes, Cardiovascular Disease, and Cancer: A Systematic Review and Meta-Analysis</a>. Nutrients. 2015 Sep 11;7(9):7749-7763.
-</li>
-<div style="height:10px"></div>
-
-  <li><a href="http://onlinelibrary.wiley.com/doi/10.1002/jrsm.1194/pdf" target="_blank"><i class="fa-li fa fa-file-text"></i></a> 
-Discacciati A, <b>Crippa A</b>, Orsini N. <a href="http://www.ncbi.nlm.nih.gov/pubmed/26679736" target="_blank"> Goodness of fit tools for dose-response meta-analysis of binary outcomes</a>. Research Synthesis Methods. 2015 Jan 1. doi: 10.1002/jrsm.1194.
 </li>
 </ul>
 
