@@ -11,7 +11,7 @@ About
 
 <div>
 	<div style="width:200px;float:left;">
-		<a href="/downloads/pic/profile_curr.jpeg" class="left img"><img src="/downloads/pic/profile_curr.jpeg"></a>
+		<a href="/downloads/pic/profile_curr.jpeg" class="left img"><img src="/downloads/pic/profile_curr.jpeg" alt = "Image" height = "400" widht = "200"></a>
 	</div>
 	<div style="margin-left:200px;">
 		<ul>
