@@ -11,7 +11,7 @@ About
 
 <div>
 	<div style="width:200px;float:left;">
-		<a href="/downloads/pic/profile_curr.jpg" class="left img"><img src="/downloads/pic/profile2.jpg" style="width: 200px;"></a>
+		<a href="/downloads/pic/profile_curr.jpg" class="left img"><img src="/downloads/pic/profilecurr.jpg" style="width: 200px;"></a>
 	</div>
 	<div style="margin-left:200px;">
 		<ul>
@@ -31,7 +31,6 @@ Contact
 **Mobile**: 	+46(0)720282766  
 **Email**: <a href="mailto:alessio.crippa@ki.se">alessio.crippa<span class="at">@</span>ki.se</a> or
 <a href="mailto:alessio.crippa@gmail.com">alessio.crippa<span class="at">@</span>gmail.com</a>  
-
 
 Link
 ===============
