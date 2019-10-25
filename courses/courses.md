@@ -11,7 +11,7 @@ Courses
 
 - [A not so short review on survival analysis in R](http://rpubs.com/alecri/258589)        [[R script]](/courses/review_survival.R) [[.txt]](/courses/review_survival.txt)  
 
-- [Studying Mediation in Intervention Evaluation]  [[slides]](/courses/medation.pdf) [[.R script]](/courses/mediation.R)  
+- [Studying Mediation in Intervention Evaluation](/courses/medation.pdf)       [[.R script]](/courses/mediation.R)  
 
 - [Get started with R (Uppsala 2017 October)](/courses/getStartedR_uuh.html)
 

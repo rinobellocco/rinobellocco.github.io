@@ -21,8 +21,6 @@ About
 </div>
 </div>
 
-<div style="height:10px"></div>
-
 Contact
 ===============
 
