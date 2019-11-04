@@ -1,0 +1,66 @@
+I"g<h1 id="the-dosresmeta-r-package-performing-multivariate-dose-response-meta-analysis">The dosresmeta R package: Performing multivariate dose-response meta-analysis</h1>
+
+<p>The <code class="highlighter-rouge">dosresmeta</code> package is a free and open-source add-on for conducting (multivariate) dose-response meta-analysis with the statistical software environment <a href="https://www.r-project.org/">R</a>.
+You can install the package (or upgrade to the newest version) from <a href="https://cran.r-project.org/web/packages/dosresmeta/index.html">CRAN</a> directly within R by typing:</p>
+
+<p><code class="highlighter-rouge">install.packages("dosresmeta")</code></p>
+
+<p>Extensions to meta-regression models and alternative estimation procedures are included in an update version still under developement, which is avaiable on <a href="https://github.com/alecri/dosresmeta">GitHub</a> by typing:</p>
+
+<p><code class="highlighter-rouge">install.packages("devtools")</code></p>
+
+<p><code class="highlighter-rouge">devtools::install_github("alecri/dosresmeta")</code></p>
+
+<p> </p>
+
+<h2 id="reproducible-code">Reproducible code</h2>
+
+<ul>
+  <li>
+    <p><a href="https://github.com/alecri/differences-in-mean"><em>GitHub repository</em> for <strong>Crippa, A.</strong>, &amp; Orsini N.  “ Dose-response meta-analysis of differences in means” 2016. BMC Medical Research Methodology</a></p>
+  </li>
+  <li>
+    <p><a href="https://github.com/anddis/goodness-of-fit-meta-analysis"><em>GitHub repository</em> for Discacciati, A., <strong>Crippa, A.</strong>, &amp; Orsini N.  “Goodness-of-fit tools for dose-response meta-analysis of binary outcomes” 2015. JRSM</a></p>
+  </li>
+</ul>
+
+<p> </p>
+
+<h2 id="analysis-examples">Analysis Examples</h2>
+
+<p>The links below demonstrate how the models, methods, and techniques described in the respective articles/chapters can be applied via the <code class="highlighter-rouge">dosresmeta</code> package. The examples are run using dosresmeta version 2.0.0 avaiable on GitHub.</p>
+
+<ul>
+  <li>
+    <p><a href="http://rpubs.com/alecri/berlin">Berlin JA, Longnecker MP, Greenland S. Meta-analysis of epidemiologic dose-response data. Epidemiology. 1993 May 1:218-28</a></p>
+  </li>
+  <li>
+    <p><a href="http://rpubs.com/alecri/glst">Orsini, N., Bellocco, R., &amp; Greenland, S. Generalized least squares for trend estimation of summarized dose-response data. 2006 Stata Journal, 6(1), 40.</a></p>
+  </li>
+  <li>
+    <p><a href="http://rpubs.com/alecri/qinliu">Liu, Qin, et al. “A two-stage hierarchical regression model for meta-analysis of epidemiologic nonlinear dose–response data.” Computational Statistics &amp; Data Analysis 53.12 (2009): 4157-4167.</a></p>
+  </li>
+</ul>
+
+<p> </p>
+
+<p><strong>Additional (useful) code</strong></p>
+
+<ul>
+  <li><a href="/downloads/codes/missing cases n.txt">Missing number of cases/n. Assuming independence</a></li>
+  <li><a href="/downloads/codes/fp_splines_example.txt">Loop for selecting best fractional polynomial</a></li>
+  <li><a href="/downloads/codes/leave1out.txt">Leave-one-out dose-response meta-analysis</a></li>
+  <li><a href="/downloads/codes/cumulative.txt">Cumulative dose-response meta-analysis</a></li>
+  <li><a href="/downloads/codes/knots_location.txt">Sensitivity analysis to location of knots in a spline model</a></li>
+</ul>
+
+<p><strong>Older R script in txt format based on dosresmeta version 1.3.1 available on CRAN.</strong></p>
+
+<ul>
+  <li><a href="/downloads/codes/coffee_mort.txt">Coffee consumption and all causes mortality</a></li>
+  <li><a href="/downloads/codes/alcohol_crc.txt">Alcohol intake and colorectal cancer</a></li>
+  <li><a href="/downloads/codes/alcohol_lc.txt">Alcohol intake and lung cancer</a></li>
+  <li><a href="/downloads/codes/ts_glst_bmi_ex.txt">Body mass index and renal cancer</a></li>
+  <li><a href="/downloads/codes/ts_glst_alcohol_ex.txt">Alcohol intake and cardiovascular risk</a></li>
+</ul>
+:ET

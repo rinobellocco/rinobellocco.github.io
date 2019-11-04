@@ -1,0 +1,48 @@
+I"<h1 id="courses">Courses</h1>
+
+<ul>
+  <li>
+    <p><a href="http://rpubs.com/alecri/258589">A not so short review on survival analysis in R</a>        <a href="/courses/review_survival.R">[R script]</a> <a href="/courses/review_survival.txt">[.txt]</a></p>
+  </li>
+  <li>
+    <p><a href="/courses/mediation.pdf">Studying Mediation in Intervention Evaluation</a>    <a href="/courses/mediation.R">[.R script]</a></p>
+  </li>
+  <li>
+    <p><a href="/courses/getStartedR_uuh.html">Get started with R (Uppsala 2017 October)</a></p>
+  </li>
+  <li>
+    <p><a href="/courses/getStartedR.html">Get started with R (KI-PHS 2016 October)</a></p>
+  </li>
+  <li>
+    <p><a href="">Advanced statistics in Epidemiology - Master in Public Health Epidemiology</a></p>
+  </li>
+</ul>
+
+<div style="height:50px"></div>
+
+<h1 id="useful-teaching-material">Useful teaching material</h1>
+
+<ul>
+  <li>
+    <p><a href="http://rpubs.com/alecri/multivLogistic">Visualizing multivariate logistic regression (document)</a></p>
+  </li>
+  <li>
+    <p><a href="http://alessiocrippa.com/shiny/hp_err">Visualize Type I/II errors: one-sample (z-)test of means</a></p>
+  </li>
+  <li>
+    <p><a href="http://alessiocrippa.com/shiny/bin_poi">Difference between Binomial and Poisson distribution (web app)</a></p>
+  </li>
+  <li>
+    <p><a href="http://rpubs.com/alecri/discr_rv">Discrete random variables (lab document)</a></p>
+  </li>
+  <li>
+    <p><a href="http://rpubs.com/alecri/norm_rv">The Normal distribution (lab document)</a></p>
+  </li>
+  <li>
+    <p><a href="https://plot.ly/~alecri/216/no-interaction">Multivariable (2 dim) linear regression with no interaction (plot)</a></p>
+  </li>
+  <li>
+    <p><a href="https://plot.ly/~alecri/214/interaction">Multivariable (2 dim) linear regression with interaction (plot)</a></p>
+  </li>
+</ul>
+:ET

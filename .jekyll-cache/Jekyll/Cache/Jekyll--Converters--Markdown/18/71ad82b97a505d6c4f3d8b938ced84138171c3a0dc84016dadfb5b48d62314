@@ -1,0 +1,28 @@
+I"8<h1 id="software">Software</h1>
+
+<h2 id="developed-r-packages">Developed R packages</h2>
+<!--
+<h2>(release version on CRAN, development version on GitHub)</h2>
+-->
+
+<ul>
+  <li>
+    <p><a href="/software/dosresmeta.html">dosresmeta</a>: Performing Multivariate Dose-Response Meta-Analysis</p>
+  </li>
+  <li>
+    <p><a href="/software/hetmeta.html">hetmeta</a>: Heterogeneity Measures in Meta-Analysis</p>
+  </li>
+  <li>
+    <p><a href="https://github.com/alecri/alecri">alecri</a>: Several Useful Functions: a Miscellaneous R Package</p>
+  </li>
+</ul>
+
+<p>Check how many people use my R packages at <a href="http://alessiocrippa.com/shiny/my_packages_usage/">http://alessiocrippa.com/shiny/my_packages_usage/</a></p>
+
+<div style="height:50px"></div>
+
+<h2 id="bookdown">Bookdown</h2>
+
+<p>My PhD thesis is available <a href="https://bookdown.org/alecri/thesis/1-intro.html">here</a> as a book written in <a href="https://bookdown.org/">bookdown</a>.<br />
+The code to reproduce the pdf is available as a public repository on <a href="https://github.com/alecri/kappa">GitHub</a>.</p>
+:ET

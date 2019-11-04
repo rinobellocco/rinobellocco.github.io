@@ -1,0 +1,102 @@
+I"<h1 id="get-started-with-r-uppsala-university-hospital">Get started with R (Uppsala University Hospital)</h1>
+
+<h2 id="last-update-october-9-2017">Last update: October 9, 2017</h2>
+
+<p>Organizer: Nils Hailer<br />
+Time and location: October 12, 12.00-16.30<br />
+Konferensrummet, Department of Orthopedics, Akademiska sjukhuset ing 61, 6 tr<br />
+751 85 Uppsala</p>
+
+<p><br /></p>
+
+<h2 id="lecture-notes">Lecture notes:</h2>
+
+<ul class="fa-ul">
+<li><a href="http://rpubs.com/alecri/getStartedR_uuh" target="_blank"><i class="fa-li fa fa-file-text"></i> slides (Part 1)</a> 
+</li>
+<div style="height:10px"></div>
+
+<li><a href="http://rpubs.com/alecri/introR_part2" target="_blank"><i class="fa-li fa fa-file-text"></i> slides (Part 2)</a> 
+</li>
+</ul>
+<div style="height:10px"></div>
+
+<h2 id="r-script">R script:</h2>
+
+<ul>
+  <li>
+    <p>Script (Pat 1) <a href="http://alecri.github.io/courses/getStartedR_folder/code_uuh.R">.R</a> <a href="http://alecri.github.io/courses/getStartedR_folder/code_uuh.txt">.txt</a></p>
+  </li>
+  <li>
+    <p>Script in the slides  (Pat 1) <a href="http://alecri.github.io/courses/getStartedR_folder/ioslides_uuh.R">.R</a> <a href="http://alecri.github.io/courses/getStartedR_folder/ioslides_uuh.txt">.txt</a></p>
+  </li>
+  <li>
+    <p>Script (Pat 2) <a href="http://alecri.github.io/courses/getStartedR_folder/code_uuh2.R">.R</a> <a href="http://alecri.github.io/courses/getStartedR_folder/code_uuh2.txt">.txt</a></p>
+  </li>
+</ul>
+
+<div style="height:10px"></div>
+<h2 id="exercises">Exercises:</h2>
+
+<ul class="fa-ul">
+<li><a href="http://alecri.github.io/courses/getStartedR_folder/ex_getStartedR.pdf" target="_blank"><i class="fa-li fa fa-file-text"></i> exercises (Part 1) </a> 
+</li>
+<div style="height:10px"></div>
+
+<li><a href="http://alecri.github.io/courses/getStartedR_folder/ex_getStartedR_solution.pdf" target="_blank"><i class="fa-li fa fa-file-text"></i> exercises + solution (Part 1) </a> 
+</li>
+</ul>
+
+<ul class="fa-ul">
+<li><a href="http://alecri.github.io/courses/getStartedR_folder/ex_survival.pdf" target="_blank"><i class="fa-li fa fa-file-text"></i> exercises (Part 2) </a> 
+</li>
+<div style="height:10px"></div>
+
+<li><a href="http://alecri.github.io/courses/getStartedR_folder/ex_survival_solution.pdf" target="_blank"><i class="fa-li fa fa-file-text"></i> exercises + solution (Part 2) </a> 
+</li>
+</ul>
+
+<h2 id="dataset">Dataset</h2>
+
+<p>The interactive part will be based on the oralca dataset.<br />
+Datasets in different format ar available <a href="http://alecri.github.io/data/">here</a>.</p>
+
+<p>They are related to the following publications:</p>
+
+<ul>
+  <li>
+    <p><a href="http://www.stats4life.se/docs/comp_risk.pdf">Competing risks analysis of cause-specific mortality in patients with
+ oral squamous cell carcinoma</a></p>
+  </li>
+  <li>
+    <p><a href="http://alecri.github.io/downloads/whitehall.pdf">Health inequalities among British civil servants: the Whitehall II study</a></p>
+  </li>
+</ul>
+
+<p><br /></p>
+
+<h2 id="free-resources-to-help-you-learn-r">Free resources to help you learn R</h2>
+
+<ul>
+  <li>
+    <p><a href="http://r4ds.had.co.nz/">R for Data Science</a></p>
+  </li>
+  <li>
+    <p><a href="http://adv-r.had.co.nz/">Advanced R</a></p>
+  </li>
+  <li>
+    <p><a href="http://moderndive.com/">ModernDive - An Introduction to Statistical and Data Sciences via R</a></p>
+  </li>
+</ul>
+
+<h2 id="additional-links">Additional links</h2>
+
+<ul>
+  <li>
+    <p><a href="http://www.meetup.com/StockholmR/">Stockholm R useR group (SRUG)</a></p>
+  </li>
+  <li>
+    <p><a href="https://www.r-bloggers.com/">R-bloggers</a></p>
+  </li>
+</ul>
+:ET

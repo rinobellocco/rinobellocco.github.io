@@ -1,0 +1,21 @@
+I"%<h1 id="the-hetmeta-r-package-heterogeneity-measures-in-meta-analysis">The hetmeta R package: Heterogeneity Measures in Meta-Analysis</h1>
+
+<p>The <code class="highlighter-rouge">hetmeta</code> package is a free and open-source add-on for quantifying the impact of heterogeneity in meta-analysis within the statistical software environment <a href="https://www.r-project.org/">R</a>.
+You can install the package (or upgrade to the newest version) from <a href="https://cran.r-project.org/web/packages/hetmeta/index.html">CRAN</a> directly within R by typing:</p>
+
+<p><code class="highlighter-rouge">install.packages(“hetmeta”)</code></p>
+
+<p>A development version is hosted and avaiable on <a href="https://github.com/alecri/dosresmeta">GitHub</a> by typing:</p>
+
+<p><code class="highlighter-rouge">install.packages("devtools")</code></p>
+
+<p><code class="highlighter-rouge">devtools::install_github("alecri/hetmeta”)</code></p>
+
+<p> </p>
+
+<h2 id="reproducible-code">Reproducible code</h2>
+
+<ul>
+  <li><a href="https://github.com/alecri/Rb_heterogeneity"><em>GitHub repository</em> for <strong>Crippa, A.</strong>, Khudyakov P, Wang M, Orsini N, &amp; Spiegelman D “A new measure of between-studies heterogeneity in meta-analysis”. Statistics in Medicine. 2016 May 10. doi: 10.1002/sim.6980</a></li>
+</ul>
+:ET
