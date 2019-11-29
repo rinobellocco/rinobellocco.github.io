@@ -10,16 +10,17 @@ Web Applications and interactive documents
 ========
 
 <center> <h1><a href="http://shiny.rstudio.com/">Shiny Apps</a></h1> </center>
+<div style="height:40px"></div>
 
-[Simulation ProBio](http://alessiocrippa.com/shiny/sim_probio/)         |  [Intervention time series analysis of the smoking cessation quitline](http://alessiocrippa.com/shiny/SRL/)              
+[Simulation ProBio](http://alessiocrippa.com/shiny/sim_probio/)         |  [Intervention time series analysis](http://alessiocrippa.com/shiny/SRL/)              
 :------------------------------:|:----------------------------------:
 <a href="http://alessiocrippa.com/shiny/sim_probio/"><img src="/downloads/pic/sim_probio.png" style="width: 400px;"/> |   <a href="http://alessiocrippa.com/shiny/SRL/"><img src="/downloads/pic/SRL.png" style="width: 400px;"/>  
 
 <div style="height:40px"></div>
 
-[Learning and memory: Morris Water Maze](http://alessiocrippa.com/shiny/fluoride/)         |  [Bias for heterogeneity measures in meta-analysis](http://alessiocrippa.com/shiny/bias/)                          
+[Prostate Cancer in Sweden](http://alessiocrippa.com/shiny/PC_inc_mort/)         |  [Bias for heterogeneity measures in meta-analysis](http://alessiocrippa.com/shiny/bias/)                          
 :------------------------------:|:----------------------------------:
-<a href="http://alessiocrippa.com/shiny/fluoride/"><img src="/downloads/pic/fluoride.png" style="width: 400px;"/> |  <a href="http://alessiocrippa.com/shiny/bias/"><img src="/downloads/pic/bias.png" style="width: 400px;"/>
+<a href="http://alessiocrippa.com/shiny/PC_inc_mort/"><img src="/downloads/pic/PC_inc_mort.png" style="width: 400px;"/> |  <a href="http://alessiocrippa.com/shiny/bias/"><img src="/downloads/pic/bias.png" style="width: 400px;"/>
 
 
 <div style="height:40px"></div>
@@ -32,9 +33,9 @@ Web Applications and interactive documents
 
 
 
-[Shiny form](http://alessiocrippa.com/shiny/shinyForm/)          |  [Template for maps of Sweden](http://alessiocrippa.com/shiny/maps/)               
+[Learning and memory: Morris Water Maze](http://alessiocrippa.com/shiny/fluoride/)           |  [Template for maps of Sweden](http://alessiocrippa.com/shiny/maps/)               
 :------------------------------:|:----------------------------------:
-<a href="http://alessiocrippa.com/shiny/shinyForm/"><img src="/downloads/pic/shiny_form.png" style="width: 400px;"/> |  <a href="http://alessiocrippa.com/shiny/maps/"><img src="/downloads/pic/maps.png" style="width: 400px;"/>
+<a href="http://alessiocrippa.com/shiny/fluoride/"><img src="/downloads/pic/fluoride.png" style="width: 400px;"/>  |  <a href="http://alessiocrippa.com/shiny/maps/"><img src="/downloads/pic/maps.png" style="width: 400px;"/>
 
 
 <div style="height:40px"></div>
