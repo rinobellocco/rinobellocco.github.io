@@ -25,7 +25,7 @@ Courses
 Useful teaching material
 =====================
 
-- [Incidence and mortality of Prostate Cancer in Sweden, gif over time]](/downloads/map_rate.gif)  
+- [Incidence and mortality of Prostate Cancer in Sweden, gif over time](/downloads/map_rate.gif)  
 
 - [Visualizing multivariate logistic regression (document)](http://rpubs.com/alecri/multivLogistic)  
 
