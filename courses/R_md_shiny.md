@@ -37,7 +37,7 @@ The presentation is divided in two parts:
 
 + Part I  
   - html file (code + output): http://rpubs.com/alecri/intro-epiR  
-  - GitHub repo:    
+  - GitHub repo: https://github.com/alecri/introR-epi  
 
 + Part II  
   - Shiny app: https://alecri.shinyapps.io/PC_inc_mort/  
