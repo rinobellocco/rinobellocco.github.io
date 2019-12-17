@@ -13,6 +13,11 @@ Publications
 
 <ul class="fa-ul">
   <li><a href="" target="_blank"><i class="fa-li fa fa-file-text"></i></a> 
+Zhou X, Crippa A, Danielsson A, Galanti M.R., Orsini N. <a href="" target="_blank"> Effect of tobacco control policies on the Swedish smoking quitline using intervention time-series analysis.</a>. BMJ Open 2019;9:e033650. doi: 10.1136/bmjopen-2019-033650
+</li>
+<div style="height:10px"></div>
+
+  <li><a href="" target="_blank"><i class="fa-li fa fa-file-text"></i></a> 
 Blond K, Brinkløv CF, Ried-Larsen M, <b>Crippa A</b>,, Grøntved A. <a href="https://www.ncbi.nlm.nih.gov/pubmed/31406017" target="_blank"> Association of high amounts of physical activity with mortality risk: a systematic review and meta-analysis. British journal of sports medicine.</a>. 2019 Aug 12:bjsports-2018.
 </li>
 <div style="height:10px"></div>
