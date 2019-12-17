@@ -23,7 +23,7 @@ Extensions to meta-regression models and alternative estimation procedures are i
 
 ## Reproducible code
 
-* [*GitHub repository* for **Crippa, A.**, Discacciati A., Bottai M., Spiegelman D., & Orsini N.  “One-stage dose-response meta-analysis for aggregated data 2018. Statistical Methods in Medical Research](https://github.com/alecri/differences-in-mean)
+* [*GitHub repository* for **Crippa, A.**, Discacciati A., Bottai M., Spiegelman D., & Orsini N.  “One-stage dose-response meta-analysis for aggregated data 2018. Statistical Methods in Medical Research](https://github.com/alecri/one-stage-dosresmeta)
 
 * [*GitHub repository* for **Crippa, A.**, & Orsini N.  “Dose-response meta-analysis of differences in means" 2016. BMC Medical Research Methodology](https://github.com/alecri/differences-in-mean)
 
