@@ -13,7 +13,12 @@ Publications
 
 <ul class="fa-ul">
   <li><a href="" target="_blank"><i class="fa-li fa fa-file-text"></i></a> 
-Zhou X, Crippa A, Danielsson A, Galanti M.R., Orsini N. <a href="" target="_blank"> Effect of tobacco control policies on the Swedish smoking quitline using intervention time-series analysis.</a>. BMJ Open 2019;9:e033650. doi: 10.1136/bmjopen-2019-033650
+Leucht S, <b>Crippa A</b>, Siafis S, Patel MX, Orsini N, Davis JM. <a href="https://www.ncbi.nlm.nih.gov/pubmed/31838873" target="_blank"> Dose-Response Meta-Analysis of Antipsychotic Drugs for Acute Schizophrenia</a>. American Journal of Psychiatry. 2019 Dec 16:appi-jp.
+</li>
+<div style="height:10px"></div>
+
+  <li><a href="" target="_blank"><i class="fa-li fa fa-file-text"></i></a> 
+Zhou X, <b>Crippa A</b>, Danielsson A, Galanti M.R., Orsini N. <a href="https://www.ncbi.nlm.nih.gov/pubmed/31843849" target="_blank"> Effect of tobacco control policies on the Swedish smoking quitline using intervention time-series analysis</a>. BMJ Open 2019;9:e033650. doi: 10.1136/bmjopen-2019-033650
 </li>
 <div style="height:10px"></div>
 
