@@ -9,6 +9,22 @@ navigation_weight: 2
 Publications
 ========
 
+## 2020
+
+<ul class="fa-ul">
+  <li><a href="" target="_blank"><i class="fa-li fa fa-file-text"></i></a> 
+<b>Crippa A</b>, De Laere B, Discacciati A, et al. <a href="https://pubmed.ncbi.nlm.nih.gov//32586393/" target="_blank"> The ProBio Trial: Molecular Biomarkers for Advancing Personalized Treatment Decision in Patients With Metastatic Castration-Resistant Prostate Cancer</a>. Trials. 2020;21(1):579. Published 2020 Jun 26. doi:10.1186/s13063-020-04515-8
+</li>
+<div style="height:10px"></div>
+
+  <li><a href="" target="_blank"><i class="fa-li fa fa-file-text"></i></a> 
+Lantz A, Haug ES, Picker W, <b>Crippa A</b>, Jäderling F, Mortezavi A, Nordström T. <a href="https://pubmed.ncbi.nlm.nih.gov/32472278/" target="_blank">Effect of information on prostate biopsy history on biopsy outcomes in the era of MRI‑targeted biopsies</a>. World Journal of Urology. 2020; doi:10.1007/s00345-020-03277-x
+</li>
+<div style="height:10px"></div>
+	
+</ul>
+
+
 ## 2019
 
 <ul class="fa-ul">
