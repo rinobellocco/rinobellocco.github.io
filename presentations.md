@@ -13,10 +13,10 @@ Presentations
 
 <ul class="fa-ul">
 	
-	  <li><a href="http://rpubs.com/alecri/useR2019" target="_blank"><i class="fa-li fa fa-file-text"></i></a> 
+	<li><a href="http://rpubs.com/alecri/useR2019" target="_blank"><i class="fa-li fa fa-file-text"></i></a> 
 	<a href="https://www.youtube.com/watch?v=CmiijpmQqi4&t=663s" target="_blank"><i class="fa fa-video-camera" aria-hidden="true"></i></a> July 12, 2019 useR!2019 
-	</li>
-	<div style="height:10px"></div>
+</li>
+<div style="height:10px"></div>
 	
 	<li><a href="/downloads/presentation/phd-defense.pdf" target="_blank"><i class="fa-li fa fa-file-text"></i></a> 
 Apr 13, 2018 PhD defense
@@ -58,6 +58,12 @@ June 9, 2013 4th Nordic-Baltic Biometric Conference
 ## Poster Presentations
 
 <ul class="fa-ul">
+	
+	<li><a href="/downloads/poster/eRum_probio.pdf" target="_blank"><i class="fa-li fa fa-file-text"></i></a> 
+	June 20, 2020 e-Rum2020
+	</li>
+<div style="height:10px"></div>
+
   <li><a href="/downloads/poster/useR2017!.pdf" target="_blank"><i class="fa-li fa fa-file-text"></i></a> 
 July 5, 2017 useR2017!
 </li>
