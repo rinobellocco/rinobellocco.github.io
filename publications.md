@@ -13,6 +13,11 @@ Publications
 
 <ul class="fa-ul">
   <li><a href="" target="_blank"><i class="fa-li fa fa-file-text"></i></a> 
+Mortezavi A, <b>Crippa A</b>, Edeling S, Pokupic S, Dell’Oglio P, Montorsi F, D'Hondt F, Mottrie A, Decaestecker K, Wijburg, CJ, Collins J, Kelly JD, Tan WS, Sridhar A, John H, Canda AE, Schwentner C, Rönmark EP, Wiklund P, Hosseini A <a href="" target="_blank"> The Morbidity and mortality after robot‐assisted radical cystectomy with intracorporeal urinary diversion in octogenarians – results from the EAU Robotic Urology Section (ERUS) Scientific Working Group</a>. BJU Int. Accepted Author Manuscript. doi:10.1111/bju.15274
+</li>
+
+<div style="height:10px"></div>
+  <li><a href="" target="_blank"><i class="fa-li fa fa-file-text"></i></a> 
 <b>Crippa A</b>, De Laere B, Discacciati A, et al. <a href="https://pubmed.ncbi.nlm.nih.gov//32586393/" target="_blank"> The ProBio Trial: Molecular Biomarkers for Advancing Personalized Treatment Decision in Patients With Metastatic Castration-Resistant Prostate Cancer</a>. Trials. 2020;21(1):579. Published 2020 Jun 26. doi:10.1186/s13063-020-04515-8
 </li>
 <div style="height:10px"></div>
