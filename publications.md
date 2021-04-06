@@ -9,6 +9,20 @@ navigation_weight: 2
 Publications
 ========
 
+
+## 2021
+
+<ul class="fa-ul">
+  <li><a href="" target="_blank"><i class="fa-li fa fa-file-text"></i></a> 
+Eriksson, M., Eklund, M., Borgquist, S., Hellgren, R., Margolin, S., Thoren, L., ..., <b>Crippa A</b>, ..., Hall, P. <a href="" target="_blank"> Low-Dose Tamoxifen for Mammographic Density Reduction: A Randomized Controlled Trial.</a>. Journal of Clinical Oncology. 2021. pp.JCO-20
+</li>
+
+	
+</ul>
+
+
+
+
 ## 2020
 
 <ul class="fa-ul">
