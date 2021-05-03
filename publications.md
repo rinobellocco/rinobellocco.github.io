@@ -14,10 +14,15 @@ Publications
 
 <ul class="fa-ul">
   <li><a href="" target="_blank"><i class="fa-li fa fa-file-text"></i></a> 
+Sabe, M., Zhao, N., <b>Crippa A</b>, Strauss, G.P. and Kaiser, S. <a href="" target="_blank"> Intranasal oxytocin for negative symptoms of schizophrenia: systematic review, meta-analysis and dose-response meta-analysis of randomized controlled trials.</a>. International Journal of Neuropsychopharmacology. 2021.
+</li>
+<div style="height:10px"></div>
+		
+  <li><a href="" target="_blank"><i class="fa-li fa fa-file-text"></i></a> 
 Eriksson, M., Eklund, M., Borgquist, S., Hellgren, R., Margolin, S., Thoren, L., ..., <b>Crippa A</b>, ..., Hall, P. <a href="" target="_blank"> Low-Dose Tamoxifen for Mammographic Density Reduction: A Randomized Controlled Trial</a>. Journal of Clinical Oncology. 2021. pp.JCO-20
 </li>
-
 <div style="height:10px"></div>
+
   <li><a href="" target="_blank"><i class="fa-li fa fa-file-text"></i></a> 
 De Laere, B., <b>Crippa A</b>, Mortezavi, A., Ghysel, C., Rajan, P., Eklund, M., Wyatt, A., Dirix, L., Ost, P., Grönberg, H. and Lindberg, J <a href="" target="_blank"> Increased Pathway Complexity Is a Prognostic Biomarker in Metastatic Castration-Resistant Prostate Cancer</a>. Cancers, 2021. 13(7), p.1588
 </li>
