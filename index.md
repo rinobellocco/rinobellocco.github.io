@@ -10,10 +10,10 @@ About
 
 
 <div>
-	<div style="width:200px;float:left;">
+	<div style="width:150px;float:left;">
 		<a href="/downloads/pic/rino.jpg" class="left img"><img src="/downloads/pic/rino.jpg" style="width:200px;"></a>
 	</div>
-	<div style="margin-left:200px;">
+	<div style="margin-left:150px;">
 		<ul>
 				<b>About me:</b><br> TBD
 		</ul>
