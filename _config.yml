@@ -1,13 +1,12 @@
 # Site settings
-title: Alessio Crippa
-email: alessio.crippa@gmail.com
+title: Rino Bellocco
+email: rino.bellocco@unimib.it
 description: >
-    © Alessio Crippa. Powered by <a href=http://jekyllrb.com/>jekyll</a>. 
-    Source available on <a href=https://github.com/alecri/alecri.github.io>github</a>.
+    © Rino Bellocco. Powered by <a href=http://jekyllrb.com/>jekyll</a>. 
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
-twitter_username: AlessioCrippa
-github_username:  alecri
+twitter_username: Rinosky
+github_username:  rinobellocco
 
 # Build settings
 markdown: kramdown
