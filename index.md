@@ -36,7 +36,7 @@ Contact
 Link
 ===============
 
-* [Karolinska Webpage](http://ki.se/en/people/alecri)  
+* [Karolinska Webpage](http://ki.se/en/people/rinbel)  
 * [Stat4life](http://stats4life.se/)  
 * [Google scholar profile](https://scholar.google.it/citations?user=NLRD9vkAAAAJ&hl=en)
 * [ResearchGate](https://www.researchgate.net/profile/Alessio_Crippa)  
