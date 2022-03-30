@@ -8,6 +8,7 @@ navigation_weight: 4
 
 Software
 ========
+
 [Stata](https://www.stata.com/)
 
 <!--
