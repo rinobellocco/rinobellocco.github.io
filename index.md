@@ -36,7 +36,6 @@ navigation_weight: 1
 
 		</ul>
 </div>
-</div>
 
 &nbsp;
 
