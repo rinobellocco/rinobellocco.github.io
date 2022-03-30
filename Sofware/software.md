@@ -8,11 +8,13 @@ navigation_weight: 4
 
 Software
 ========
+[Stata](https://www.stata.com/)
 
-## Developed R packages
 <!--
+## Developed R packages
+
 <h2>(release version on CRAN, development version on GitHub)</h2>
--->
+
 
 - [dosresmeta](/software/dosresmeta.html): Performing Multivariate Dose-Response Meta-Analysis
 
@@ -29,3 +31,4 @@ Check how many people use my R packages at [http://alessiocrippa.com/shiny/my_pa
 
 My PhD thesis is available [here](https://bookdown.org/alecri/thesis/1-intro.html) as a book written in [bookdown](https://bookdown.org/).  
 The code to reproduce the pdf is available as a public repository on [GitHub](https://github.com/alecri/kappa).
+-->
