@@ -9,6 +9,8 @@ navigation_weight: 2
 Publications
 ========
 [IRIS – Institutional Research Information System](https://boa.unimib.it/browse?type=author&sort_by=2&order=ASC&rpp=20&etal=-1&authority=rp05365&offset=180)
+</ul>
+
 <!---
 ## 2021
 
