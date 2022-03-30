@@ -9,19 +9,7 @@ navigation_weight: 6
 Courses
 =====================
 
-- [ Statistical Methods for Meta-Analysis](/courses/meta-analysis.pdf)    [[R code]](https://rpubs.com/alecri/code_meta)     [[Stata code](/courses/code_suppl_meta_stata.html)] 
-
-- [An introduction to R, Rmarkdown, and Shiny](/courses/R_md_shiny.html)
-
-- [A not so short review on survival analysis in R](http://rpubs.com/alecri/258589)        [[R script]](/courses/review_survival.R) [[.txt]](/courses/review_survival.txt)  
-
-- [Studying Mediation in Intervention Evaluation](/courses/mediation.pdf)    [[R script]](/courses/mediation.R)  
-
-- [Get started with R (Uppsala 2017 October)](/courses/getStartedR_uuh.html)
-
-- [Get started with R (KI-PHS 2016 October)](/courses/getStartedR.html)
-
-- [Advanced statistics in Epidemiology - Master in Public Health Epidemiology]()
+- [SISMEC Working Group](http://www.causal.altervista.org/)    
 
 
 <div style="height:50px"></div>
