@@ -3,7 +3,7 @@ layout: default
 permalink: /courses/R_md_shiny
 show_in_nav: false
 ---
-
+<!---
 An introduction to R, Rmarkdown, and Shiny
 ========
 
@@ -50,7 +50,7 @@ The presentation is divided in two parts:
   - [Logistic regression in R](http://rpubs.com/alecri/logistic)  
   - [A not so short review on survival analysis in R](http://rpubs.com/alecri/survR)  
 
-<br> 
+<br>
 
 --------------------------------------------------------------------------------
 
@@ -65,7 +65,7 @@ The presentation is divided in two parts:
 - [Mastering Shiny](https://mastering-shiny.org/)
 
 
-<br> 
+<br>
 
 ## Galleries and working examples
 
@@ -75,4 +75,4 @@ The presentation is divided in two parts:
 
 - [Shiny](https://shiny.rstudio.com/gallery/)
 
-
+-->

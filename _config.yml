@@ -1,8 +1,8 @@
 # Site settings
-title: Rino Bellocco
+title: **Rino Bellocco**
 email: rino.bellocco@unimib.it
 description: >
-    © Rino Bellocco. Powered by <a href=http://jekyllrb.com/>jekyll</a>. 
+    © Rino Bellocco. Powered by <a href=http://jekyllrb.com/>jekyll</a>.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
 twitter_username: Rinosky

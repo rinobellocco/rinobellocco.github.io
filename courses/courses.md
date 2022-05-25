@@ -14,6 +14,7 @@ Courses
 
 <div style="height:50px"></div>
 
+<!---
 Useful teaching material
 =====================
 
@@ -32,3 +33,4 @@ Useful teaching material
 - [Multivariable (2 dim) linear regression with no interaction (plot)](https://plot.ly/~alecri/216/no-interaction)
 
 - [Multivariable (2 dim) linear regression with interaction (plot)](https://plot.ly/~alecri/214/interaction)
+-->
