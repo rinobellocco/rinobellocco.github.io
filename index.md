@@ -42,7 +42,7 @@ navigation_weight: 1
 &nbsp;
 
 Contact
-===============
+==============
 * [Department of Statistics and Quantitative Methods (DISMEQ)](https://www.dismeq.unimib.it/it)  
   University of Milano-Bicocca  
   **Address**: Via Bicocca degli Arcimboldi 8, U7, 20126 Milan, Italy  
