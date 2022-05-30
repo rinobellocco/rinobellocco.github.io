@@ -2,6 +2,7 @@
 layout: default
 title: Contact
 menu: main
+permalink: /contact/
 navigation_weight: 7
 ---
 
