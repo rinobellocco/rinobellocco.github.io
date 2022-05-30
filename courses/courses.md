@@ -9,7 +9,10 @@ navigation_weight: 6
 Courses
 =====================
 
-- [SISMEC Working Group](http://www.causal.altervista.org/)    
+- Courses at Milano-Bicocca University
+- Courses at Karolinska Institutet
+- Summer School in Modern Methods in Biostatistics and Epidemiology
+- Other Courses 
 
 
 <div style="height:50px"></div>
