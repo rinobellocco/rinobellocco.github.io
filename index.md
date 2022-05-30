@@ -15,7 +15,7 @@ navigation_weight: 1
 	</div>
 
 		<ul>
-		|   | My interest in applying statistical methods in the medical research field started with the study of the epidemiology of HIV infection and AIDS. The statistical problem was to estimate the current HIV incidence and prevalence, based on the observed temporal distribution of AIDS cases. This problem is known in other scientific settings, under the statistical common term of ill-posed conditions. Statistical models, mainly an extension of Generalize Linear Models, and smoothing splines techniques were proposed and applied both to Italian and American Data.
+		My interest in applying statistical methods in the medical research field started with the study of the epidemiology of HIV infection and AIDS. The statistical problem was to estimate the current HIV incidence and prevalence, based on the observed temporal distribution of AIDS cases. This problem is known in other scientific settings, under the statistical common term of ill-posed conditions. Statistical models, mainly an extension of Generalize Linear Models, and smoothing splines techniques were proposed and applied both to Italian and American Data.
 		<div style="height:10px"></div>
 
 		 My interest moved towards cancer epidemiology and other chronic diseases after I joined to Karolinska Institutet. I have been mainly involved in etiology research and the role of lifestyle factors on chronic conditions, by using the invaluable data from the Swedish population based registries. I had been working on statistical analysis of both case-control and cohort studies to assess the possible causal effects of well-defined risk factors on both cancer incidence and death.
@@ -32,7 +32,7 @@ navigation_weight: 1
 		 I am currently the coordinator of the Italian Working Group on Causal Inference (ICE), together with Dr.Richiardi from the University of Turin.
 		 <div style="height:10px"></div>
 
-		 I became professor in Medical Statistics on October 1th, 2016 |  |
+		 I became professor in Medical Statistics on October 1th, 2016
 
 
 
