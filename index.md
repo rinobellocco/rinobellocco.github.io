@@ -11,7 +11,7 @@ navigation_weight: 1
 <div>
 <h1>About me</h1>
 	<div style="width:250px;height:350px;float:left;">
-		<a href="/downloads/pic/rino-4.jpg" class="left img"><img src="/downloads/pic/rino.jpg" style="width:200px;"></a>
+		<img src="/downloads/pic/rino-4.jpg" style="width:200px;"></img>
 	</div>
 
 		<ul>
