@@ -13,6 +13,7 @@ Courses
 
   [Introduzione all'inferenza in biostatistica]()
   [Statistical model in epidemiology]()
+
   Old course (2006-2019): Modelli lineari generalizzati in epidemiologia e medicina (GLM)
 - Courses at Karolinska Institutet
 
@@ -25,7 +26,7 @@ Courses
 
   - Università di Modena e Reggio Emilia, Modena:
 
-  [Modello di regressione logistica (Corso di perfezionamento in Statistica Applicata ai Quesiti Clinici)](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://statisticamedica.unimore.it/wp-content/uploads/2022/03/Locandina-XII-Edizione-CdP-Statistica-Applicata-ai-Quesiti-Clinici.pdf)
+    [Modello di regressione logistica (Corso di perfezionamento in Statistica Applicata ai Quesiti Clinici)](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://statisticamedica.unimore.it/wp-content/uploads/2022/03/Locandina-XII-Edizione-CdP-Statistica-Applicata-ai-Quesiti-Clinici.pdf)
 
   - Università Cattolica del Sacro Cuore, Roma:
 
