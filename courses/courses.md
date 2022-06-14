@@ -10,18 +10,25 @@ Courses
 =====================
 
 - Courses at Milano-Bicocca University
+
   [Introduzione all'inferenza in biostatistica][]
   [Statistical model in epidemiology][]
   Old course (2006-2019): Modelli lineari generalizzati in epidemiologia e medicina (GLM)
 - Courses at Karolinska Institutet
+
   [Biostatistics II: Logistic Regression for Epidemiologists][https://kiwas.ki.se/katalog/katalog/kurs/9326;jsessionid=3391b1003bdeca674227a50638c4?lang=en]
   [Applied longitudinal data analysis][https://kiwas.ki.se/katalog/katalog/kurs/9335]
 - Summer School in Modern Methods in Biostatistics and Epidemiology
+
   Due to the current and unclear forecasting of the epidemic worldwide, the Summer School will unfortunately not run in 2022.
 - Other Courses
+
   - Università di Modena e Reggio Emilia, Modena:
+
   [Modello di regressione logistica (Corso di perfezionamento in Statistica Applicata ai Quesiti Clinici)][chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://statisticamedica.unimore.it/wp-content/uploads/2022/03/Locandina-XII-Edizione-CdP-Statistica-Applicata-ai-Quesiti-Clinici.pdf]
+
   - Università Cattolica del Sacro Cuore, Roma:
+  
     [][]
 
 
