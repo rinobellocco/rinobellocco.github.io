@@ -41,6 +41,7 @@ navigation_weight: 1
 
 &nbsp;
 
+<!---
 Contact
 ==============
 * [Department of Statistics and Quantitative Methods (DISMEQ)](https://www.dismeq.unimib.it/it)  
@@ -51,6 +52,7 @@ Contact
 * [Department of Medical Epidemiology and Biostatistics (MEB)](https://ki.se/en/meb)   
   Karolinska Institutet  
   **Email**: <a href="mailto:rino.bellocco@ki.se">rino.bellocco<span class="at">@</span>ki.se</a>   
+-->
 
 Education
 ===============
