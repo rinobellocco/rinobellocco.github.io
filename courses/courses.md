@@ -11,14 +11,16 @@ Courses
 
 - Courses at Milano-Bicocca University
 
-  [Introduzione all'inferenza in biostatistica](https://elearning.unimib.it/course/info.php?id=45369)
-  [Statistical model in epidemiology](https://elearning.unimib.it/course/info.php?id=45360)
+  - [Introduzione all'inferenza in biostatistica](https://elearning.unimib.it/course/ info.php?id=45369)
 
-  Old course (2006-2019): Modelli lineari generalizzati in epidemiologia e medicina (GLM)
+  - [Statistical model in epidemiology](https://elearning.unimib.it/course/info.php?id=45360)
+
+  - Old course (2006-2019): Modelli lineari generalizzati in epidemiologia e medicina (GLM)
 - Courses at Karolinska Institutet
 
-  [Biostatistics II: Logistic Regression for Epidemiologists](https://kiwas.ki.se/katalog/katalog/kurs/9326;jsessionid=3391b1003bdeca674227a50638c4?lang=en)
-  [Applied longitudinal data analysis](https://kiwas.ki.se/katalog/katalog/kurs/9335)
+  - [Biostatistics II: Logistic Regression for Epidemiologists](https://kiwas.ki.se/katalog/katalog/kurs/9326;jsessionid=3391b1003bdeca674227a50638c4?lang=en)
+
+  - [Applied longitudinal data analysis](https://kiwas.ki.se/katalog/katalog/kurs/9335)
 - Summer School in Modern Methods in Biostatistics and Epidemiology
 
   Due to the current and unclear forecasting of the epidemic worldwide, the Summer School will unfortunately not run in 2022.
@@ -30,7 +32,7 @@ Courses
 
   - Cattolica University, Rome:
 
-    []()
+    - []()
 
 
 <div style="height:50px"></div>
