@@ -11,7 +11,7 @@ Courses
 
 - Courses at Milano-Bicocca University
 
-  - [Introduzione all'inferenza in biostatistica](https://elearning.unimib.it/course/ info.php?id=45369)
+  - [Introduzione all'inferenza in biostatistica](https://elearning.unimib.it/course/info.php?id=45369) 
 
   - [Statistical model in epidemiology](https://elearning.unimib.it/course/info.php?id=45360)
 
