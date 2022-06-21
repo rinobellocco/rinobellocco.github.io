@@ -65,8 +65,8 @@ Links
 ===============
 * [University of Milano-Bicocca](https://www.unimib.it/)
 * [Karolinska Institutet](https://ki.se/en/meb)  
-* [Summer School On Modern Methods In Biostatistics And Epidemiology](http://www.biostatepi.org/)
-* [Causal Inference In Epidemiology](http://www.causal.altervista.org/)
+* [Summer School on Modern Methods in Biostatistics and Epidemiology](http://www.biostatepi.org/)
+* [Causal Inference in Epidemiology](http://www.causal.altervista.org/)
 
 &nbsp;
 

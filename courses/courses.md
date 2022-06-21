@@ -11,9 +11,9 @@ Courses
 
 - Courses at Milano-Bicocca University
 
-  - [Introduzione All'Inferenza In Biostatistica](https://elearning.unimib.it/course/info.php?id=45369)
+  - [Introduzione all'Inferenza in Biostatistica](https://elearning.unimib.it/course/info.php?id=45369)
 
-  - [Statistical Model In Epidemiology](https://elearning.unimib.it/course/info.php?id=45360)
+  - [Statistical Model in Epidemiology](https://elearning.unimib.it/course/info.php?id=45360)
 
   - Old course (2006-2019): Modelli Lineari Generalizzati In Epidemiologia E Medicina (GLM)
 - Courses at Karolinska Institutet
@@ -21,18 +21,18 @@ Courses
   - [Biostatistics II: Logistic Regression for Epidemiologists](https://kiwas.ki.se/katalog/katalog/kurs/9326;jsessionid=3391b1003bdeca674227a50638c4?lang=en)
 
   - [Applied Longitudinal Data Analysis](https://kiwas.ki.se/katalog/katalog/kurs/9335)
-- [Summer School On Modern Methods In Biostatistics And Epidemiology](http://www.biostatepi.org/)
+- [Summer School on Modern Methods in Biostatistics and Epidemiology](http://www.biostatepi.org/)
 
   The Summer School will resume in June 2023.
 - Other Courses
 
   - University of Modena and Reggio Emilia, Modena:
 
-    [Modello Di Regressione Logistica (Corso Di Perfezionamento In Statistica Applicata Ai Quesiti Clinici)](https://statisticamedica.unimore.it/wp-content/uploads/2022/03/Locandina-XII-Edizione-CdP-Statistica-Applicata-ai-Quesiti-Clinici.pdf)
+    [Modello di Regressione Logistica (Corso di Perfezionamento in Statistica Applicata ai Quesiti Clinici)](https://statisticamedica.unimore.it/wp-content/uploads/2022/03/Locandina-XII-Edizione-CdP-Statistica-Applicata-ai-Quesiti-Clinici.pdf)
 
   - Cattolica University, Rome:
 
-    - [Introduzione All'Inferenza Causale](https://offertaformativa.unicatt.it/master-epidemiologia-e-biostatistica)
+    - [Introduzione all'Inferenza Causale](https://offertaformativa.unicatt.it/master-epidemiologia-e-biostatistica)
 
 
 <div style="height:50px"></div>
