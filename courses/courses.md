@@ -11,16 +11,16 @@ Courses
 
 - Courses at Milano-Bicocca University
 
-  - [Introduzione all'inferenza in biostatistica](https://elearning.unimib.it/course/info.php?id=45369)
+  - [Introduzione All'Inferenza In Biostatistica](https://elearning.unimib.it/course/info.php?id=45369)
 
-  - [Statistical model in epidemiology](https://elearning.unimib.it/course/info.php?id=45360)
+  - [Statistical Model In Epidemiology](https://elearning.unimib.it/course/info.php?id=45360)
 
-  - Old course (2006-2019): Modelli lineari generalizzati in epidemiologia e medicina (GLM)
+  - Old course (2006-2019): Modelli Lineari Generalizzati In Epidemiologia E Medicina (GLM)
 - Courses at Karolinska Institutet
 
   - [Biostatistics II: Logistic Regression for Epidemiologists](https://kiwas.ki.se/katalog/katalog/kurs/9326;jsessionid=3391b1003bdeca674227a50638c4?lang=en)
 
-  - [Applied longitudinal data analysis](https://kiwas.ki.se/katalog/katalog/kurs/9335)
+  - [Applied Longitudinal Data Analysis](https://kiwas.ki.se/katalog/katalog/kurs/9335)
 - [Summer School in Modern Methods in Biostatistics and Epidemiology](http://www.biostatepi.org/)
 
   The Summer School will resume in June 2023.
@@ -28,11 +28,11 @@ Courses
 
   - University of Modena and Reggio Emilia, Modena:
 
-    [Modello di regressione logistica (Corso di perfezionamento in Statistica Applicata ai Quesiti Clinici)](https://statisticamedica.unimore.it/wp-content/uploads/2022/03/Locandina-XII-Edizione-CdP-Statistica-Applicata-ai-Quesiti-Clinici.pdf)
+    [Modello Di Regressione Logistica (Corso Di Perfezionamento In Statistica Applicata Ai Quesiti Clinici)](https://statisticamedica.unimore.it/wp-content/uploads/2022/03/Locandina-XII-Edizione-CdP-Statistica-Applicata-ai-Quesiti-Clinici.pdf)
 
   - Cattolica University, Rome:
 
-    - [Introduzione all'inferenza causale](https://offertaformativa.unicatt.it/master-epidemiologia-e-biostatistica)
+    - [Introduzione All'Inferenza Causale](https://offertaformativa.unicatt.it/master-epidemiologia-e-biostatistica)
 
 
 <div style="height:50px"></div>
