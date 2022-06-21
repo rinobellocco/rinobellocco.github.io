@@ -63,8 +63,8 @@ Education
 
 Links
 ===============
-* [University of Milano Bicocca](https://www.unimib.it/)
-* [Karolinska Institutet](http://ki.se/en/people/rinbel)  
+* [University of Milano-Bicocca](https://www.unimib.it/)
+* [Karolinska Institutet](https://ki.se/en/meb)  
 * [Summer School on Modern Methods in Biostatistics and Epidemiology](http://www.biostatepi.org/)
 * [Causal Inference in Epidemiology](http://www.causal.altervista.org/)
 

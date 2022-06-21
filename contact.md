@@ -13,6 +13,6 @@ Contact
   **Address**: Via Bicocca degli Arcimboldi 8, U7, 20126 Milan, Italy  
   **Email**: <a href="mailto:rino.bellocco@unimib.it">rino.bellocco<span class="at">@</span>unimib.it</a>  
 
-* [Department of Medical Epidemiology and Biostatistics (MEB)](https://ki.se/en/meb)   
+* [Department of Medical Epidemiology and Biostatistics (MEB)](http://ki.se/en/people/rinbel)   
   Karolinska Institutet  
   **Email**: <a href="mailto:rino.bellocco@ki.se">rino.bellocco<span class="at">@</span>ki.se</a>  
