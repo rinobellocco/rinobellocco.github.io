@@ -21,7 +21,7 @@ Courses
   - [Biostatistics II: Logistic Regression for Epidemiologists](https://kiwas.ki.se/katalog/katalog/kurs/9326;jsessionid=3391b1003bdeca674227a50638c4?lang=en)
 
   - [Applied Longitudinal Data Analysis](https://kiwas.ki.se/katalog/katalog/kurs/9335)
-- [Summer School in Modern Methods in Biostatistics and Epidemiology](http://www.biostatepi.org/)
+- [Summer School On Modern Methods In Biostatistics And Epidemiology](http://www.biostatepi.org/)
 
   The Summer School will resume in June 2023.
 - Other Courses
