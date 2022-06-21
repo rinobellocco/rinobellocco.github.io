@@ -11,7 +11,7 @@ Courses
 
 - Courses at Milano-Bicocca University
 
-  - [Introduzione all'inferenza in biostatistica](https://elearning.unimib.it/course/info.php?id=45369) 
+  - [Introduzione all'inferenza in biostatistica](https://elearning.unimib.it/course/info.php?id=45369)
 
   - [Statistical model in epidemiology](https://elearning.unimib.it/course/info.php?id=45360)
 
@@ -21,9 +21,9 @@ Courses
   - [Biostatistics II: Logistic Regression for Epidemiologists](https://kiwas.ki.se/katalog/katalog/kurs/9326;jsessionid=3391b1003bdeca674227a50638c4?lang=en)
 
   - [Applied longitudinal data analysis](https://kiwas.ki.se/katalog/katalog/kurs/9335)
-- Summer School in Modern Methods in Biostatistics and Epidemiology
+- [Summer School in Modern Methods in Biostatistics and Epidemiology](http://www.biostatepi.org/)
 
-  Due to the current and unclear forecasting of the epidemic worldwide, the Summer School will unfortunately not run in 2022.
+  The Summer School will resume in June 2023.
 - Other Courses
 
   - University of Modena and Reggio Emilia, Modena:
@@ -32,7 +32,7 @@ Courses
 
   - Cattolica University, Rome:
 
-    - []()
+    - [Introduzione all'inferenza causale](https://offertaformativa.unicatt.it/master-epidemiologia-e-biostatistica)
 
 
 <div style="height:50px"></div>
