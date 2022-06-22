@@ -32,7 +32,7 @@ Courses
 
   - Cattolica University, Rome:
 
-    - [Introduzione all'Inferenza Causale](https://offertaformativa.unicatt.it/master-epidemiologia-e-biostatistica)
+    [Introduzione all'Inferenza Causale](https://offertaformativa.unicatt.it/master-epidemiologia-e-biostatistica)
 
 
 <div style="height:50px"></div>
