@@ -3,14 +3,14 @@ layout: default
 title: Software
 permalink: /software/
 menu: main
-navigation_weight: 4
+navigation_weight: 3
 ---
 
 Software
 ========
 
 Stata Publications:
-* 
+*
 *
 *
 *
