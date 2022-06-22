@@ -3,7 +3,7 @@ layout: default
 title: Contact
 menu: main
 permalink: /contact/
-navigation_weight: 7
+navigation_weight: 6
 ---
 
 Contact
