@@ -15,7 +15,7 @@ Courses
 
   - [Statistical Model in Epidemiology](https://elearning.unimib.it/course/info.php?id=45360)
 
-  - Old course (2006-2019): Modelli Lineari Generalizzati In Epidemiologia E Medicina (GLM)
+  - Old course (2006-2019): Modelli Lineari Generalizzati in Epidemiologia e Medicina (GLM)
 - Courses at Karolinska Institutet
 
   - [Biostatistics II: Logistic Regression for Epidemiologists](https://kiwas.ki.se/katalog/katalog/kurs/9326;jsessionid=3391b1003bdeca674227a50638c4?lang=en)
