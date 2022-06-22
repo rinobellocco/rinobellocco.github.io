@@ -3,7 +3,7 @@ layout: default
 title: Courses
 permalink: /courses/
 menu: main
-navigation_weight: 6
+navigation_weight: 5
 ---
 
 Courses
