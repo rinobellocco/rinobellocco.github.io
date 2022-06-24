@@ -4,7 +4,11 @@ title: Home
 menu: main
 navigation_weight: 1
 ---
+
 ![foto](/downloads/pic/rino-4.jpeg)
+
+About me
+===============
 
 I am a Professor of Medical Statistics at the
 [Department of Statistics and Quantitative Methods](https://www.dismeq.unimib.it/it/offerta-formativa/corsi-laurea-magistrale/laurea-magistrale-biostatistica/internazionalizzazione)
