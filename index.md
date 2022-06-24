@@ -4,25 +4,26 @@ title: Home
 menu: main
 navigation_weight: 1
 ---
+![foto](/downloads/pic/rino-4.jpeg)
 
-												I am a Professor of Medical Statistics at the
-												[Department of Statistics and Quantitative Methods](https://www.dismeq.unimib.it/it/offerta-formativa/corsi-laurea-magistrale/laurea-magistrale-biostatistica/internazionalizzazione)
-												at the University of Milano-Bicocca since October 2016, and I work part-time as a Senior Lecturer in the [Biostatistics Group](https://ki.se/en/meb/meb-biostatistics-group) in the Department of Medical Epidemiology and Biostatistics (MEB), Karolinska Institutet in Stockholm, where I moved to in November 1998 after my earning PhD from Harvard University.
-												<div style="height:10px"></div>
+I am a Professor of Medical Statistics at the
+[Department of Statistics and Quantitative Methods](https://www.dismeq.unimib.it/it/offerta-formativa/corsi-laurea-magistrale/laurea-magistrale-biostatistica/internazionalizzazione)
+at the University of Milano-Bicocca since October 2016, and I work part-time as a Senior Lecturer in the [Biostatistics Group](https://ki.se/en/meb/meb-biostatistics-group) in the Department of Medical Epidemiology and Biostatistics (MEB), Karolinska Institutet in Stockholm, where I moved to in November 1998 after my earning PhD from Harvard University.
+<div style="height:10px"></div>
 
-												My first research interest (at the Italian National Institute of Health and then at the Harvard School of Public Heath) was in the field of epidemiology of infectious diseases, and in particular in the mathematical modeling of transmission dynamics of HIV infection, with the implementation and application of statistical models for predicting the future number of AIDS cases.
-												<div style="height:10px"></div>
+My first research interest (at the Italian National Institute of Health and then at the Harvard School of Public Heath) was in the field of epidemiology of infectious diseases, and in particular in the mathematical modeling of transmission dynamics of HIV infection, with the implementation and application of statistical models for predicting the future number of AIDS cases.
+<div style="height:10px"></div>
 
-												My primary research is now in the field of lifestyle epidemiology with the application of both standard statistical models and the development of causal models for confounding and mediation to study etiology of many chronic diseases, ranging from cardiovascular cancer outcomes, as well as cause-specific (such breast cancer, ovarian cancer, prostate cancer) and overall mortality.
-												<div style="height:10px"></div>
+My primary research is now in the field of lifestyle epidemiology with the application of both standard statistical models and the development of causal models for confounding and mediation to study etiology of many chronic diseases, ranging from cardiovascular cancer outcomes, as well as cause-specific (such breast cancer, ovarian cancer, prostate cancer) and overall mortality.
+<div style="height:10px"></div>
 
-												My MEB [home page](https://staff.ki.se/people/rino-bellocco) (under preparation) contains additional details of my research. I am one of the PI of the [Swedish National March Cohort (SNMC)](https://ki.se/en/meb/the-swedish-national-march-cohort#:~:text=In%20September%201997%2C%20the%20Swedish,National%20March%20Cohort%20(NMC).), based on almost 50,000 individuals who were enrolled during the Cancer Day in September 1997 organized by the Karolinska Institutet and the Swedish Cancer Society. I am currently the coordinator of [the Italian Working Group on Causal Inference in Epidemiology](http://www.causal.altervista.org/) (ICE), together with Dr. Lorenzo Richiardi (University of Turin).
-												<div style="height:10px"></div>
+My MEB [home page](https://staff.ki.se/people/rino-bellocco) (under preparation) contains additional details of my research. I am one of the PI of the [Swedish National March Cohort (SNMC)](https://ki.se/en/meb/the-swedish-national-march-cohort#:~:text=In%20September%201997%2C%20the%20Swedish,National%20March%20Cohort%20(NMC).), based on almost 50,000 individuals who were enrolled during the Cancer Day in September 1997 organized by the Karolinska Institutet and the Swedish Cancer Society. I am currently the coordinator of [the Italian Working Group on Causal Inference in Epidemiology](http://www.causal.altervista.org/) (ICE), together with Dr. Lorenzo Richiardi (University of Turin).
+<div style="height:10px"></div>
 
-												I enjoy teaching Biostatistics and I am mainly engaged postgraduate teaching both at the MSc program in Biostatistics at the University of Milano-Bicocca, and the PhD program in Epidemiology at the Karolinska Institutet. I have been coordinating and teaching at the [Summer School on Modern Methods in Biostatistics and Epidemiology](http://www.causal.altervista.org/) since 1997.
-												<div style="height:10px"></div>
+I enjoy teaching Biostatistics and I am mainly engaged postgraduate teaching both at the MSc program in Biostatistics at the University of Milano-Bicocca, and the PhD program in Epidemiology at the Karolinska Institutet. I have been coordinating and teaching at the [Summer School on Modern Methods in Biostatistics and Epidemiology](http://www.causal.altervista.org/) since 1997.
+<div style="height:10px"></div>
 
-												I am the coordinator of the [Erasmus and International exchange program for the MSc](https://www.dismeq.unimib.it/it/offerta-formativa/corsi-laurea-magistrale/laurea-magistrale-biostatistica/internazionalizzazione) in Biostatistics and I am the organizer of the [Seminar Series in Biostatistics, Epidemiology and Public Health](https://www.dismeq.unimib.it/it/offerta-formativa/seminars-series-biostatistics-epidemiology-and-public-health), both at the University of Milano-Bicocca.
+I am the coordinator of the [Erasmus and International exchange program for the MSc](https://www.dismeq.unimib.it/it/offerta-formativa/corsi-laurea-magistrale/laurea-magistrale-biostatistica/internazionalizzazione) in Biostatistics and I am the organizer of the [Seminar Series in Biostatistics, Epidemiology and Public Health](https://www.dismeq.unimib.it/it/offerta-formativa/seminars-series-biostatistics-epidemiology-and-public-health), both at the University of Milano-Bicocca.
 
 &nbsp;
 
