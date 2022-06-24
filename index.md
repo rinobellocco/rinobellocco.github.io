@@ -40,7 +40,7 @@ navigation_weight: 1
 &nbsp;
 
 <!-- Reference links in article-->
-[1]: https://www.dismeq.unimib.it/it/offerta-formativa/corsi-laurea-magistrale/laurea-magistrale-biostatistica/internazionalizzazione
+[1]: https://www.dismeq.unimib.it/it/offerta-formativa/corsi-laurea-magistrale/laurea-magistrale-biostatistica/internazionalizzazione/
 <!---
 Contact
 ==============
