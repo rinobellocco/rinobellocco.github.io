@@ -4,14 +4,14 @@ title: Home
 menu: main
 navigation_weight: 1
 ---
-
+	<!---
 <div>
 <h1>About me</h1>
 	<div style="width:250px;height:240px;float:left;">
 		<a href="/downloads/pic/rino-4.jpeg" class="left img"><img src="/downloads/pic/rino-4.jpeg" style="width:200px;"></a>
-	<!---</div>-->
+	</div>
 
-		<!---</ul>-->
+		</ul>-->
 		I am a Professor of Medical Statistics at the
 		[Department of Statistics and Quantitative Methods](https://www.dismeq.unimib.it/it/offerta-formativa/corsi-laurea-magistrale/laurea-magistrale-biostatistica/internazionalizzazione)
 		at the University of Milano-Bicocca since October 2016, and I work part-time as a Senior Lecturer in the [Biostatistics Group](https://ki.se/en/meb/meb-biostatistics-group) in the Department of Medical Epidemiology and Biostatistics (MEB), Karolinska Institutet in Stockholm, where I moved to in November 1998 after my earning PhD from Harvard University.
@@ -36,7 +36,7 @@ navigation_weight: 1
 		<!---</ul>-->
 <!---</div>-->
 
-&nbsp;
+<!---&nbsp;-->
 
 
 <!---
