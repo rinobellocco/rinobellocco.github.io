@@ -15,7 +15,7 @@ navigation_weight: 1
 	</div>
 
 		<ul>
-		I am a Professor of Medical Statistics at the  [Department of Statistics and Quantitative Methods](https://www.dismeq.unimib.it/en) at the University of Milano-Bicocca since October 2016, and I work part-time as a Senior Lecturer in the [Biostatistics Group](https://ki.se/en/meb/meb-biostatistics-group) in the Department of Medical Epidemiology and Biostatistics (MEB), Karolinska Institutet in Stockholm, where I moved to in November 1998 after my earning PhD from Harvard University.
+		I am a Professor of Medical Statistics at the [Department of Statistics and Quantitative Methods][https://www.dismeq.unimib.it/en] at the University of Milano-Bicocca since October 2016, and I work part-time as a Senior Lecturer in the [Biostatistics Group](https://ki.se/en/meb/meb-biostatistics-group) in the Department of Medical Epidemiology and Biostatistics (MEB), Karolinska Institutet in Stockholm, where I moved to in November 1998 after my earning PhD from Harvard University.
 		<div style="height:10px"></div>
 
 		My first research interest (at the Italian National Institute of Health and then at the Harvard School of Public Heath) was in the field of epidemiology of infectious diseases, and in particular in the mathematical modeling of transmission dynamics of HIV infection, with the implementation and application of statistical models for predicting the future number of AIDS cases.
