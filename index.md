@@ -5,14 +5,14 @@ menu: main
 navigation_weight: 1
 ---
 
-![Rino Bellocco](/downloads/pic/rino-4.jpeg)
+![Rino Bellocco](/downloads/pic/rino-bellocco.jpeg)
 
 About me
 ===============
 
 I am a Professor of Biostatistics at the
 [Department of Statistics and Quantitative Methods](https://www.dismeq.unimib.it/it/offerta-formativa/corsi-laurea-magistrale/laurea-magistrale-biostatistica/internazionalizzazione)
-at the University of Milano-Bicocca since October 2016, and I work part-time as a Senior Lecturer in the [Biostatistics Group](https://ki.se/en/meb/meb-biostatistics-group) in the Department of Medical Epidemiology and Biostatistics (MEB), Karolinska Institutet in Stockholm, where I moved to in November 1998 after earning my PhD from Harvard University.
+at the University of Milano-Bicocca since October 2016, and I work part-time as a Visiting Professor in the [Biostatistics Group](https://ki.se/en/meb/meb-biostatistics-group) in the Department of Medical Epidemiology and Biostatistics (MEB), Karolinska Institutet in Stockholm, where I moved to in November 1998 after earning my PhD from Harvard University.
 <div style="height:10px"></div>
 
 My first research interest — at the Italian National Institute of Health and then at the Harvard School of Public Health — was in the field of epidemiology of infectious diseases, and in particular in the mathematical modelling of transmission dynamics of HIV infection, with the implementation and application of statistical models for predicting the future number of AIDS cases.
@@ -21,7 +21,7 @@ My first research interest — at the Italian National Institute of Health and t
 My primary research is now in the field of lifestyle epidemiology with the application of both standard statistical models and the development of causal models for confounding and mediation to study the aetiology of many chronic diseases, ranging from cardiovascular and cancer outcomes, as well as cause-specific (breast cancer, ovarian cancer, prostate cancer) and overall mortality.
 <div style="height:10px"></div>
 
-I am one of the PIs of the [Swedish National March Cohort (SNMC)](https://ki.se/en/meb/the-swedish-national-march-cohort), based on almost 50,000 individuals who were enrolled during the Cancer Day in September 1997 organised by the Karolinska Institutet and the Swedish Cancer Society. I am currently the coordinator of the [Italian Working Group on Causal Inference in Epidemiology](http://www.causal.altervista.org/) (ICE), together with Dr. Lorenzo Richiardi (University of Turin).
+I am co-PI of the [Swedish National March Cohort (SNMC)](https://ki.se/en/meb/the-swedish-national-march-cohort), based on almost 50,000 individuals who were enrolled during the Cancer Day in September 1997 organised by the Karolinska Institutet and the Swedish Cancer Society. I am currently the coordinator of the [Italian Working Group on Causal Inference in Epidemiology](http://www.causal.altervista.org/) (ICE), together with Dr. Lorenzo Richiardi (University of Turin).
 <div style="height:10px"></div>
 
 I enjoy teaching Biostatistics and I am mainly engaged in postgraduate teaching both at the MSc programme in Biostatistics at the University of Milano-Bicocca, and the PhD programme in Epidemiology at the Karolinska Institutet. I have been coordinating and teaching at the [Summer School on Modern Methods in Biostatistics and Epidemiology](http://www.biostatepi.org/) since 1997.
@@ -87,6 +87,7 @@ Links
 * [Summer School on Modern Methods in Biostatistics and Epidemiology](http://www.biostatepi.org/)
 * [Italian Working Group on Causal Inference in Epidemiology](http://www.causal.altervista.org/)
 * [Seminar Series in Biostatistics, Epidemiology and Public Health](https://www.dismeq.unimib.it/it/offerta-formativa/seminars-series-biostatistics-epidemiology-and-public-health)
+* [All publications on OpenAlex](https://openalex.org/authors?filter=display_name.search%3ARino+Bellocco)
 
 &nbsp;
 
