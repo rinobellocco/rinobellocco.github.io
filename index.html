@@ -1516,7 +1516,7 @@
       const btn = document.getElementById("backToTop");
       window.addEventListener("scroll", () => btn.classList.toggle("visible", window.scrollY > 400), { passive: true });
 
-      /* OpenAlex publications */
+      /* Publications — OpenAlex author ID for precision, sorted by year desc */
       let allPubs = [];
       let visibleCount = 10;
 
@@ -1530,11 +1530,11 @@
           const name = esc(a.author?.display_name || "");
           return name.toLowerCase().includes("bellocco") ? `<strong>${name}</strong>` : name;
         });
-        if (names.length <= 6) return names.join(", ");
-        return names.slice(0, 5).join(", ") + ` <span style="color:var(--muted)">+${names.length - 5} authors</span>`;
+        if (names.length <= 5) return names.join(", ");
+        return names.slice(0, 4).join(", ") + ` <span style="color:var(--muted)">+${names.length - 4} others</span>`;
       }
 
-      function renderCard(p, rank) {
+      function renderCard(p, idx) {
         const title = esc(p.title || "Untitled");
         const year = esc(String(p.publication_year || ""));
         const journal = esc(p.primary_location?.source?.display_name || "");
@@ -1548,18 +1548,25 @@
         return `<article class="pub-card">
           <div>
             <div class="pub-card-year">${year}</div>
-            <div class="pub-card-rank">#${rank}</div>
           </div>
           <div>
             ${titleEl}
             ${authors ? `<div class="pub-card-authors">${authors}</div>` : ""}
             <div class="pub-card-meta">
               ${journal ? `<span class="pub-card-journal">${journal}</span>` : ""}
-              ${cites > 0 ? `<span class="pub-cite-badge">⬆ ${cites} citations</span>` : ""}
-              ${isOA && doi ? `<a class="pub-oa-badge" href="${esc(doi)}" target="_blank" rel="noopener">Open Access ↗</a>` : ""}
+              ${cites > 0 ? `<span class="pub-cite-badge">&#8679; ${cites} citations</span>` : ""}
+              ${doi ? `<a class="pub-oa-badge" href="${esc(doi)}" target="_blank" rel="noopener">${isOA ? "Open Access ↗" : "DOI ↗"}</a>` : ""}
             </div>
           </div>
         </article>`;
+      }
+
+      function renderFeed() {
+        const feed = document.getElementById("pub-feed");
+        const btn = document.getElementById("pub-show-more");
+        if (!allPubs.length) return;
+        feed.innerHTML = allPubs.slice(0, visibleCount).map((p, i) => renderCard(p, i)).join("");
+        if (btn) btn.style.display = visibleCount < allPubs.length ? "inline-flex" : "none";
       }
 
       function showMorePubs() {
@@ -1567,28 +1574,36 @@
         renderFeed();
       }
 
-      function renderFeed() {
-        const feed = document.getElementById("pub-feed");
-        const btn = document.getElementById("pub-show-more");
-        if (!allPubs.length) return;
-        feed.innerHTML = allPubs.slice(0, visibleCount).map((p, i) => renderCard(p, i + 1)).join("");
-        if (btn) btn.style.display = visibleCount < allPubs.length ? "inline-flex" : "none";
-      }
-
       async function loadPublications() {
         const feed = document.getElementById("pub-feed");
         const countEl = document.getElementById("publication-count");
         const badge = document.getElementById("pub-live-badge");
         const showMoreBtn = document.getElementById("pub-show-more");
+
         try {
-          const res = await fetch("https://api.openalex.org/works?filter=author.display_name.search:Rino+Bellocco&sort=cited_by_count:desc&per_page=100&mailto=rino.bellocco@unimib.it");
-          const data = await res.json();
-          allPubs = data.results || [];
+          /* Step 1: resolve author ID from OpenAlex for precision */
+          const authorRes = await fetch(
+            "https://api.openalex.org/authors?search=Rino+Bellocco&filter=last_known_institutions.country_code:IT&mailto=rino.bellocco@unimib.it"
+          );
+          const authorData = await authorRes.json();
+          const author = (authorData.results || [])[0];
+          const authorId = author?.id?.replace("https://openalex.org/", "") || null;
+
+          /* Step 2: fetch works by that exact author ID, newest first */
+          const url = authorId
+            ? `https://api.openalex.org/works?filter=authorships.author.id:${authorId}&sort=publication_year:desc&per_page=100&mailto=rino.bellocco@unimib.it`
+            : `https://api.openalex.org/works?filter=author.display_name.search:Rino+Bellocco&sort=publication_year:desc&per_page=100&mailto=rino.bellocco@unimib.it`;
+
+          const worksRes = await fetch(url);
+          const worksData = await worksRes.json();
+          allPubs = worksData.results || [];
+
           if (countEl && allPubs.length > 0) countEl.textContent = allPubs.length + "+";
           renderFeed();
           if (showMoreBtn) showMoreBtn.style.display = allPubs.length > visibleCount ? "inline-flex" : "none";
+
         } catch(e) {
-          feed.innerHTML = `<p class="pub-error">Could not load publications. <a href="https://openalex.org/authors?filter=display_name.search%3ARino+Bellocco" target="_blank" style="color:var(--accent)">View on OpenAlex →</a></p>`;
+          feed.innerHTML = `<p class="pub-error">Could not load publications automatically. <a href="https://boa.unimib.it/cris/rp/details.htm?lt=ugovIDAB&lv=106078" target="_blank" style="color:var(--accent)">View full list on BOA ↗</a></p>`;
           if (badge) badge.style.opacity = "0.4";
         }
       }
