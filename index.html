@@ -1,0 +1,1527 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rino Bellocco | Professor of Biostatistics</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=DM+Sans:wght@300;400;500;600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+    <style>
+      :root {
+        --bg:       #0f1117;
+        --bg2:      #161b26;
+        --bg3:      #1d2435;
+        --border:   #2a3350;
+        --text:     #e8eaf0;
+        --muted:    #8892aa;
+        --accent:   #4a9eff;
+        --accent2:  #7ec8e3;
+        --highlight:#1c3a6e;
+        --tag-bg:   #1a2a48;
+        --tag-text: #7ec8e3;
+      }
+
+      *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+      html { scroll-behavior: smooth; }
+
+      body {
+        font-family: "DM Sans", system-ui, sans-serif;
+        background: var(--bg);
+        color: var(--text);
+        line-height: 1.65;
+        /* subtle grain */
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='300' height='300' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");
+      }
+
+      /* ── HEADER ── */
+      header {
+        max-width: 1100px;
+        margin: 0 auto;
+        padding: 28px 28px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 24px;
+        border-bottom: 1px solid var(--border);
+      }
+
+      .header-left { display: flex; flex-direction: column; gap: 10px; }
+
+      .site-name {
+        font-family: "Libre Baskerville", Georgia, serif;
+        font-size: 26px;
+        font-weight: 700;
+        color: var(--text);
+        letter-spacing: -0.01em;
+      }
+
+      .header-socials { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; }
+
+      nav { display: flex; align-items: center; gap: 4px; }
+
+      nav a {
+        color: var(--muted);
+        text-decoration: none;
+        font-size: 13.5px;
+        font-weight: 500;
+        padding: 7px 12px;
+        border-radius: 6px;
+        transition: color 150ms, background 150ms;
+        letter-spacing: 0.01em;
+      }
+
+      nav a:hover { color: var(--text); background: var(--bg3); }
+
+      nav a.nav-contact {
+        color: var(--accent);
+        border: 1px solid var(--highlight);
+        margin-left: 6px;
+      }
+
+      nav a.nav-contact:hover { background: var(--highlight); color: #fff; }
+
+      /* ── HERO ── */
+      .hero {
+        max-width: 1100px;
+        margin: 72px auto 0;
+        padding: 0 28px 72px;
+        display: grid;
+        grid-template-columns: 1fr auto;
+        gap: 64px;
+        align-items: center;
+        border-bottom: 1px solid var(--border);
+      }
+
+      .tag {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        background: var(--tag-bg);
+        color: var(--tag-text);
+        border: 1px solid #2a4a7a;
+        padding: 6px 14px;
+        border-radius: 4px;
+        font-family: "DM Mono", monospace;
+        font-size: 11px;
+        font-weight: 500;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        margin-bottom: 24px;
+      }
+
+      .tag::before {
+        content: '';
+        width: 6px;
+        height: 6px;
+        border-radius: 50%;
+        background: var(--accent);
+        flex-shrink: 0;
+      }
+
+      h1 {
+        font-family: "Libre Baskerville", Georgia, serif;
+        font-size: clamp(2.4rem, 4.5vw, 3.6rem);
+        font-weight: 700;
+        line-height: 1.12;
+        color: var(--text);
+        margin-bottom: 24px;
+        letter-spacing: -0.02em;
+      }
+
+      h1 em {
+        font-style: italic;
+        color: var(--accent2);
+      }
+
+      .hero-sub {
+        font-size: 17px;
+        color: var(--muted);
+        margin-bottom: 32px;
+        line-height: 1.7;
+        max-width: 560px;
+      }
+
+      .btn-row { display: flex; flex-wrap: wrap; gap: 10px; }
+
+      .btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        padding: 11px 20px;
+        border-radius: 6px;
+        font-size: 14px;
+        font-weight: 500;
+        text-decoration: none;
+        transition: all 150ms;
+      }
+
+      .btn-primary {
+        background: var(--accent);
+        color: #0a0e1a;
+        font-weight: 600;
+      }
+      .btn-primary:hover { background: #6ab0ff; }
+
+      .btn-secondary {
+        background: transparent;
+        color: var(--text);
+        border: 1px solid var(--border);
+      }
+      .btn-secondary:hover { border-color: var(--accent); color: var(--accent); }
+
+      .hero-badge {
+        width: 220px;
+        height: 220px;
+        border-radius: 16px;
+        background: var(--bg3);
+        border: 1px solid var(--border);
+        flex-shrink: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 6px;
+        position: relative;
+        overflow: hidden;
+      }
+
+      .hero-badge::before {
+        content: '';
+        position: absolute;
+        top: -40px; right: -40px;
+        width: 140px; height: 140px;
+        border-radius: 50%;
+        background: radial-gradient(circle, rgba(74,158,255,0.12), transparent 70%);
+      }
+
+      .hero-initials {
+        font-family: "Libre Baskerville", Georgia, serif;
+        font-size: 4rem;
+        font-weight: 700;
+        font-style: italic;
+        color: var(--accent);
+        line-height: 1;
+        opacity: 0.9;
+      }
+
+      .hero-badge-label {
+        font-family: "DM Mono", monospace;
+        font-size: 9px;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+        color: var(--muted);
+      }
+
+      /* ── CONTENT WRAPPER ── */
+      .content-wrap {
+        max-width: 1100px;
+        margin: 0 auto;
+        padding: 0 28px;
+      }
+
+      /* ── NEWS ── */
+      #news { padding: 40px 0 0; border-bottom: 1px solid var(--border); padding-bottom: 40px; }
+
+      .news-list { display: flex; flex-direction: column; gap: 8px; }
+
+      .news-banner {
+        display: flex;
+        align-items: center;
+        gap: 14px;
+        background: var(--bg2);
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        padding: 12px 18px;
+        text-decoration: none;
+        color: inherit;
+        transition: border-color 150ms, background 150ms;
+        width: fit-content;
+      }
+
+      .news-banner:hover { border-color: var(--accent); background: var(--bg3); }
+
+      .news-label {
+        background: var(--highlight);
+        color: var(--accent);
+        font-family: "DM Mono", monospace;
+        font-size: 10px;
+        font-weight: 500;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        padding: 3px 10px;
+        border-radius: 4px;
+        white-space: nowrap;
+        border: 1px solid #2a4a7a;
+      }
+
+      .news-text { font-size: 14px; color: var(--muted); line-height: 1.4; }
+      .news-arrow { color: var(--accent); font-size: 15px; margin-left: 4px; }
+
+      /* ── SECTION ── */
+      .section { padding: 72px 0; border-bottom: 1px solid var(--border); }
+      .section:last-of-type { border-bottom: none; }
+
+      .section-eyebrow {
+        font-family: "DM Mono", monospace;
+        font-size: 10px;
+        letter-spacing: 0.16em;
+        text-transform: uppercase;
+        color: var(--accent);
+        margin-bottom: 14px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+
+      .section-eyebrow::after {
+        content: '';
+        height: 1px;
+        width: 40px;
+        background: var(--highlight);
+      }
+
+      h2 {
+        font-family: "Libre Baskerville", Georgia, serif;
+        font-size: 2rem;
+        font-weight: 700;
+        color: var(--text);
+        margin-bottom: 32px;
+        letter-spacing: -0.02em;
+      }
+
+      /* ── ABOUT ── */
+      .about-grid {
+        display: grid;
+        grid-template-columns: 1fr 360px;
+        gap: 52px;
+        align-items: start;
+      }
+
+      .about-lead {
+        font-family: "Libre Baskerville", Georgia, serif;
+        font-size: 18px;
+        line-height: 1.65;
+        color: var(--text);
+        margin-bottom: 18px;
+        font-style: italic;
+      }
+
+      .about-body {
+        font-size: 15.5px;
+        color: var(--muted);
+        line-height: 1.75;
+      }
+
+      .about-body p + p { margin-top: 12px; }
+
+      .info-card {
+        background: var(--bg2);
+        border: 1px solid var(--border);
+        border-top: 2px solid var(--accent);
+        border-radius: 8px;
+        padding: 28px;
+      }
+
+      .info-card-title {
+        font-family: "DM Mono", monospace;
+        font-size: 10px;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        color: var(--accent);
+        margin-bottom: 20px;
+      }
+
+      .info-row {
+        display: grid;
+        grid-template-columns: 90px 1fr;
+        gap: 12px;
+        padding: 12px 0;
+        border-bottom: 1px solid var(--border);
+        font-size: 13.5px;
+      }
+
+      .info-row:last-child { border-bottom: none; padding-bottom: 0; }
+      .info-row:first-of-type { padding-top: 0; }
+
+      .info-key {
+        font-family: "DM Mono", monospace;
+        font-size: 10px;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: var(--muted);
+        padding-top: 1px;
+      }
+
+      .info-val { color: var(--text); line-height: 1.5; }
+      .info-val a { color: var(--accent); text-decoration: none; }
+      .info-val a:hover { text-decoration: underline; }
+
+      /* ── COLLABORATIONS ── */
+      .collabs { margin-top: 52px; padding-top: 40px; border-top: 1px solid var(--border); grid-column: 1/-1; }
+
+      .collabs h3 {
+        font-family: "Libre Baskerville", Georgia, serif;
+        font-size: 1.3rem;
+        font-weight: 700;
+        color: var(--text);
+        margin-bottom: 24px;
+        letter-spacing: -0.01em;
+      }
+
+      .collabs-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+        gap: 20px;
+      }
+
+      .collab-card {
+        background: var(--bg2);
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        padding: 20px;
+        transition: border-color 150ms;
+      }
+
+      .collab-card:hover { border-color: var(--accent); }
+
+      .collab-card h4 {
+        font-family: "Libre Baskerville", serif;
+        font-size: 15px;
+        font-weight: 700;
+        color: var(--text);
+        margin-bottom: 8px;
+      }
+
+      .collab-card p { font-size: 13px; color: var(--muted); line-height: 1.6; }
+
+      .collab-link {
+        display: inline-block;
+        margin-top: 10px;
+        color: var(--accent);
+        font-size: 12px;
+        font-weight: 600;
+        text-decoration: none;
+      }
+
+      .collab-link:hover { text-decoration: underline; }
+
+      /* ── EXPERTISE ── */
+      .expertise-list { display: flex; flex-direction: column; }
+
+      .exp-item {
+        display: grid;
+        grid-template-columns: 52px 1fr;
+        gap: 24px;
+        padding: 28px 0;
+        border-bottom: 1px solid var(--border);
+      }
+
+      .exp-num {
+        font-family: "DM Mono", monospace;
+        font-size: 13px;
+        color: var(--accent);
+        font-weight: 500;
+        padding-top: 4px;
+      }
+
+      .exp-item h3 {
+        font-family: "Libre Baskerville", Georgia, serif;
+        font-size: 1.4rem;
+        font-weight: 700;
+        color: var(--text);
+        margin-bottom: 8px;
+        letter-spacing: -0.01em;
+      }
+
+      .exp-item p { font-size: 15px; color: var(--muted); line-height: 1.7; }
+
+      .exp-tags { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; }
+
+      .exp-tags span {
+        background: var(--tag-bg);
+        color: var(--tag-text);
+        border: 1px solid #2a4a7a;
+        border-radius: 4px;
+        padding: 4px 10px;
+        font-family: "DM Mono", monospace;
+        font-size: 11px;
+        font-weight: 500;
+      }
+
+      /* ── PUBLICATIONS ── */
+      .pub-metrics {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
+        margin-bottom: 40px;
+      }
+
+      .pub-metric {
+        background: var(--bg2);
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        padding: 20px 24px;
+      }
+
+      .pub-metric-num {
+        font-family: "Libre Baskerville", Georgia, serif;
+        font-size: 2.5rem;
+        font-weight: 700;
+        color: var(--accent);
+        line-height: 1;
+        display: block;
+      }
+
+      .pub-metric-label {
+        display: block;
+        margin-top: 6px;
+        font-size: 13px;
+        color: var(--muted);
+      }
+
+      .pub-block-label {
+        font-family: "DM Mono", monospace;
+        font-size: 10px;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        color: var(--accent);
+        margin-bottom: 16px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+
+      .pub-block-label::after { content: ''; height: 1px; flex: 1; background: var(--border); }
+
+      .pub-block { margin-bottom: 40px; }
+
+      .publication {
+        display: grid;
+        grid-template-columns: 52px 1fr;
+        gap: 18px;
+        padding: 16px 0;
+        border-bottom: 1px solid var(--border);
+      }
+
+      .publication:last-child { border-bottom: none; }
+
+      .pub-year {
+        font-family: "DM Mono", monospace;
+        font-size: 12px;
+        color: var(--accent);
+        font-weight: 500;
+        padding-top: 2px;
+      }
+
+      .publication h3 {
+        font-size: 15px;
+        font-weight: 500;
+        color: var(--text);
+        line-height: 1.4;
+        margin-bottom: 4px;
+        font-family: "Libre Baskerville", serif;
+      }
+
+      .publication p { font-size: 13px; color: var(--muted); }
+
+      .badge {
+        display: inline-block;
+        background: var(--tag-bg);
+        color: var(--tag-text);
+        border: 1px solid #2a4a7a;
+        padding: 2px 8px;
+        border-radius: 4px;
+        font-family: "DM Mono", monospace;
+        font-size: 11px;
+      }
+
+      .pub-link {
+        display: inline-block;
+        margin-top: 6px;
+        color: var(--accent);
+        font-size: 12px;
+        font-weight: 600;
+        text-decoration: none;
+      }
+
+      .pub-link:hover { text-decoration: underline; }
+
+      .pub-details {
+        margin-top: 24px;
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        overflow: hidden;
+      }
+
+      .pub-details summary {
+        cursor: pointer;
+        padding: 14px 18px;
+        font-size: 14px;
+        font-weight: 500;
+        color: var(--muted);
+        background: var(--bg2);
+        transition: color 150ms;
+        list-style: none;
+      }
+
+      .pub-details summary:hover { color: var(--text); }
+
+      .pub-details[open] summary { border-bottom: 1px solid var(--border); }
+
+      .pub-details-inner { padding: 0 18px 12px; }
+
+      .pub-loading { color: var(--muted); font-size: 14px; padding: 16px 0; }
+
+      /* ── IMPACT ── */
+      .impact-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 52px;
+        align-items: start;
+      }
+
+      .impact-copy h3 {
+        font-family: "Libre Baskerville", serif;
+        font-size: 1.5rem;
+        font-weight: 700;
+        color: var(--text);
+        line-height: 1.25;
+        margin-bottom: 16px;
+        letter-spacing: -0.01em;
+      }
+
+      .impact-copy p { font-size: 15px; color: var(--muted); line-height: 1.75; margin-bottom: 12px; }
+
+      .ref-list { margin-top: 24px; border-top: 1px solid var(--border); }
+
+      .ref-item {
+        display: grid;
+        grid-template-columns: 110px 1fr;
+        gap: 14px;
+        padding: 12px 0;
+        border-bottom: 1px solid var(--border);
+        text-decoration: none;
+        color: inherit;
+        transition: background 150ms;
+      }
+
+      .ref-item:last-child { border-bottom: none; }
+
+      .ref-item:hover strong { color: var(--accent); }
+
+      .ref-label {
+        font-family: "DM Mono", monospace;
+        font-size: 10px;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: var(--accent);
+        padding-top: 2px;
+      }
+
+      .ref-item strong { font-size: 14px; color: var(--text); font-weight: 400; line-height: 1.4; }
+
+      .impact-stat-stack {
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
+      }
+
+      .stat-card {
+        background: var(--bg2);
+        border: 1px solid var(--border);
+        border-left: 3px solid var(--accent);
+        border-radius: 0 8px 8px 0;
+        padding: 18px 20px;
+      }
+
+      .stat-card-num {
+        font-family: "Libre Baskerville", serif;
+        font-size: 2rem;
+        font-weight: 700;
+        color: var(--accent);
+        line-height: 1;
+        display: block;
+      }
+
+      .stat-card-label { font-size: 13px; color: var(--muted); margin-top: 4px; display: block; }
+
+      /* ── TEACHING ── */
+      .teaching-list { border-top: 1px solid var(--border); }
+
+      .teaching-item {
+        display: grid;
+        grid-template-columns: 72px 1fr;
+        gap: 24px;
+        padding: 26px 0;
+        border-bottom: 1px solid var(--border);
+      }
+
+      .teaching-item:last-child { border-bottom: none; }
+
+      .teaching-level {
+        font-family: "DM Mono", monospace;
+        font-size: 11px;
+        color: var(--accent);
+        font-weight: 500;
+        letter-spacing: 0.06em;
+        padding-top: 4px;
+        text-transform: uppercase;
+      }
+
+      .teaching-item h3 {
+        font-family: "Libre Baskerville", serif;
+        font-size: 1.25rem;
+        font-weight: 700;
+        color: var(--text);
+        margin-bottom: 8px;
+        letter-spacing: -0.01em;
+      }
+
+      .teaching-item p { font-size: 14.5px; color: var(--muted); line-height: 1.7; }
+
+      .teaching-tags { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+
+      .teaching-tags span {
+        background: var(--tag-bg);
+        color: var(--tag-text);
+        border: 1px solid #2a4a7a;
+        border-radius: 4px;
+        padding: 3px 9px;
+        font-family: "DM Mono", monospace;
+        font-size: 11px;
+      }
+
+      /* ── TALKS ── */
+      .talks-layout {
+        display: grid;
+        grid-template-columns: 260px 1fr;
+        gap: 52px;
+        align-items: start;
+      }
+
+      .talks-sidebar p { font-size: 14.5px; color: var(--muted); line-height: 1.7; margin-top: 12px; }
+
+      .talks-list { border-top: 1px solid var(--border); }
+
+      .talk-item {
+        display: grid;
+        grid-template-columns: 120px 1fr;
+        gap: 24px;
+        padding: 24px 0;
+        border-bottom: 1px solid var(--border);
+      }
+
+      .talk-item:last-child { border-bottom: none; }
+
+      .talk-type {
+        font-family: "DM Mono", monospace;
+        font-size: 10px;
+        color: var(--accent);
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: 0.06em;
+        padding-top: 4px;
+      }
+
+      .talk-item h3 {
+        font-family: "Libre Baskerville", serif;
+        font-size: 1.2rem;
+        font-weight: 700;
+        color: var(--text);
+        margin-bottom: 8px;
+      }
+
+      .talk-item p { font-size: 14px; color: var(--muted); line-height: 1.7; }
+
+      .talk-tags { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+
+      .talk-tags span {
+        background: var(--tag-bg);
+        color: var(--tag-text);
+        border: 1px solid #2a4a7a;
+        border-radius: 4px;
+        padding: 3px 9px;
+        font-family: "DM Mono", monospace;
+        font-size: 11px;
+      }
+
+      /* ── GRANTS ── */
+      .grants-list { display: flex; flex-direction: column; gap: 0; }
+
+      .grant-item {
+        display: grid;
+        grid-template-columns: 160px 1fr;
+        gap: 28px;
+        padding: 28px 0;
+        border-bottom: 1px solid var(--border);
+        align-items: start;
+      }
+
+      .grant-item:last-child { border-bottom: none; }
+
+      .grant-meta { display: flex; flex-direction: column; gap: 6px; }
+
+      .grant-funder {
+        font-family: "DM Mono", monospace;
+        font-size: 10px;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: var(--accent);
+        font-weight: 500;
+        line-height: 1.4;
+      }
+
+      .grant-period {
+        font-family: "DM Mono", monospace;
+        font-size: 11px;
+        color: var(--muted);
+      }
+
+      .grant-status {
+        display: inline-block;
+        padding: 2px 8px;
+        border-radius: 4px;
+        font-family: "DM Mono", monospace;
+        font-size: 10px;
+        font-weight: 500;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        margin-top: 2px;
+        width: fit-content;
+      }
+
+      .grant-status.active {
+        background: rgba(74, 158, 255, 0.12);
+        color: var(--accent);
+        border: 1px solid rgba(74, 158, 255, 0.3);
+      }
+
+      .grant-status.completed {
+        background: rgba(136, 146, 170, 0.1);
+        color: var(--muted);
+        border: 1px solid var(--border);
+      }
+
+      .grant-body h3 {
+        font-family: "Libre Baskerville", serif;
+        font-size: 1.1rem;
+        font-weight: 700;
+        color: var(--text);
+        line-height: 1.35;
+        margin-bottom: 10px;
+        letter-spacing: -0.01em;
+      }
+
+      .grant-body h3 a {
+        color: inherit;
+        text-decoration: none;
+        border-bottom: 1px solid var(--border);
+        transition: border-color 150ms, color 150ms;
+      }
+
+      .grant-body h3 a:hover { color: var(--accent); border-color: var(--accent); }
+
+      .grant-body p {
+        font-size: 13.5px;
+        color: var(--muted);
+        line-height: 1.7;
+      }
+
+      .grant-tags { display: flex; flex-wrap: wrap; gap: 7px; margin-top: 12px; }
+
+      .grant-tags span {
+        background: var(--tag-bg);
+        color: var(--tag-text);
+        border: 1px solid #2a4a7a;
+        border-radius: 4px;
+        padding: 3px 9px;
+        font-family: "DM Mono", monospace;
+        font-size: 10px;
+        font-weight: 500;
+      }
+
+      @media (max-width: 820px) {
+        .grant-item { grid-template-columns: 1fr; gap: 10px; }
+      }
+
+      /* ── CONTACT ── */
+      .contact-wrap {
+        max-width: 680px;
+      }
+
+      .contact-wrap h3 {
+        font-family: "Libre Baskerville", serif;
+        font-size: 2rem;
+        font-weight: 700;
+        color: var(--text);
+        line-height: 1.15;
+        margin-bottom: 18px;
+        letter-spacing: -0.02em;
+      }
+
+      .contact-wrap p { font-size: 16px; color: var(--muted); line-height: 1.7; margin-bottom: 28px; }
+
+      /* ── FOOTER ── */
+      footer {
+        border-top: 1px solid var(--border);
+        padding: 28px;
+        max-width: 1100px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 16px;
+        flex-wrap: wrap;
+      }
+
+      .footer-copy { font-size: 13px; color: var(--muted); }
+
+      .footer-links { display: flex; gap: 8px; flex-wrap: wrap; }
+
+      .icon-btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 32px;
+        height: 32px;
+        border: 1px solid var(--border);
+        border-radius: 6px;
+        color: var(--muted);
+        text-decoration: none;
+        font-family: "DM Mono", monospace;
+        font-size: 10px;
+        font-weight: 700;
+        letter-spacing: 0.02em;
+        transition: color 150ms, border-color 150ms, background 150ms;
+      }
+
+      .icon-btn:hover { color: var(--accent); border-color: var(--accent); background: var(--highlight); }
+
+      .icon-btn svg { width: 15px; height: 15px; display: block; }
+
+      /* ── BACK TO TOP ── */
+      .back-to-top {
+        position: fixed;
+        bottom: 28px;
+        right: 28px;
+        width: 40px;
+        height: 40px;
+        border-radius: 8px;
+        background: var(--bg3);
+        border: 1px solid var(--border);
+        color: var(--muted);
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        opacity: 0;
+        transform: translateY(8px);
+        transition: opacity 200ms, transform 200ms, color 150ms, border-color 150ms;
+        z-index: 100;
+        pointer-events: none;
+      }
+
+      .back-to-top svg { width: 16px; height: 16px; }
+      .back-to-top.visible { opacity: 1; transform: translateY(0); pointer-events: auto; }
+      .back-to-top:hover { color: var(--accent); border-color: var(--accent); }
+
+      /* ── DIVIDER ── */
+      .section-divider { max-width: 1100px; margin: 0 auto; height: 1px; background: var(--border); }
+
+      /* ── RESPONSIVE ── */
+      @media (max-width: 820px) {
+        .hero { grid-template-columns: 1fr; gap: 32px; }
+        .hero-badge { width: 140px; height: 140px; }
+        .hero-initials { font-size: 2.8rem; }
+        .about-grid { grid-template-columns: 1fr; }
+        .impact-grid { grid-template-columns: 1fr; }
+        .talks-layout { grid-template-columns: 1fr; gap: 28px; }
+        .talk-item { grid-template-columns: 1fr; gap: 8px; }
+        .teaching-item { grid-template-columns: 1fr; gap: 8px; }
+        .exp-item { grid-template-columns: 1fr; gap: 8px; }
+        .pub-metrics { grid-template-columns: 1fr 1fr; }
+        nav { display: none; }
+        footer { flex-direction: column; align-items: flex-start; }
+      }
+    </style>
+  </head>
+
+  <body>
+
+    <header>
+      <div class="header-left">
+        <strong class="site-name">Rino Bellocco</strong>
+        <div class="header-socials">
+          <a class="icon-btn" href="mailto:Rino.Bellocco@unimib.it" aria-label="Email">
+            <svg viewBox="0 0 24 24"><path fill="currentColor" d="M3 5h18a1.6 1.6 0 0 1 1.6 1.6v10.8A1.6 1.6 0 0 1 21 19H3a1.6 1.6 0 0 1-1.6-1.6V6.6A1.6 1.6 0 0 1 3 5zm9 7.2L3.8 7.1v10.1h16.4V7.1L12 12.2zm0-2.1 6.6-4.1H5.4l6.6 4.1z"/></svg>
+          </a>
+          <a class="icon-btn" href="https://www.researchgate.net/profile/Rino-Bellocco-2" target="_blank" rel="noopener" aria-label="ResearchGate">RG</a>
+          <a class="icon-btn" href="https://www.linkedin.com/in/rino-bellocco-76028069/" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24"><path fill="currentColor" d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.34V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.61 0 4.27 2.38 4.27 5.47v6.27zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.23 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.46c.98 0 1.77-.77 1.77-1.72V1.72C24 .77 23.21 0 22.23 0z"/></svg>
+          </a>
+          <a class="icon-btn" href="https://www.unimib.it/rino-bellocco" target="_blank" rel="noopener" aria-label="Unimib">
+            <svg viewBox="0 0 24 24"><path fill="currentColor" d="M12 3 1.8 8.4 12 13.8l8-4.24V16h2V8.4L12 3zm0 13L5 12.3v3.28c0 1.8 3.08 3.42 7 3.42s7-1.62 7-3.42V12.3L12 16z"/></svg>
+          </a>
+          <a class="icon-btn" href="https://ki.se/en/people/rino-bellocco" target="_blank" rel="noopener" aria-label="Karolinska">KI</a>
+        </div>
+      </div>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#expertise">Expertise</a>
+        <a href="#publications">Publications</a>
+        <a href="#impact">Impact</a>
+        <a href="#teaching">Teaching</a>
+        <a href="#education">Education</a>
+        <a href="#talks">Talks</a>
+        <a href="#grants">Grants</a>
+        <a class="nav-contact" href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <div class="content-wrap">
+
+      <!-- HERO -->
+      <section class="hero">
+        <div>
+          <div class="tag">Biostatistics · Epidemiology · Causal Inference</div>
+          <h1>Drawing <em>causal insight</em><br>from observational health data.</h1>
+          <p class="hero-sub">
+            Professor of Biostatistics at the University of Milano-Bicocca and Visiting Professor at the Karolinska Institutet. Co-investigator of the Swedish National March Cohort. Coordinator of the Italian Working Group on Causal Inference in Epidemiology.
+          </p>
+          <div class="btn-row">
+            <a class="btn btn-primary" href="https://www.unimib.it/rino-bellocco" target="_blank">University profile</a>
+            <a class="btn btn-secondary" href="https://openalex.org/authors?filter=display_name.search%3ARino+Bellocco" target="_blank">All publications →</a>
+          </div>
+        </div>
+        <div class="hero-badge" style="background:none;border:none;padding:0;overflow:hidden;border-radius:16px;box-shadow:0 12px 40px rgba(0,0,0,0.45);">
+          <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAC0ALQDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD1mQc1AwqxJ1qIiuhHKyLFGKdijFUIZikxT8UmKBWI6MetPxVK6vY7Y4c4JHHvQgsTu4RST0FY9/rCxERoQCQSxzyAPSsrUdfMKsAwYEjA6Y5ri9R1Wc3BJbA28YOQcng/mRQ3YqMWzuE1GKcsWkAVTjAPU98n2qtJqVi7FInDsOwHU/1rz6XVZfsYiQFVBIxkZPPU59ajh1IRxKzsx2tkYPBJ68fyqOctQOyn1CMMQ7KvPJyCcfyFRJdaa53eYzAdTuANc6msy3qgAoijqHAY47c4IFOe1ZmEqKiM3PyDAP4H+fene4cqR1Ud5aFd0TAKOCMjP8jVqO+tG4JI9SRXDlZ0bfb7Sw5KEkE+uP8A61BvrrJ2P5bAcxyqCCfqP50NJisekRQwzjMTKw9jUv2IeleYRa/e2z5eIoxOAUJAP0PQ11Wg+NI52MN3kMOMngiocew7HSfYh6VBNZDB4rRt7u3u498EquB1welEoGKnULHM3VkMHiuc1C0AB4rt7lAQa57UYhg8UxWOEmgxKeKK0biP981FMD6EduahLU15Rmo/MHrWqRDZLmjNQ+YKXeKLCuSZpM80zcPWjd9KLBccxwpOegrn9RlV8hVywB5PQVr3U6RQlnOBiucvrtDCSrAEjPTk0PQaVzlNREplKuSMngjBFYl1CXUkYyOQR2PqK7Ox0S51STe3ywE8ll5NbB8LWsMW1FBIHUis5SOmEdDxyVCA5YEMeAB0PXk/pVN7jblUXoMZPUnufpXpOteGFVvNCYUjBwOh9fpXG3uiSQEkKTg+n9ayvqacuhiPqLxAJCi5HJIBOT6/T61LZy63ez7oQ7A55YkLj65pstmVkVtpXHBJ6H61ZbVJ4bcJEqooIJY/N+ODwT/KqT1IcS/5+p2ke65gBUD7yPu/MZOKtQXsN/EAAvPAwSBn0POQfcED2rJ/t5iAAHll6M5I/QdP51lzai63IuYFVGz+8AGFYj1HY1opIhxOjmtZ4UMtq/mRk/NER0+o9fce/FUnZHUzRqySqfmTvj1HqKsQ6mlxDvHyhhg88gjsff378VFMtwDvjAkwc7hjIHrjv703Z7E6rc19I1e4t9txA2SvDAHhh6EV3VhrUWpWglQ7WHDIeoNeZw3kRUsFEchXOD0Y0ttqNxbKLq1faQfnTqCO9JpCPSbicYPNYV9MCDzUVvq6X9qJU4PRlJ5Bqldz5B5qLAZc7Zmbmiq0smZDzRQB7s8/PWo/O96ps7ZpnmGuhGDuaHnD1pfO96oeaaXzDQBf84etL5vvWf5hpwlNGgEWt3qQ2gDAkk8egqrounHUcSyKBEDkkjk+1OuFF/dR2oGecsSOgro4FjtIBFGAABjjuaynKzOijBvUlSNIVCooUAYAApH5zxTBJluP5U7sc/nWKdzsUbFG5iDAgqDnt2rAu9GtZFb90AT6dPy6V0zjdn+tVXiBJPepaZSt1PPLzw4uW2qCMcAjJFc9e+HhGjYyM+/Q16nPbgknjHrWPdWQLH5c/UUrtD5EzyaXTpraUOEAAOfr/wDWqa7thLA5hjCbxlgO57H6f1Fdte6chJIUEDnGKxp7LYPlUgEgEeg/z/WrjPuZyps40M1vct1MbABvQ9BmtiyvlIVS5VgPlcHp7H1p1/p+wtleCKxQVVQhJVh0yKqMjGUbGpdsM7gAACcgdBnuPamWcgEBAJBPJA6Ef41UtDLO7RM5yB0PGfxq0LZoo2KNlhg4Pr/ga08zO3Q07CcRzlVJBYcj1qzPKTkVzazuJ0cEggj9O1bolE0YccZGTS3FJW1Kr8saKVx8x5oosK57eyVCykVeYA1WcAVSkaSpKxX5zRzUm0HpUgiyOlVc5nGzIeaCdoLHsM1P5XtVPVJfsthI3cjGaLiS1G6O5luJZyMDJAPetvcSMgc1geHnEloSBkA4zjrW+iMQOMD0rkm25Ho0YpRHRZzkgipmAI4JGfShAEGSOOxFOk6cYpxNGQHcAe9MJBUk5BIxjFP4JPByPWkcdBkY7HNUBnzlcHrn3qhMik8YI71oTEYIJzmsyZ8kqAAahmiRnXMQZiQufQVmTWwOcqcHqD0xWtJwSAec8iqjlcc9+lTcbRz15aAox4PYetcleWapk5wysSPp/n+ddxdjqOhB6VzGrQEqxUHqKcXqYzWhhNIiAZG116OO/wBaa9+5IJPzAZyOhHcU4p5jFcDBAz7Yqu1uRcqOAAB1rdXaOVpIsLIsoBHO45z6Eda2rcgW44xXPqjAhVHJPIHbpzW4h2wAe2aqzIk7oa7fMaKhZxu60UE2Pd3lx3qEyAnrUEs4A5NVjdKD1pI7JK5qRkE9auRqCKxYbsMQAa1bd845q0jkmrMs+VWD4tBj0ZivBJA/M10yAEZNcl4h1lLm+h0mG1eRXkAkmIIVcH1PXpSexC3RraFaJa6ZEHwuFBJPqa1d0RXKuCD0x0rA1O6lRVt7bkgdK5u81nVbOU5tmEYGMjkE/hzWDsnqd0T0LzMgc55oZwTgHGO1cRpXi9LgbJcI4OMEnJ/MV0MF+s4dgcgY6UXsapXVzWUhmIJBAHNQzuig5AwKoxXwBmycYI7+1RfaldgCQR1JNK9ylGz1HTFGBJ2jIxjv+NZ0wVR8pwPrmrbSh8kkZPfFVnTc2SAABxjvSaY72M+YgDIJPviqU8oReSM9vrVy5i2gkHOOcVi3RZyFLEAjJqGmguV5GMjljg88D2rO1DZsIB68ValJjXI4A71i30pc4yQSOMVUVqZTehkSLskcrwASCB+NNaIlCzHJzgY7jp/jTkLPISR0IJHqcU5RIIASegGfoTmuiJySI7eJjOWwBkjGfT0q5K2wBfTimW2MqCed2D7jmo7qQlyDwc1T2IIWk+aiqzP81FTcD1281DbnBrP/ALRZ3IBNRXEEkjHg4ptvZMJOc00zqd7m3YyM5B55NdVZISATWBpsAQAGuptFUKABVp6HPUi76lHxZHO3g7VFt1LSG3bgHBI7/pmuI8J6PB/Y9vdXrSPPKCVUyEAL0HGfSvU5oBcWc0BxiSNkOfQgj+teaaPbShbS3kcrJagQSx9CrLwQR+H45qXvciEU3Zjr+7TTmLL5qsDjAkOB+eePaqa+I/tSGIt+8zjDx5P145x74xW/rWnQtdBnUEA5wen41TGmW6TCZYXXHOwEbc+vrWF03qdbpu3unMXIZJPNliVgTw8Z6H0x2Ndv4WC3WmGRTkkkNnrkViX9pDI0nmEKpUlgAOgGTn/69cxpeleJX0mS+02eSOIkiMiQhiB1APXHt0osrj55wdnqd7fym1+0NuxnH0OM1x914nlSXYAQRxweaw9NvdY1Hzhd6hcERnaVLAknvnOelI0CLLvkdhzjeCM5/Kp5dS3Vclsba+JrncCyzEdgVwB+IrUsfE5mO05Bzgg1g2tyijEWpFWIJCzRBlOPcgUPczeYEZLRnPKkAxk/QgkH9KrXqRzHVm+WZjknH6f/AKqzrhiZCe3tWCdbaCQLcxvCTkAnBB+jDg1dg1KK5jLLIpxx1FS11LjNPQmnXzIyBXMXpaKTB4IOOa6QTKTyy4HuKwda2BgysDz1BojuKa0uZ8GPNxjrjdntTyQYmAPYAD3qCCdBuIIwTjOetHnI5IU/dIJ9Pet07HM9SyqGIlyMEZ/lWfNKSSSec1bMpeJySCQMcVnSEnJpt32I2IWfn/69FMPWipGe4PAozxUO1UOeBT5LgY5rPnuSM4pnVzJmva3AEgAPeuosZdyg5rz2xuma4wT3ruNKOVFVFaGFWXQ6JOQDWTqmjWtzci7X9xdDH71AMtjoGHQ4/P3rWjGFFUb5yJQoz06US2MoRTlYxb2K6ZcTwrKB/HCRn8QcY/AmseaRoxtDSJ2G+Fh+oGD+FdbtJXkYyKgMAUlmAwOSTXPc7lBrZnB3kU19EbGyineS4ISa6kjZERCeQu4AkkccD612kltFpehwWkShY4owoAHoKsWlsrz+cy5APy5/U1JqoDxFSMjFNLqUlZ6njlpEsXiPUoM4DsJlz3BHP5EVb+wKJgGUFW9fXNSa1p6rfJdQuY5kJAcYOR6EHqPY06Ke4ePbLbCQj+OFwCf+AsRj86SepDTTEn0y1lQKy7CDwSu5fy6g8mqGoWEYjCwNGFAwctwT647VofbDFkSCVR/txMcfioIqrc3sDjAmjGen7qQn8ttDbegLkWpzF+J/sckb5YAqVJPOcgD+dFhaXyx/upUi3HJGTz+Va/2J9QnQKr+Qh3M7rt3EdAAeQB1ycZ9K047BYIzhQD7jrSbtoTGN5c2xzxttSGc3KHP+8f61l3Vo9uQpSIkjPCkf1rrnAUkYGa5/UCZr7ABIA7dsURlrYdRaGOkTHkxKDngZPNa1loMksfmySLCjdgcnH40+zsmeYMw4GTj+lbiWj+STKTgA4HYVUpW2FTgupj3mmJaWhkinEgJAI7/WsVxxXR3UIXTJMY4IJ/OsF168VcG2rsxrRUZWRSI5oqQjmiqsZHqTTk96gdiQc1VE3PJqYSAjrTaNovUl08H7UD716HpJwg+lcBY4+0jAru9LOEH0qo3sTVab0OmjIKCsjUZQNQjVfTketaUb/L1rB1SYDU42GCcEH2qZbMin8SNEyqEB44FZNzcNcXCxKpKA5YjpgdabJdlhsU8ngVNbeXAME5ZhknqTXNq3Y9JJJXLdrqMDBmDgqBjg5/Cs7WdVhCMobB6AE1h6y81pqINmuBL/AKxV6E8c46VyuvXt9Gx3YJzweSBnnmqu0rC0vc1biJLpWYnAHTB71U0hiZ5IGxlCQDntWTp+p3LxbJjuJ5XYpGR71t6fAY51lYYLHJqdxmibYmQEjIGRjHWg6bDncyqCOoxWltGAB1qG4HynBOe5oY7LqVJUhhjwAoyMcVkXLAZwe+OKtzg7iSQQP0rKu5lBJUkjgUiXboVZcZJJHtVFLYPOCRhnPerPmh5RkEhT07k1PBtecHGAo6kd+9NKyuZvcgvrWW2eJoSQFGTjvVqKYzW7Entg1JOzzKQFySMKAOgqLC28JUkfKNzHP6UWNFZK7MzU5QkAhHVjk+wHSsVxxVuaQzys7Hknj2FVZBxXTGPKjz6k+eVyoRzRSnrRQRc7EuQafG5JAyac8BJOBU9rZM7A4rWnHmZU5cquamlxZkBIrt9OQhQMVzmnWwi2giusswqpn0FdMqKtocqqtvUZquu2miWpluZADjgA8muebV/7ZWG8jBQEkBT1PvXCePNTmudYlQsTHGcAZ4rS8J3yy6TlQQYs59TgdqwqwUY2NqMm5XOku7o2q5GBkDkHkHPP0qKPVpJYWYLkE4ADYP8AjVDVyLnbFaktI2CRnoe1LBZajp8SEy7yTkqQOD7Vwp2dkeok5MlvLtGaOWQEgEAKeRn6/nWHqmJpScknGSCe3+c1tz3MRO27hCkDJKrhv8D9RWPfPDNIfJcKAcgMMHrnFN36lODS0FtYok2hR1H5np+lbMQQKMHJHeuYkeaJtyls5yOep71PDqpRSGJBzyD6UrJ7EqVtGdnvAUEY5HXNUbm5AJUnn61RtdTE0BUkhl/HIqlcXBckgnJ4HtUX1KctCSaVS2CQM8AdzWVeH59oBHqfapGlI2l2AOMAE5OfrVKZjKwJzknH4UzNu5DGQASAQScAkdqv6YGkdsjJU8jse1Z0r7VKAYIIwB1IrTshNaEFQXDYJPcGrUW1oQpRUrNmpPE0qgqBGAMEjrWDqsihRbRdByxHetaa6ldCMAE+nasxrYkkkEk9Sa1hT1uzKtXVuWJjeUQOlQyRHHSts2w9Khe2BHStGjkTOfaI7ulFbBtOelFTYq56JHoysQQKvQ6ZHAMsVH1NctP4onIIjO0dscVlT65dSElpmAPua9KNJROWdZSO6vL21sIGlLqSoyAD1Nc+fFt1Nko2xfSuQn1BpiymUkgdM1XinbZjcRWnMloY6k+syG5umkJyzHJNa/h6CS0052GcMeeOmawZDlAc5IOa6jS5Uk08KGIDL265rz8Te9z0MLZrzLmlOUmEjsdxPBzkce3aurlJa0LABmAyMdDWFpMNpeWroqhZIzhwSefw710tvDGtqsRATHTnjntXFOLTujvpTucxJrFpOTDMCpU42OuR6Vj3620hPkxRjPcEitTX9EfzQ8Sg+YwBI9KyLfS7nJEysCOxNNydtTfnezMh7SYfcncH0Bzj86fBZ3O4s7lx6kDI/Kt3+z5FGdpAHrVW9nFnEFwctxk8YrO7ZMrbsWxhNsrOThcDIJzxUVzdoMkNxgjIqm+rqyrCuASDkjvWe8jujAEKCdv6k0W1M3JW0LjXJdQSeTyuetLFKm7lgMKAKybi6KkIpywAAx2FTo+2MFgBgEkkdPWrUbmbkbNlZNeXquFJjQAkkdTW/wDZMDGKxPDmuwuxtsgLnAyOvvXWkAjI5B5rrjDlRwVJuTMo2vtTDa+1ahUZphT2ptEoyzad8VE1p7VrlB6UwoPQUAmYxtOelFa3liilYdzz437nhRj3JqrLcSOeWJ9hUO7A4pBycmu5ybOVJImgzvJIJyDSxTAHBPQ00MFZSTgZwajaMrIQOecj6Um7DRpgqVJzgEVa0m+MMhiJ4ByKyEc4xnHtSF2Rg6/eU5rKrHmjY2pT5ZHpvh29jF4xUKscmN5JySe2BW3d3bpc5QEqMA5HGeuAPoa8w02/PmJKrMCD0BwTXSyaxPPEGV0jjUglT1YnqSa4nZqz6HdFuLuupuSaiJXHmY4JAAz1FVvtKLdBVcAleATwD1rlo9XP2lyARkkKSPf/APXVxZ90spDKREMkhhk8j+tRytm/tVY1b6e73yAkBQByBjIz1FY2pAS288rkfKuVOOuDjj34NW21RJIZAw2sgBAJ++Txj6YJrmNQv5JVeJB8oYkkHggnJ4o5UiHUb0M1ZAuCeOckdzUglMi7RwCSQaqeU0uCQQSeg7CtCC2AUsWIBPA9qmyC7sENmS6yMASc9ecVBq1yYIBbqMM55+laKyMJNo5AOQaz9ctCY1nwSepNONrkyTszOs52t5llQkFSDXqWk6iLvT43J5wM15OgwM11vhm7byWhzwOldv2ThduY7czj1pvnj1rK81vU0nnH1qbjsavnj1phmB71l+cfWmmc+ppBY1POHrRWYJjjrRQM4DvT160UV1nIJMcLSuTiNu5Xmiik9ylsJGTn8KlPIoooew1uFrI0c5CnABrokJOM9+tFFebW+I9Kj8BVvR+4AHGWwT7VW8+QDYrlQQc470UULYHuVDI7qm52JLEk57/5FI0zmVOnOM8UUUmNEsRw27A5zkUK7MSCexooqXsVHcv24BFT6iA2mNkdBRRShuVLZnJ9BW14fcrctjuKKK9BfCea/iOq7fhSUUViWMNMJoooGAJxRRRTEf/Z" alt="Rino Bellocco" style="width:220px;height:220px;object-fit:cover;object-position:center 20%;display:block;border-radius:16px;" />
+        </div>
+      </section>
+
+      <!-- NEWS -->
+      <section id="news" class="section" style="padding-top:48px;padding-bottom:48px;">
+        <div class="news-list">
+          <a class="news-banner" href="https://academic.oup.com/ckj/article/18/3/sfaf030/8055270" target="_blank" rel="noopener">
+            <span class="news-label">New paper · 2025</span>
+            <span class="news-text">COVID-19 risk factors in kidney transplant recipients — Clinical Kidney Journal.</span>
+            <span class="news-arrow">→</span>
+          </a>
+          <a class="news-banner" href="https://ki.se/en/people/rino-bellocco" target="_blank" rel="noopener">
+            <span class="news-label">Visiting professor</span>
+            <span class="news-text">Ongoing academic exchange with Karolinska Institutet, Dept. of Medical Epidemiology and Biostatistics, Stockholm.</span>
+            <span class="news-arrow">→</span>
+          </a>
+          <a class="news-banner" href="mailto:Rino.Bellocco@unimib.it">
+            <span class="news-label">Office hours</span>
+            <span class="news-text">Available by appointment — Tuesday &amp; Thursday 14:00–15:00, U07 floor 2 room 4061.</span>
+            <span class="news-arrow">→</span>
+          </a>
+        </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section id="about" class="section">
+        <div class="section-eyebrow">About</div>
+        <h2>Biostatistician, epidemiologist, educator.</h2>
+        <div class="about-grid">
+          <div>
+            <p class="about-lead">
+              I am a Professor of Biostatistics at the <a href="https://www.dismeq.unimib.it/" target="_blank" style="color:var(--accent);text-decoration:none;">Department of Statistics and Quantitative Methods</a> at the University of Milano-Bicocca since October 2016, and I work part-time as a Visiting Professor in the <a href="https://ki.se/en/meb/meb-biostatistics-group" target="_blank" style="color:var(--accent);text-decoration:none;">Biostatistics Group</a> in the Department of Medical Epidemiology and Biostatistics (MEB), Karolinska Institutet in Stockholm, where I moved to in November 1998 after earning my PhD from Harvard University.
+            </p>
+            <div class="about-body">
+              <p>My first research interest — at the Italian National Institute of Health and then at the Harvard School of Public Health — was in the epidemiology of infectious diseases, and in particular in the mathematical modelling of transmission dynamics of HIV infection, with the implementation and application of statistical models for predicting the future number of AIDS cases.</p>
+              <p>My primary research is now in the field of lifestyle epidemiology, applying both standard statistical models and developing causal models for confounding and mediation to study the aetiology of many chronic diseases, ranging from cardiovascular and cancer outcomes to cause-specific (breast cancer, ovarian cancer, prostate cancer) and overall mortality.</p>
+              <p>I am co-PI of the <a href="https://ki.se/en/meb/the-swedish-national-march-cohort" target="_blank" style="color:var(--accent);text-decoration:none;">Swedish National March Cohort (SNMC)</a>, based on almost 50,000 individuals enrolled during the Cancer Day in September 1997. I am currently the coordinator of the <a href="http://www.causal.altervista.org/" target="_blank" style="color:var(--accent);text-decoration:none;">Italian Working Group on Causal Inference in Epidemiology (ICE)</a>, together with Dr. Lorenzo Richiardi (University of Turin).</p>
+              <p>I am the coordinator of the <a href="https://www.dismeq.unimib.it/it/offerta-formativa/corsi-laurea-magistrale/laurea-magistrale-biostatistica/internazionalizzazione" target="_blank" style="color:var(--accent);text-decoration:none;">Erasmus and International exchange programme</a> for the MSc in Biostatistics, and the organiser of the <a href="https://www.dismeq.unimib.it/it/offerta-formativa/seminars-series-biostatistics-epidemiology-and-public-health" target="_blank" style="color:var(--accent);text-decoration:none;">Seminar Series in Biostatistics, Epidemiology and Public Health</a> at the University of Milano-Bicocca.</p>
+            </div>
+          </div>
+          <div class="info-card">
+            <div class="info-card-title">Profile at a glance</div>
+            <div class="info-row">
+              <span class="info-key">Position</span>
+              <span class="info-val"><a href="https://www.unimib.it/rino-bellocco" target="_blank">Professor of Biostatistics</a>, University of Milano-Bicocca (since Oct 2016)</span>
+            </div>
+            <div class="info-row">
+              <span class="info-key">Dept.</span>
+              <span class="info-val"><a href="https://www.dismeq.unimib.it/" target="_blank" style="color:var(--accent);text-decoration:none;">Statistics &amp; Quantitative Methods (DISMEQ)</a></span>
+            </div>
+            <div class="info-row">
+              <span class="info-key">Visiting Prof.</span>
+              <span class="info-val"><a href="https://ki.se/en/meb/meb-biostatistics-group" target="_blank">Biostatistics Group, MEB</a>, Karolinska Institutet (since Nov 1998)</span>
+            </div>
+            <div class="info-row">
+              <span class="info-key">Co-PI</span>
+              <span class="info-val"><a href="https://ki.se/en/meb/the-swedish-national-march-cohort" target="_blank" style="color:var(--accent);text-decoration:none;">Swedish National March Cohort</a> (~50,000 individuals)</span>
+            </div>
+            <div class="info-row">
+              <span class="info-key">PhD</span>
+              <span class="info-val">Sc.D. Biostatistics, Harvard School of Public Health, 1998</span>
+            </div>
+            <div class="info-row">
+              <span class="info-key">Email</span>
+              <span class="info-val"><a href="mailto:rino.bellocco@unimib.it">rino.bellocco@unimib.it</a></span>
+            </div>
+            <div class="info-row">
+              <span class="info-key">Office</span>
+              <span class="info-val">Viale dell'Innovazione 10, Milan · (+39) 02 644 82170</span>
+            </div>
+          </div>
+
+          <div class="collabs">
+            <h3>Research Collaborations &amp; Initiatives</h3>
+            <div class="collabs-grid">
+              <div class="collab-card">
+                <h4>Swedish National March Cohort</h4>
+                <p>PI of a prospective cohort of ~50,000 individuals enrolled during Cancer Day in September 1997, organised by the Karolinska Institutet and the Swedish Cancer Society.</p>
+                <a class="collab-link" href="https://ki.se/en/meb/the-swedish-national-march-cohort" target="_blank" rel="noopener">Visit project →</a>
+              </div>
+              <div class="collab-card">
+                <h4>Italian Working Group on Causal Inference (ICE)</h4>
+                <p>Coordinator of the Italian Working Group on Causal Inference in Epidemiology, together with Dr. Lorenzo Richiardi (University of Turin).</p>
+                <a class="collab-link" href="http://www.causal.altervista.org/" target="_blank" rel="noopener">Visit group →</a>
+              </div>
+              <div class="collab-card">
+                <h4>Summer School in Biostatistics &amp; Epidemiology</h4>
+                <p>Coordinating and teaching at the Summer School on Modern Methods in Biostatistics and Epidemiology since 1997.</p>
+                <a class="collab-link" href="http://www.biostatepi.org/" target="_blank" rel="noopener">Visit school →</a>
+              </div>
+              <div class="collab-card">
+                <h4>Karolinska Institutet — MEB Biostatistics Group</h4>
+                <p>Visiting Professor in the Biostatistics Group, Department of Medical Epidemiology and Biostatistics, since November 1998.</p>
+                <a class="collab-link" href="https://ki.se/en/meb/meb-biostatistics-group" target="_blank" rel="noopener">Visit group →</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- EXPERTISE -->
+      <section id="expertise" class="section">
+        <div class="section-eyebrow">Expertise</div>
+        <h2>Statistical methodology meets medical research.</h2>
+        <div class="expertise-list">
+          <article class="exp-item">
+            <span class="exp-num">01</span>
+            <div>
+              <h3>Causal Inference</h3>
+              <p>Designing and analysing observational studies to draw credible causal conclusions — propensity score methods, instrumental variables, and directed acyclic graphs.</p>
+              <div class="exp-tags"><span>Observational studies</span><span>DAGs</span><span>Confounding</span></div>
+            </div>
+          </article>
+          <article class="exp-item">
+            <span class="exp-num">02</span>
+            <div>
+              <h3>Lifestyle Epidemiology</h3>
+              <p>Investigating the role of diet, physical activity, and sedentary behaviour on chronic disease risk using large prospective cohort data from Sweden and Europe.</p>
+              <div class="exp-tags"><span>Cohort studies</span><span>Nutritional epidemiology</span><span>Physical activity</span></div>
+            </div>
+          </article>
+          <article class="exp-item">
+            <span class="exp-num">03</span>
+            <div>
+              <h3>Renal Epidemiology</h3>
+              <p>Advanced regression and survival models applied to chronic kidney disease, renal replacement therapy, and transplant outcomes in national registry data.</p>
+              <div class="exp-tags"><span>Survival analysis</span><span>CKD</span><span>Registry data</span></div>
+            </div>
+          </article>
+          <article class="exp-item">
+            <span class="exp-num">04</span>
+            <div>
+              <h3>Statistical Education</h3>
+              <p>Teaching biostatistics and medical statistics at undergraduate, graduate, and doctoral level, with a focus on rigorous methodology and real-world application.</p>
+              <div class="exp-tags"><span>Statistical modelling</span><span>Regression</span><span>Epidemiological methods</span></div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- PUBLICATIONS -->
+      <section id="publications" class="section">
+        <div class="section-eyebrow">Publications</div>
+        <h2>Research across epidemiology, statistics, and medicine.</h2>
+
+        <div class="pub-metrics">
+          <div class="pub-metric">
+            <span class="pub-metric-num" id="publication-count">291+</span>
+            <span class="pub-metric-label">peer-reviewed publications</span>
+          </div>
+          <div class="pub-metric">
+            <span class="pub-metric-num">15k+</span>
+            <span class="pub-metric-label">citations</span>
+          </div>
+        </div>
+
+        <div class="pub-block">
+          <div class="pub-block-label">Featured papers</div>
+          <div class="pub-list-inner">
+            <article class="publication">
+              <span class="pub-year">2025</span>
+              <div>
+                <h3>COVID-19 among kidney transplant recipients: Evaluating risk factors during the initial phase of the pandemic</h3>
+                <p>Clinical Kidney Journal · Nowak A., Caldinelli A., Segelmark M., Rydell H., Artborg A., Bellocco R. et al.</p>
+                <a class="pub-link" href="https://academic.oup.com/ckj/article/18/3/sfaf030/8055270" target="_blank" rel="noopener">View paper</a>
+              </div>
+            </article>
+            <article class="publication">
+              <span class="pub-year">2017</span>
+              <div>
+                <h3>Body Mass Index and Amyotrophic Lateral Sclerosis: A Study of US Military Veterans</h3>
+                <p>American Journal of Epidemiology · Mariosa D., Beard J., Umbach D., Bellocco R. et al.</p>
+              </div>
+            </article>
+            <article class="publication">
+              <span class="pub-year">2017</span>
+              <div>
+                <h3>Dietary antioxidant capacity and risk for stroke in a prospective cohort study of Swedish men and women</h3>
+                <p>Nutrition · Colarusso L., Serafini M., Lagerros Y., Bellocco R. et al.</p>
+              </div>
+            </article>
+            <article class="publication">
+              <span class="pub-year">2017</span>
+              <div>
+                <h3>Low renal replacement therapy incidence among slowly progressing elderly CKD patients referred to nephrology care</h3>
+                <p>BMC Nephrology · Lundström U., Gasparini A., Bellocco R. et al.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <div class="pub-block">
+          <div class="pub-block-label">Top cited — live via OpenAlex <span id="pub-summary" style="margin-left:8px;font-family:'DM Sans',sans-serif;font-size:11px;color:var(--muted);letter-spacing:0;text-transform:none;"></span></div>
+          <div id="selected-pub-list" class="pub-list-inner">
+            <p class="pub-loading">Loading publications…</p>
+          </div>
+        </div>
+
+        <details class="pub-details">
+          <summary>View full publication list</summary>
+          <div class="pub-details-inner">
+            <div id="pub-list"><p class="pub-loading">Loading…</p></div>
+          </div>
+        </details>
+
+        <div style="margin-top:24px;">
+          <a class="btn btn-secondary" href="https://openalex.org/authors?filter=display_name.search%3ARino+Bellocco" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:8px;">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            View all publications on OpenAlex
+          </a>
+        </div>
+      </section>
+
+      <!-- IMPACT -->
+      <section id="impact" class="section">
+        <div class="section-eyebrow">Research &amp; Impact</div>
+        <h2>Milan and Stockholm, with international reach.</h2>
+        <div class="impact-grid">
+          <div class="impact-copy">
+            <p>Based at the University of Milano-Bicocca, my research spans medical statistics, lifestyle epidemiology, and kidney outcomes, with deep ties to the Karolinska Institutet in Stockholm. Over two decades of collaborative work has produced more than 291 peer-reviewed publications and 15,000+ citations.</p>
+            <p>My involvement spans large international cohort studies, national registry analyses, and methodological research into causal inference and observational data methods.</p>
+            <div class="ref-list">
+              <a class="ref-item" href="https://www.unimib.it/rino-bellocco" target="_blank" rel="noopener">
+                <span class="ref-label">University</span>
+                <strong>University of Milano-Bicocca academic profile</strong>
+              </a>
+              <a class="ref-item" href="https://ki.se/en/people/rino-bellocco" target="_blank" rel="noopener">
+                <span class="ref-label">KI</span>
+                <strong>Karolinska Institutet — Visiting Professor profile</strong>
+              </a>
+              <a class="ref-item" href="https://www.researchgate.net/profile/Rino-Bellocco-2" target="_blank" rel="noopener">
+                <span class="ref-label">ResearchGate</span>
+                <strong>291 publications, 15,000+ citations</strong>
+              </a>
+              <a class="ref-item" href="https://academy.unimib.it/en-gb/node/394" target="_blank" rel="noopener">
+                <span class="ref-label">Academy</span>
+                <strong>Bicocca Academy profile</strong>
+              </a>
+            </div>
+          </div>
+          <div class="impact-stat-stack">
+            <div class="stat-card">
+              <span class="stat-card-num">291+</span>
+              <span class="stat-card-label">Peer-reviewed publications</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-card-num">15k+</span>
+              <span class="stat-card-label">Total citations</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-card-num">2</span>
+              <span class="stat-card-label">Major institutional affiliations</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-card-num">Sc.D.</span>
+              <span class="stat-card-label">Harvard T.H. Chan School of Public Health</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- TEACHING -->
+      <section id="teaching" class="section">
+        <div class="section-eyebrow">Teaching</div>
+        <h2>Courses in biostatistics and epidemiology.</h2>
+        <div class="teaching-list">
+          <article class="teaching-item">
+            <span class="teaching-level">MSc</span>
+            <div>
+              <h3>Statistical Models in Epidemiology</h3>
+              <p>Postgraduate teaching at the <a href="https://www.dismeq.unimib.it/it/offerta-formativa/corsi-laurea-magistrale/laurea-magistrale-biostatistica/internazionalizzazione" target="_blank" style="color:var(--accent);text-decoration:none;">MSc programme in Biostatistics</a>, University of Milano-Bicocca. Covers logistic and Cox regression, competing risks, time-varying exposures, and causal inference frameworks.</p>
+              <div class="teaching-tags"><span>Regression</span><span>Survival analysis</span><span>Causal inference</span><span>Competing risks</span></div>
+            </div>
+          </article>
+          <article class="teaching-item">
+            <span class="teaching-level">PhD</span>
+            <div>
+              <h3>Epidemiology — Biostatistics Track</h3>
+              <p>Doctoral-level teaching at the <a href="https://ki.se/en/meb/meb-biostatistics-group" target="_blank" style="color:var(--accent);text-decoration:none;">PhD programme in Epidemiology</a>, Karolinska Institutet. Advanced statistical methods for health research including causal modelling, mediation analysis, and longitudinal data analysis.</p>
+              <div class="teaching-tags"><span>Causal modelling</span><span>Mediation analysis</span><span>Longitudinal data</span></div>
+            </div>
+          </article>
+          <article class="teaching-item">
+            <span class="teaching-level">Summer School</span>
+            <div>
+              <h3>Modern Methods in Biostatistics and Epidemiology</h3>
+              <p>Coordinating and teaching at the <a href="http://www.biostatepi.org/" target="_blank" style="color:var(--accent);text-decoration:none;">Summer School on Modern Methods in Biostatistics and Epidemiology</a> since 1997. Intensive programme on contemporary methods for observational health research.</p>
+              <div class="teaching-tags"><span>Biostatistics</span><span>Observational studies</span><span>Since 1997</span></div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- EDUCATION -->
+      <section id="education" class="section">
+        <div class="section-eyebrow">Education</div>
+        <h2>Academic training.</h2>
+        <div class="teaching-list">
+          <article class="teaching-item">
+            <span class="teaching-level">1998</span>
+            <div>
+              <h3>Doctorate of Science in Biostatistics</h3>
+              <p>School of Public Health, Harvard University, Boston, USA.</p>
+            </div>
+          </article>
+          <article class="teaching-item">
+            <span class="teaching-level">1995</span>
+            <div>
+              <h3>Master of Science in Biostatistics</h3>
+              <p>School of Public Health, Harvard University, Boston, USA.</p>
+            </div>
+          </article>
+          <article class="teaching-item">
+            <span class="teaching-level">1989</span>
+            <div>
+              <h3>Bachelor in Statistics and Demography</h3>
+              <p>Sapienza University, Rome, Italy.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- TALKS -->
+      <section id="talks" class="section">
+        <div class="section-eyebrow">Talks</div>
+        <h2>Invited talks &amp; conference presentations.</h2>
+        <div class="talks-layout">
+          <div class="talks-sidebar">
+            <p>Selected presentations sharing methodological and applied work with international statistical and biomedical research communities.</p>
+          </div>
+          <div class="talks-list">
+            <article class="talk-item">
+              <span class="talk-type">Invited talk</span>
+              <div>
+                <h3>Causal Models in Lifestyle Epidemiology</h3>
+                <p>Presentation on applying causal inference frameworks — directed acyclic graphs and propensity score methods — to large prospective cohort studies of diet, physical activity, and chronic disease outcomes.</p>
+                <div class="talk-tags"><span>Causal inference</span><span>Epidemiology</span><span>Cohort studies</span></div>
+              </div>
+            </article>
+            <article class="talk-item">
+              <span class="talk-type">Academic seminar · KI</span>
+              <div>
+                <h3>Sedentary Behaviour and Mental Health Outcomes</h3>
+                <p>Seminar at the Karolinska Institutet presenting cross-sectional and prospective evidence on passive vs. mentally active sedentary behaviours, physical activity, and depression risk.</p>
+                <div class="talk-tags"><span>Mental health</span><span>Sedentary behaviour</span><span>Karolinska</span></div>
+              </div>
+            </article>
+            <article class="talk-item">
+              <span class="talk-type">Invited lecture</span>
+              <div>
+                <h3>Statistical Methods for Renal Registry Data</h3>
+                <p>Invited lecture on the design and analysis of nephrology registry studies, with applications from the Swedish Renal Register and the SCREAM project on chronic kidney disease progression.</p>
+                <div class="talk-tags"><span>Nephrology</span><span>Registry data</span><span>Survival models</span></div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- GRANTS -->
+      <section id="grants" class="section">
+        <div class="section-eyebrow">Funding</div>
+        <h2>Research grants &amp; funded projects.</h2>
+        <div class="grants-list">
+
+          <article class="grant-item">
+            <div class="grant-meta">
+              <span class="grant-funder">Swedish Research Council</span>
+              <span class="grant-period">2024 – 2026</span>
+              <span class="grant-status active">Active</span>
+            </div>
+            <div class="grant-body">
+              <h3><a href="https://www.vr.se/swecris.html#/project/2023-01939_VR" target="_blank" rel="noopener">Multi-omics approach for identification of etiopathogenesis and early detection biomarkers of stomach cancer and precursor lesions</a></h3>
+              <p>Utilizing a multi-omics approach to identify novel etiopathogenesis and early detection biomarkers for stomach cancer and its precursor lesions. The project integrates metabolomics profiling (12,599 twin subjects), serum proteomics, and tissue transcriptomics in a nested case-control design to uncover drivers of progression from chronic atrophic gastritis to malignancy.</p>
+              <div class="grant-tags"><span>Metabolomics</span><span>Proteomics</span><span>Stomach cancer</span><span>Biomarkers</span><span>Multi-omics</span></div>
+            </div>
+          </article>
+
+          <article class="grant-item">
+            <div class="grant-meta">
+              <span class="grant-funder">Swedish Research Council for Health, Working Life &amp; Welfare (FORTE)</span>
+              <span class="grant-period">2022 – 2025</span>
+              <span class="grant-status active">Active</span>
+            </div>
+            <div class="grant-body">
+              <h3><a href="https://www.vr.se/swecris.html#/project/2021-01080_Forte" target="_blank" rel="noopener">Understanding the role of socioeconomic factors on antidiabetic medication use patterns and long-term consequences of type 2 diabetes via novel causal inference methods</a></h3>
+              <div class="grant-tags"><span>Causal inference</span><span>Type 2 diabetes</span><span>Socioeconomic factors</span><span>Pharmacoepidemiology</span></div>
+            </div>
+          </article>
+
+          <article class="grant-item">
+            <div class="grant-meta">
+              <span class="grant-funder">Swedish Research Council for Health, Working Life &amp; Welfare (FORTE)</span>
+              <span class="grant-period">2022 – 2024</span>
+              <span class="grant-status completed">Completed</span>
+            </div>
+            <div class="grant-body">
+              <h3><a href="https://www.vr.se/swecris.html#/project/2021-00676_Forte" target="_blank" rel="noopener">Cancer screening, stage at diagnosis and survival among people with disabilities: Evidence from the Swedish national registers</a></h3>
+              <div class="grant-tags"><span>Cancer screening</span><span>Disability</span><span>Swedish registers</span><span>Survival analysis</span></div>
+            </div>
+          </article>
+
+          <article class="grant-item">
+            <div class="grant-meta">
+              <span class="grant-funder">Swedish Research Council</span>
+              <span class="grant-period">2021 – 2024</span>
+              <span class="grant-status completed">Completed</span>
+            </div>
+            <div class="grant-body">
+              <h3><a href="https://www.vr.se/swecris.html#/project/2021-06426_VR" target="_blank" rel="noopener">Patients' choice of primary care — physical or digital consultation</a></h3>
+              <div class="grant-tags"><span>Primary care</span><span>Digital health</span><span>Health services research</span></div>
+            </div>
+          </article>
+
+          <article class="grant-item">
+            <div class="grant-meta">
+              <span class="grant-funder">Swedish Research Council for Health, Working Life &amp; Welfare (FORTE)</span>
+              <span class="grant-period">2017 – 2019</span>
+              <span class="grant-status completed">Completed</span>
+            </div>
+            <div class="grant-body">
+              <h3><a href="https://www.vr.se/swecris.html#/project/2016-00985_Forte" target="_blank" rel="noopener">App technology to enhance self-care for patients with diabetes type 2 — a randomized controlled study in underserved suburbs</a></h3>
+              <div class="grant-tags"><span>mHealth</span><span>RCT</span><span>Type 2 diabetes</span><span>Self-care</span></div>
+            </div>
+          </article>
+
+          <article class="grant-item">
+            <div class="grant-meta">
+              <span class="grant-funder">VINNOVA</span>
+              <span class="grant-period">2010 – 2011</span>
+              <span class="grant-status completed">Completed</span>
+            </div>
+            <div class="grant-body">
+              <h3><a href="https://www.vr.se/swecris.html#/project/2010-01484_Vinnova" target="_blank" rel="noopener">Training on methods in biostatistics and epidemiology — tools for evaluation of health innovations</a></h3>
+              <div class="grant-tags"><span>Biostatistics training</span><span>Epidemiology methods</span><span>Health innovation</span></div>
+            </div>
+          </article>
+
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section id="contact" class="section">
+        <div class="section-eyebrow">Contact</div>
+        <div class="contact-wrap">
+          <h3>Open to research collaborations, visiting scholars, and academic enquiries.</h3>
+          <p>Feel free to reach out if you work in medical statistics, epidemiology, nephrology, lifestyle research, or causal inference. I am generally available for appointments on Tuesday or Thursday, 14:00–15:00.</p>
+          <div class="btn-row">
+            <a class="btn btn-primary" href="mailto:Rino.Bellocco@unimib.it">Send an email</a>
+            <a class="btn btn-secondary" href="https://www.unimib.it/rino-bellocco" target="_blank">University profile</a>
+          </div>
+        </div>
+      </section>
+
+    </div><!-- /content-wrap -->
+
+    <footer>
+      <span class="footer-copy">© 2026 Rino Bellocco · University of Milano-Bicocca</span>
+      <div class="footer-links">
+        <a class="icon-btn" href="mailto:Rino.Bellocco@unimib.it" aria-label="Email">
+          <svg viewBox="0 0 24 24"><path fill="currentColor" d="M3 5h18a1.6 1.6 0 0 1 1.6 1.6v10.8A1.6 1.6 0 0 1 21 19H3a1.6 1.6 0 0 1-1.6-1.6V6.6A1.6 1.6 0 0 1 3 5zm9 7.2L3.8 7.1v10.1h16.4V7.1L12 12.2zm0-2.1 6.6-4.1H5.4l6.6 4.1z"/></svg>
+        </a>
+        <a class="icon-btn" href="https://www.researchgate.net/profile/Rino-Bellocco-2" target="_blank" rel="noopener" aria-label="ResearchGate">RG</a>
+        <a class="icon-btn" href="https://www.linkedin.com/in/rino-bellocco-76028069/" target="_blank" rel="noopener" aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24"><path fill="currentColor" d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.34V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.61 0 4.27 2.38 4.27 5.47v6.27zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.23 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.46c.98 0 1.77-.77 1.77-1.72V1.72C24 .77 23.21 0 22.23 0z"/></svg>
+        </a>
+        <a class="icon-btn" href="https://www.unimib.it/rino-bellocco" target="_blank" rel="noopener" aria-label="Unimib">
+          <svg viewBox="0 0 24 24"><path fill="currentColor" d="M12 3 1.8 8.4 12 13.8l8-4.24V16h2V8.4L12 3zm0 13L5 12.3v3.28c0 1.8 3.08 3.42 7 3.42s7-1.62 7-3.42V12.3L12 16z"/></svg>
+        </a>
+        <a class="icon-btn" href="https://ki.se/en/people/rino-bellocco" target="_blank" rel="noopener" aria-label="Karolinska">KI</a>
+      </div>
+    </footer>
+
+    <button class="back-to-top" id="backToTop" aria-label="Back to top" onclick="window.scrollTo({top:0,behavior:'smooth'})">
+      <svg viewBox="0 0 24 24"><path fill="currentColor" d="M12 4.5 3.75 12.75h5.25V19.5h6V12.75h5.25z"/></svg>
+    </button>
+
+    <script>
+      /* Back to top */
+      const btn = document.getElementById("backToTop");
+      window.addEventListener("scroll", () => btn.classList.toggle("visible", window.scrollY > 400), { passive: true });
+
+      /* OpenAlex publications */
+      async function loadPublications() {
+        const summary = document.getElementById("pub-summary");
+        const selectedList = document.getElementById("selected-pub-list");
+        const fullList = document.getElementById("pub-list");
+
+        function esc(v = "") {
+          return String(v).replaceAll("&","&amp;").replaceAll("<","&lt;").replaceAll(">","&gt;");
+        }
+
+        function renderPub(p) {
+          const title = esc(p.title || "Untitled");
+          const source = esc(p.primary_location?.source?.display_name || "Journal");
+          const year = esc(String(p.publication_year || ""));
+          const cites = Number(p.cited_by_count || 0);
+          const doi = p.doi ? esc(p.doi) : "";
+          return `<article class="publication">
+            <span class="pub-year">${year}</span>
+            <div>
+              <h3>${title}</h3>
+              <p>${source} · <span class="badge">${cites} citations</span></p>
+              ${doi ? `<a class="pub-link" href="${doi}" target="_blank" rel="noopener">View paper</a>` : ""}
+            </div>
+          </article>`;
+        }
+
+        try {
+          const res = await fetch("https://api.openalex.org/works?filter=author.display_name.search:Rino+Bellocco&sort=cited_by_count:desc&per_page=100");
+          const data = await res.json();
+          const pubs = data.results || [];
+          if (summary) summary.textContent = pubs.length ? `(${pubs.length} found)` : "";
+          selectedList.innerHTML = pubs.length ? pubs.slice(0, 5).map(renderPub).join("") : `<p class="pub-loading">No results returned.</p>`;
+          fullList.innerHTML = pubs.length ? pubs.map(renderPub).join("") : `<p class="pub-loading">No results returned.</p>`;
+        } catch {
+          if (summary) summary.textContent = "";
+          selectedList.innerHTML = `<p class="pub-loading">Publication list could not be loaded.</p>`;
+          fullList.innerHTML = `<p class="pub-loading">Refresh to try again.</p>`;
+        }
+      }
+
+      loadPublications();
+    </script>
+
+  </body>
+</html>
