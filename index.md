@@ -5,7 +5,7 @@ menu: main
 navigation_weight: 1
 ---
 
-![Rino Bellocco](/downloads/pic/rino-bellocco.jpeg)
+![Rino Bellocco](/rino-bellocco.jpeg)
 
 About me
 ===============
