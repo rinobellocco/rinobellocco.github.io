@@ -452,128 +452,197 @@
       }
 
       /* ── PUBLICATIONS ── */
-      .pub-metrics {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 16px;
-        margin-bottom: 40px;
+      .pub-header { margin-bottom: 32px; }
+      .pub-header h2 { margin-bottom: 20px; }
+
+      .pub-meta-row {
+        display: flex;
+        align-items: center;
+        gap: 24px;
+        flex-wrap: wrap;
       }
 
-      .pub-metric {
-        background: var(--bg2);
-        border: 1px solid var(--border);
-        border-radius: 8px;
-        padding: 20px 24px;
+      .pub-metric-inline {
+        display: flex;
+        align-items: baseline;
+        gap: 6px;
       }
 
       .pub-metric-num {
         font-family: "Libre Baskerville", Georgia, serif;
-        font-size: 2.5rem;
+        font-size: 1.8rem;
         font-weight: 700;
         color: var(--accent);
         line-height: 1;
-        display: block;
       }
 
       .pub-metric-label {
-        display: block;
-        margin-top: 6px;
         font-size: 13px;
         color: var(--muted);
       }
 
-      .pub-block-label {
+      .pub-live-badge {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
         font-family: "DM Mono", monospace;
         font-size: 10px;
-        letter-spacing: 0.12em;
+        letter-spacing: 0.08em;
         text-transform: uppercase;
-        color: var(--accent);
-        margin-bottom: 16px;
-        display: flex;
-        align-items: center;
-        gap: 10px;
+        color: var(--muted);
+        border: 1px solid var(--border);
+        border-radius: 4px;
+        padding: 4px 10px;
       }
 
-      .pub-block-label::after { content: ''; height: 1px; flex: 1; background: var(--border); }
+      .pub-live-dot {
+        width: 6px;
+        height: 6px;
+        border-radius: 50%;
+        background: var(--accent);
+        animation: pulse 2s ease-in-out infinite;
+      }
 
-      .pub-block { margin-bottom: 40px; }
+      @keyframes pulse {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0.3; }
+      }
 
-      .publication {
+      /* Feed */
+      .pub-feed {
+        border-top: 1px solid var(--border);
+      }
+
+      .pub-card {
         display: grid;
         grid-template-columns: 52px 1fr;
-        gap: 18px;
-        padding: 16px 0;
+        gap: 20px;
+        padding: 20px 0;
         border-bottom: 1px solid var(--border);
+        align-items: start;
+        transition: background 150ms;
       }
 
-      .publication:last-child { border-bottom: none; }
+      .pub-card:last-child { border-bottom: none; }
 
-      .pub-year {
+      .pub-card-year {
         font-family: "DM Mono", monospace;
         font-size: 12px;
         color: var(--accent);
         font-weight: 500;
-        padding-top: 2px;
+        padding-top: 3px;
+        line-height: 1.3;
       }
 
-      .publication h3 {
+      .pub-card-rank {
+        font-family: "DM Mono", monospace;
+        font-size: 10px;
+        color: var(--muted);
+        margin-top: 2px;
+      }
+
+      .pub-card-title {
+        font-family: "Libre Baskerville", serif;
         font-size: 15px;
-        font-weight: 500;
+        font-weight: 700;
         color: var(--text);
         line-height: 1.4;
-        margin-bottom: 4px;
-        font-family: "Libre Baskerville", serif;
+        margin-bottom: 6px;
+        text-decoration: none;
+        display: block;
+        transition: color 150ms;
       }
 
-      .publication p { font-size: 13px; color: var(--muted); }
+      .pub-card-title:hover { color: var(--accent); }
 
-      .badge {
-        display: inline-block;
+      .pub-card-meta {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 8px;
+        margin-top: 6px;
+      }
+
+      .pub-card-journal {
+        font-size: 13px;
+        color: var(--muted);
+        font-style: italic;
+      }
+
+      .pub-card-authors {
+        font-size: 12.5px;
+        color: var(--muted);
+        line-height: 1.5;
+        margin-bottom: 6px;
+      }
+
+      .pub-card-authors strong {
+        color: var(--accent2);
+        font-weight: 600;
+      }
+
+      .pub-cite-badge {
+        display: inline-flex;
+        align-items: center;
+        gap: 4px;
         background: var(--tag-bg);
         color: var(--tag-text);
         border: 1px solid #2a4a7a;
         padding: 2px 8px;
         border-radius: 4px;
         font-family: "DM Mono", monospace;
-        font-size: 11px;
-      }
-
-      .pub-link {
-        display: inline-block;
-        margin-top: 6px;
-        color: var(--accent);
-        font-size: 12px;
-        font-weight: 600;
-        text-decoration: none;
-      }
-
-      .pub-link:hover { text-decoration: underline; }
-
-      .pub-details {
-        margin-top: 24px;
-        border: 1px solid var(--border);
-        border-radius: 8px;
-        overflow: hidden;
-      }
-
-      .pub-details summary {
-        cursor: pointer;
-        padding: 14px 18px;
-        font-size: 14px;
+        font-size: 10px;
         font-weight: 500;
-        color: var(--muted);
-        background: var(--bg2);
-        transition: color 150ms;
-        list-style: none;
+        white-space: nowrap;
       }
 
-      .pub-details summary:hover { color: var(--text); }
+      .pub-oa-badge {
+        display: inline-flex;
+        align-items: center;
+        gap: 4px;
+        background: rgba(74,158,255,0.08);
+        color: var(--accent);
+        border: 1px solid rgba(74,158,255,0.2);
+        padding: 2px 8px;
+        border-radius: 4px;
+        font-family: "DM Mono", monospace;
+        font-size: 10px;
+        font-weight: 500;
+        text-decoration: none;
+        white-space: nowrap;
+        transition: background 150ms;
+      }
 
-      .pub-details[open] summary { border-bottom: 1px solid var(--border); }
+      .pub-oa-badge:hover { background: rgba(74,158,255,0.18); }
 
-      .pub-details-inner { padding: 0 18px 12px; }
+      /* Skeleton loader */
+      .pub-skeleton {
+        height: 90px;
+        border-bottom: 1px solid var(--border);
+        background: linear-gradient(90deg, var(--bg2) 25%, var(--bg3) 50%, var(--bg2) 75%);
+        background-size: 200% 100%;
+        animation: shimmer 1.4s infinite;
+      }
 
-      .pub-loading { color: var(--muted); font-size: 14px; padding: 16px 0; }
+      @keyframes shimmer {
+        0% { background-position: 200% 0; }
+        100% { background-position: -200% 0; }
+      }
+
+      .pub-footer {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        margin-top: 24px;
+        flex-wrap: wrap;
+      }
+
+      .pub-error {
+        padding: 20px 0;
+        color: var(--muted);
+        font-size: 14px;
+        font-style: italic;
+      }
 
       /* ── IMPACT ── */
       .impact-grid {
@@ -1141,72 +1210,39 @@
       <!-- PUBLICATIONS -->
       <section id="publications" class="section">
         <div class="section-eyebrow">Publications</div>
-        <h2>Research across epidemiology, statistics, and medicine.</h2>
 
-        <div class="pub-metrics">
-          <div class="pub-metric">
-            <span class="pub-metric-num" id="publication-count">291+</span>
-            <span class="pub-metric-label">peer-reviewed publications</span>
-          </div>
-          <div class="pub-metric">
-            <span class="pub-metric-num">15k+</span>
-            <span class="pub-metric-label">citations</span>
-          </div>
-        </div>
-
-        <div class="pub-block">
-          <div class="pub-block-label">Featured papers</div>
-          <div class="pub-list-inner">
-            <article class="publication">
-              <span class="pub-year">2025</span>
-              <div>
-                <h3>COVID-19 among kidney transplant recipients: Evaluating risk factors during the initial phase of the pandemic</h3>
-                <p>Clinical Kidney Journal · Nowak A., Caldinelli A., Segelmark M., Rydell H., Artborg A., Bellocco R. et al.</p>
-                <a class="pub-link" href="https://academic.oup.com/ckj/article/18/3/sfaf030/8055270" target="_blank" rel="noopener">View paper</a>
-              </div>
-            </article>
-            <article class="publication">
-              <span class="pub-year">2017</span>
-              <div>
-                <h3>Body Mass Index and Amyotrophic Lateral Sclerosis: A Study of US Military Veterans</h3>
-                <p>American Journal of Epidemiology · Mariosa D., Beard J., Umbach D., Bellocco R. et al.</p>
-              </div>
-            </article>
-            <article class="publication">
-              <span class="pub-year">2017</span>
-              <div>
-                <h3>Dietary antioxidant capacity and risk for stroke in a prospective cohort study of Swedish men and women</h3>
-                <p>Nutrition · Colarusso L., Serafini M., Lagerros Y., Bellocco R. et al.</p>
-              </div>
-            </article>
-            <article class="publication">
-              <span class="pub-year">2017</span>
-              <div>
-                <h3>Low renal replacement therapy incidence among slowly progressing elderly CKD patients referred to nephrology care</h3>
-                <p>BMC Nephrology · Lundström U., Gasparini A., Bellocco R. et al.</p>
-              </div>
-            </article>
+        <div class="pub-header">
+          <h2>Research across epidemiology,<br>statistics, and medicine.</h2>
+          <div class="pub-meta-row">
+            <div class="pub-metric-inline">
+              <span class="pub-metric-num" id="publication-count">291+</span>
+              <span class="pub-metric-label">publications</span>
+            </div>
+            <div class="pub-metric-inline">
+              <span class="pub-metric-num">15k+</span>
+              <span class="pub-metric-label">citations</span>
+            </div>
+            <span id="pub-live-badge" class="pub-live-badge">
+              <span class="pub-live-dot"></span>live via OpenAlex
+            </span>
           </div>
         </div>
 
-        <div class="pub-block">
-          <div class="pub-block-label">Top cited — live via OpenAlex <span id="pub-summary" style="margin-left:8px;font-family:'DM Sans',sans-serif;font-size:11px;color:var(--muted);letter-spacing:0;text-transform:none;"></span></div>
-          <div id="selected-pub-list" class="pub-list-inner">
-            <p class="pub-loading">Loading publications…</p>
-          </div>
+        <!-- Live feed: top 10 by citations -->
+        <div id="pub-feed" class="pub-feed">
+          <div class="pub-skeleton"></div>
+          <div class="pub-skeleton"></div>
+          <div class="pub-skeleton"></div>
         </div>
 
-        <details class="pub-details">
-          <summary>View full publication list</summary>
-          <div class="pub-details-inner">
-            <div id="pub-list"><p class="pub-loading">Loading…</p></div>
-          </div>
-        </details>
-
-        <div style="margin-top:24px;">
-          <a class="btn btn-secondary" href="https://openalex.org/authors?filter=display_name.search%3ARino+Bellocco" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:8px;">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
-            View all publications on OpenAlex
+        <!-- Show more -->
+        <div class="pub-footer">
+          <button id="pub-show-more" class="btn btn-secondary" style="display:none;" onclick="showMorePubs()">
+            Show more publications
+          </button>
+          <a class="btn btn-secondary" href="https://openalex.org/authors?filter=display_name.search%3ARino+Bellocco" target="_blank" rel="noopener">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            Full list on OpenAlex
           </a>
         </div>
       </section>
@@ -1481,42 +1517,79 @@
       window.addEventListener("scroll", () => btn.classList.toggle("visible", window.scrollY > 400), { passive: true });
 
       /* OpenAlex publications */
-      async function loadPublications() {
-        const summary = document.getElementById("pub-summary");
-        const selectedList = document.getElementById("selected-pub-list");
-        const fullList = document.getElementById("pub-list");
+      let allPubs = [];
+      let visibleCount = 10;
 
-        function esc(v = "") {
-          return String(v).replaceAll("&","&amp;").replaceAll("<","&lt;").replaceAll(">","&gt;");
-        }
+      function esc(v = "") {
+        return String(v).replaceAll("&","&amp;").replaceAll("<","&lt;").replaceAll(">","&gt;");
+      }
 
-        function renderPub(p) {
-          const title = esc(p.title || "Untitled");
-          const source = esc(p.primary_location?.source?.display_name || "Journal");
-          const year = esc(String(p.publication_year || ""));
-          const cites = Number(p.cited_by_count || 0);
-          const doi = p.doi ? esc(p.doi) : "";
-          return `<article class="publication">
-            <span class="pub-year">${year}</span>
-            <div>
-              <h3>${title}</h3>
-              <p>${source} · <span class="badge">${cites} citations</span></p>
-              ${doi ? `<a class="pub-link" href="${doi}" target="_blank" rel="noopener">View paper</a>` : ""}
+      function formatAuthors(authorships) {
+        if (!authorships || !authorships.length) return "";
+        const names = authorships.map(a => {
+          const name = esc(a.author?.display_name || "");
+          return name.toLowerCase().includes("bellocco") ? `<strong>${name}</strong>` : name;
+        });
+        if (names.length <= 6) return names.join(", ");
+        return names.slice(0, 5).join(", ") + ` <span style="color:var(--muted)">+${names.length - 5} authors</span>`;
+      }
+
+      function renderCard(p, rank) {
+        const title = esc(p.title || "Untitled");
+        const year = esc(String(p.publication_year || ""));
+        const journal = esc(p.primary_location?.source?.display_name || "");
+        const cites = Number(p.cited_by_count || 0);
+        const doi = p.doi || "";
+        const isOA = p.open_access?.is_oa;
+        const authors = formatAuthors(p.authorships);
+        const titleEl = doi
+          ? `<a class="pub-card-title" href="${esc(doi)}" target="_blank" rel="noopener">${title}</a>`
+          : `<span class="pub-card-title" style="cursor:default">${title}</span>`;
+        return `<article class="pub-card">
+          <div>
+            <div class="pub-card-year">${year}</div>
+            <div class="pub-card-rank">#${rank}</div>
+          </div>
+          <div>
+            ${titleEl}
+            ${authors ? `<div class="pub-card-authors">${authors}</div>` : ""}
+            <div class="pub-card-meta">
+              ${journal ? `<span class="pub-card-journal">${journal}</span>` : ""}
+              ${cites > 0 ? `<span class="pub-cite-badge">⬆ ${cites} citations</span>` : ""}
+              ${isOA && doi ? `<a class="pub-oa-badge" href="${esc(doi)}" target="_blank" rel="noopener">Open Access ↗</a>` : ""}
             </div>
-          </article>`;
-        }
+          </div>
+        </article>`;
+      }
 
+      function showMorePubs() {
+        visibleCount += 10;
+        renderFeed();
+      }
+
+      function renderFeed() {
+        const feed = document.getElementById("pub-feed");
+        const btn = document.getElementById("pub-show-more");
+        if (!allPubs.length) return;
+        feed.innerHTML = allPubs.slice(0, visibleCount).map((p, i) => renderCard(p, i + 1)).join("");
+        if (btn) btn.style.display = visibleCount < allPubs.length ? "inline-flex" : "none";
+      }
+
+      async function loadPublications() {
+        const feed = document.getElementById("pub-feed");
+        const countEl = document.getElementById("publication-count");
+        const badge = document.getElementById("pub-live-badge");
+        const showMoreBtn = document.getElementById("pub-show-more");
         try {
-          const res = await fetch("https://api.openalex.org/works?filter=author.display_name.search:Rino+Bellocco&sort=cited_by_count:desc&per_page=100");
+          const res = await fetch("https://api.openalex.org/works?filter=author.display_name.search:Rino+Bellocco&sort=cited_by_count:desc&per_page=100&mailto=rino.bellocco@unimib.it");
           const data = await res.json();
-          const pubs = data.results || [];
-          if (summary) summary.textContent = pubs.length ? `(${pubs.length} found)` : "";
-          selectedList.innerHTML = pubs.length ? pubs.slice(0, 5).map(renderPub).join("") : `<p class="pub-loading">No results returned.</p>`;
-          fullList.innerHTML = pubs.length ? pubs.map(renderPub).join("") : `<p class="pub-loading">No results returned.</p>`;
-        } catch {
-          if (summary) summary.textContent = "";
-          selectedList.innerHTML = `<p class="pub-loading">Publication list could not be loaded.</p>`;
-          fullList.innerHTML = `<p class="pub-loading">Refresh to try again.</p>`;
+          allPubs = data.results || [];
+          if (countEl && allPubs.length > 0) countEl.textContent = allPubs.length + "+";
+          renderFeed();
+          if (showMoreBtn) showMoreBtn.style.display = allPubs.length > visibleCount ? "inline-flex" : "none";
+        } catch(e) {
+          feed.innerHTML = `<p class="pub-error">Could not load publications. <a href="https://openalex.org/authors?filter=display_name.search%3ARino+Bellocco" target="_blank" style="color:var(--accent)">View on OpenAlex →</a></p>`;
+          if (badge) badge.style.opacity = "0.4";
         }
       }
 
