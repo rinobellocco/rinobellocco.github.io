@@ -1130,6 +1130,27 @@
 
       .icon-btn svg { width: 15px; height: 15px; display: block; }
 
+      .cv-btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 5px;
+        height: 32px;
+        padding: 0 12px;
+        background: var(--accent);
+        color: #0a0e1a;
+        border-radius: 6px;
+        font-family: "DM Mono", monospace;
+        font-size: 11px;
+        font-weight: 700;
+        letter-spacing: 0.06em;
+        text-decoration: none;
+        text-transform: uppercase;
+        transition: background 150ms, transform 100ms;
+        flex-shrink: 0;
+      }
+
+      .cv-btn:hover { background: #6ab0ff; transform: translateY(-1px); }
+
       /* ── BACK TO TOP ── */
       .back-to-top {
         position: fixed;
@@ -1277,6 +1298,10 @@
             <svg viewBox="0 0 24 24"><path fill="currentColor" d="M12 3 1.8 8.4 12 13.8l8-4.24V16h2V8.4L12 3zm0 13L5 12.3v3.28c0 1.8 3.08 3.42 7 3.42s7-1.62 7-3.42V12.3L12 16z"/></svg>
           </a>
           <a class="icon-btn" href="https://ki.se/en/people/rino-bellocco" target="_blank" rel="noopener" aria-label="Karolinska">KI</a>
+          <a class="cv-btn" href="https://www.dropbox.com/scl/fi/reqh0qwbv8dc2lymi38rr/cv_rino_full_nov2025.pdf?rlkey=9oh78kyyxo1i79cbv82ghfde0&e=1&st=xmmmqsqf&dl=0" target="_blank" rel="noopener">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+            CV
+          </a>
         </div>
       </div>
     </header>
